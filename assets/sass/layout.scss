@@ -1,0 +1,489 @@
+
+body { 
+    overflow-x: hidden;  
+    box-sizing: border-box;
+} 
+        h2 {
+            font-size: 30px;
+            margin-bottom: 45px;
+            font-family: 'Cambria Regular';
+        }
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+#hero {
+    display: table;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(72,82,168,0.4), rgba(72,82,168,0.4)),url(../img/fullbanner.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul {
+    list-style: none;
+}   
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Cambria Regular';
+}
+
+h2 {
+    font-family: 'Cambria Regular';
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h5 {
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: 'Cambria Regular';
+}   
+.navbar {
+    padding: 0 !important;
+}
+.topbar {
+    display: inline-flex;
+    float: left;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95px;
+    position: absolute;
+    padding: 23px;
+    box-shadow: 0px 0px 1px 0 #b1b1b1;
+    z-index: 999;
+    background-color: transparent;
+}
+.logo {
+    padding: 0px 45px;
+}
+.carousel-inner {
+    .txt-fullbanner {
+        &::before {
+            background: #c8ac48;
+            width: 120px;
+            height: 1px;
+            content: "";
+            display: block;
+            margin:  10px;
+            position: absolute;
+        }
+        h1 {
+            font-size: 45px;
+            font-family: 'Cambria Regular';
+        }
+        h3 {
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 35px;
+            font-weight: lighter;
+            margin-left: 140px;
+            margin-bottom: 40px;
+            line-height: 15px;
+            font-family: "Playfair Display", serif;
+        }
+    }
+
+    .carousel-caption {
+        position: absolute;
+        right: 18%;
+        top: 25%;
+        left: 6%;
+        z-index: 10;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: #fff;
+        text-align: left;
+        
+        .leia-mais {
+            display: inline-block;
+            color: #fff;
+            background-color: #c8ac48;
+            font-size: 20px;
+            padding: 15px 30px;
+            margin-top: 60px;
+            transition: 0.8s all;
+            text-decoration: none;
+            font-family: "Playfair Display", serif;
+
+            &:hover {
+                color: #c8ac48;
+                background-color: #fff;
+                border: 1px #c8ac48 solid;
+                transition: 0.8s all;
+            }
+        }
+    }
+}
+.carousel {
+    background-color: rgba(114, 113, 116, 0.4) !important;
+    z-index: 10;
+    width: 100%;
+}
+.nav-link {
+    display: block;
+    float: left;
+    text-align: left;
+    top: 0;
+    padding: 5px 10px 5px 21px;
+    color: #f6f6f6;
+    font-size: 17px;
+
+    a {
+        &:active{
+            color: #c8ac48;
+        }
+        &:hover{
+            color: #c8ac48;
+        }
+    }
+}
+.info-container {
+    &::before {
+        background: #c8ac48;
+        width: 45px;
+        height: 1px;
+        content: "";
+        display: block;
+        margin: 70px 5px;
+        position: absolute;
+        left: 73px;
+    }
+}
+.info  {
+    margin: 60px 0px;
+
+    p{
+        color: #9e9da0;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+
+    .txt-destaque {
+        h2 {
+            font-size: 30px;
+            margin-bottom: 45px;
+            font-family: 'Cambria Regular';
+        }
+
+        h3 {
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 20px;
+            line-height: 15px;
+            margin-top: 30px;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+    .leia-mais {
+        display: inline-block;
+        color: #fff;
+        background-color: #c8ac48;
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-top: 25px;
+        transition: 0.8s all;
+        text-decoration: none;
+        font-family: 'Playfair Display', serif;
+        
+        &:hover {
+            color: #c8ac48;
+            background-color: #fff;
+            border: 1px #c8ac48 solid;
+            transition: 0.8s all;
+        }
+    }
+}
+.area-pratica  {
+    margin: 100px 0px;
+    background-color: #f7f7f7;
+    
+    h2 {
+        font-size: 20px;
+        font-family: 'Cambria Regular';
+    }
+    
+    p{
+        color: #9e9da0;
+        font-weight: 500;
+        font-family: 'Cambria Regular';
+        font-size: 16px;
+    }
+    .box-not {
+        display: inline-block;
+        margin: 35px 0 0 140px;
+        width: 60%;
+        
+        .icon {
+            margin-bottom: 10px;
+        }
+    }
+    .txt-destaque {
+        margin-top: 60px;
+
+        h2 {
+            font-size: 28px;
+            font-family: 'Cambria Regular';
+        }
+
+        h3 {
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 20px;
+            margin: 0;
+            line-height: 15px;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+    .leia-mais {
+        color: #fff;
+        background-color: #c8ac48;
+        font-size: 18px;
+        padding: 10px 20px;
+        margin-bottom: 25px;
+        transition: 0.8s all;
+        float: right;
+        text-decoration: none;
+        font-family: 'Playfair Display', serif;
+
+    
+        &:hover {
+            color: #c8ac48;
+            background-color: #fff;
+            border: 1px #c8ac48 solid;
+            transition: 0.8s all;
+        }
+    }
+}
+
+.noticias-container {
+
+    &::before {
+        background: #c8ac48;
+        width: 50px;
+        height: 1px;
+        content: "";
+        display: block;
+        margin: 10px 5px;
+        position: absolute;
+        left: 50px;    
+    }
+}
+.noticias {
+    margin: 50px 0px;
+    h5 {
+        color: #636363;
+        font-family: 'Playfair Display', serif;
+    }
+    p{
+        color: #9e9da0;
+        font-weight: 500;
+    }
+    .noticia {
+        .content-noticia {
+            margin-top: 25px;
+        }
+    }
+    .data {
+        color: #fff;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+
+        .speech-bubble {
+            position: absolute;
+            width: 60px;
+            background: #c8ac48;
+            padding: 5px 15px;
+            line-height: 21px;
+            top: 10px;
+            left: 30px;
+        }
+        
+        .speech-bubble:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 27px;
+            width: 0;
+            height: 0;
+            border: 15px solid transparent;
+            border-top-color: #c8ac48;
+            border-bottom: 0;
+            border-left: 0;
+            margin-left: -26.5px;
+            margin-bottom: -15px;
+        }
+    }
+
+    .txt-destaque {
+        h2 {
+            font-size: 30px;
+            font-family: 'Cambria Regular';
+            margin-bottom: 45px;
+        }
+
+        h3 {
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 20px;
+            line-height: 15px;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+    .ler-mais {
+        display: inline-block;
+        color: #fff;
+        background-color: #c8ac48;
+        font-size: 20px;
+        padding: 10px 15px;
+        margin-top: 25px;
+        transition: 0.8s all;
+        text-decoration: none;
+     
+        &:hover {
+            color: #c8ac48;
+            background-color: #fff;
+            border: 1px #c8ac48 solid;
+            transition: 0.8s all;
+        }
+    }
+}
+#carousel-brief{
+
+    .carousel-caption {
+        position: absolute;
+        z-index: 10;
+        padding-top: 0;
+        padding-bottom: 0;
+        color: #fff;
+        text-align: center;
+        top: 70px;
+
+        .icon-carousel {
+            margin-bottom: 40px;
+            left: 70px;
+        }
+
+        .txt-destaque {
+            right: 300px;
+            margin-top: 10px;
+            position: absolute;
+
+            h3 {
+                display: inline-flex;
+                color: #c8ac48;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 15px;
+                font-family: myriad-pro, sans-serif;
+            }
+        }
+
+        .brief-content {
+            color: #D9D9D9;
+            font-size: 16px;
+            text-align: center;
+            font-family: 'Cambria Regular';
+            position: relative;
+            left: 8%;       
+        }
+    }
+}
+// .brief {
+//     display: inline;
+//     text-align: center;
+//     .icon-carousel {
+//         display: inline;
+//         text-align: center;
+//     }
+
+// }
+.leia-mais {
+    display: inline-block;
+    color: #fff;
+    background-color: #c8ac48;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    transition: 0.8s all;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+
+
+    &:hover {
+        color: #c8ac48;
+        background-color: #fff;
+        border: 1px #c8ac48 solid;
+        transition: 0.8s all;
+    }
+}
+
+footer {
+    .line-top {
+        border-top: solid 1px #cfcdd3;
+        padding-top: 20px;
+
+    }
+    .direitos {
+        color: #9e9da0;
+        display: inline;
+        text-align: left;
+        vertical-align: middle;
+        position: relative; 
+        bottom: 10px;
+    }
+
+    .box-footer {
+        margin: 25px 0;
+        width: 100%;
+        display: inline-flex;
+
+        p{
+            color: #636363;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            line-height: 18px;
+            font-family: 'Cambria Regular';
+        }
+        .redes-sociais .fab {
+            padding: 8px;
+            font-size: 22px;
+            color: #000;
+        }
+        
+        .txt-destaque {
+            &::after {
+                width: 40px;
+                height: 2px;
+                background: #c8ac48;
+                margin: 25px 0px;
+                display: block;
+                content: "";
+            }
+            h3 {
+                display: inline-flex;
+                color: #c8ac48;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 15px;
+                font-family: "Playfair Display", serif;
+            }
+        }
+    }
+}
