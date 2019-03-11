@@ -32,19 +32,19 @@
                 <div class="navbar-menu">
                     <ul class="navbar-init">
                         <li class="nav-link">
-                            <a class="nav-link" href="#">HOME</a>
+                            <a class="nav-link" href="index.php">HOME</a>
                         </li>
                         <li class="nav-link">
-                            <a class="nav-link" href="#">ESCRITÓRIO</a>
+                            <a class="nav-link" href="./pages/escritorio.php">ESCRITÓRIO</a>
                         </li>
                         <li class="nav-link">
-                            <a class="nav-link" href="#">ÁREAS DE PRÁTICA</a>
+                            <a class="nav-link" href="areas-de-pratica.php">ÁREAS DE PRÁTICA</a>
                         </li>
                         <li class="nav-link">
-                            <a class="nav-link" href="#">EQUIPE</a>
+                            <a class="nav-link" href="equipe.php">EQUIPE</a>
                         </li>
                         <li class="nav-link">
-                            <a class="nav-link" href="#">NOTÍCIAS</a>
+                            <a class="nav-link" href="./pages/noticias.php">NOTÍCIAS</a>
                         </li>
                         <li class="nav-link">
                             <a class="nav-link" href="#">CONTATO</a>
