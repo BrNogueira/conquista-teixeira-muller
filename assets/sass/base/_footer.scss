@@ -1,0 +1,54 @@
+
+footer {
+    .line-top {
+        border-top: solid 1px #cfcdd3;
+        padding-top: 20px;
+
+    }
+    .direitos {
+        color: #9e9da0;
+        display: inline;
+        text-align: left;
+        vertical-align: middle;
+        position: relative; 
+        bottom: 10px;
+    }
+
+    .box-footer {
+        margin: 25px 0;
+        width: 100%;
+        display: inline-flex;
+
+        p{
+            color: #636363;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            line-height: 18px;
+            font-family: 'Cambria Regular';
+        }
+        .redes-sociais .fab {
+            padding: 8px;
+            font-size: 22px;
+            color: #000;
+        }
+        
+        .txt-destaque {
+            &::after {
+                width: 40px;
+                height: 2px;
+                background: #c8ac48;
+                margin: 25px 0px;
+                display: block;
+                content: "";
+            }
+            h3 {
+                display: inline-flex;
+                color: #c8ac48;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 15px;
+                font-family: "Playfair Display", serif;
+            }
+        }
+    }
+}

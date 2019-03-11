@@ -7,7 +7,7 @@
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="./assets/img/fullbanner.png" alt="First slide">
                     <div class="carousel-caption">
-                        <div class="txt-destaque">
+                        <div class="txt-fullbanner">
                             <h3>Aristóteles</h3>
                         </div>
                         <div class="col-md-9"> 

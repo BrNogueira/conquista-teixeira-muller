@@ -1,4 +1,4 @@
-@import './pages/noticias';
+@import "./main";
 
 body { 
     overflow-x: hidden;  
@@ -15,14 +15,6 @@ body {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
-}
-#hero {
-    display: table;
-    position: relative;
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(to right, rgba(72,82,168,0.4), rgba(72,82,168,0.4)),url(../img/fullbanner.png) no-repeat center center fixed;
-    background-size: cover;
 }
 
 ul {
@@ -55,25 +47,7 @@ p{
     letter-spacing: 0.5px;
     font-family: 'Cambria Regular';
 }   
-.navbar {
-    padding: 0 !important;
-}
-.topbar {
-    display: inline-flex;
-    float: left;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 95px;
-    position: absolute;
-    padding: 23px;
-    box-shadow: 0px 0px 1px 0 #b1b1b1;
-    z-index: 999;
-    background-color: transparent;
-}
-.logo {
-    padding: 0px 45px;
-}
+
 .carousel-inner {
     .txt-fullbanner {
         &::before {
@@ -434,57 +408,8 @@ p{
         transition: 0.8s all;
     }
 }
-
-footer {
-    .line-top {
-        border-top: solid 1px #cfcdd3;
-        padding-top: 20px;
-
-    }
-    .direitos {
-        color: #9e9da0;
-        display: inline;
-        text-align: left;
-        vertical-align: middle;
-        position: relative; 
-        bottom: 10px;
-    }
-
-    .box-footer {
-        margin: 25px 0;
-        width: 100%;
-        display: inline-flex;
-
-        p{
-            color: #636363;
-            font-weight: 700;
-            letter-spacing: 0.5px;
-            line-height: 18px;
-            font-family: 'Cambria Regular';
-        }
-        .redes-sociais .fab {
-            padding: 8px;
-            font-size: 22px;
-            color: #000;
-        }
-        
-        .txt-destaque {
-            &::after {
-                width: 40px;
-                height: 2px;
-                background: #c8ac48;
-                margin: 25px 0px;
-                display: block;
-                content: "";
-            }
-            h3 {
-                display: inline-flex;
-                color: #c8ac48;
-                font-size: 20px;
-                font-weight: 400;
-                line-height: 15px;
-                font-family: "Playfair Display", serif;
-            }
-        }
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 65%;
     }
 }

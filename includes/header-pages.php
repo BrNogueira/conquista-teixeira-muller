@@ -10,6 +10,8 @@
     <link rel="icon" href="img/favicon.png">
     <!-- css -->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/sass/layout.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/sass/base/_header-pages.scss">
+
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- fontawesome -->
@@ -26,37 +28,9 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light absolute-top" id="topo">
-                <a href="index.php" class="navbar-brand" alt="">
-                    <img src="./assets/img/icons/logo.png" class="img-fluid" alt="Teixeira Müller Advogados Associados">
-                </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.php">HOME <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="escritorio.php">ESCRITÓRIO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="areas.php">ÁREAS DE ATUAÇÃO</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="equipe.php">EQUIPE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="noticias.php">NOTÍCIAS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contato.php">CONTATO</a>
-                </li>
-                </ul>
-            </div>
-            
-            <!-- <div class="topbar">
+        <div class="container">
+            <div class="topbar">
+                <a href="index.php" class="logo" alt=""><img src="./assets/img/icons/logo.png" alt="Teixeira Müller Advogados Associados"></a>
                 <div class="navbar-menu">
                     <ul class="navbar-init">
                         <li class="nav-link">
@@ -79,7 +53,8 @@
                         </li>
                     </ul>
                 </div>  
-            </div> -->
+            </div>
+        </div>
     </nav>
 </body>
 </html>
