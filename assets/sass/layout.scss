@@ -166,24 +166,7 @@ p{
             font-family: 'Playfair Display', serif;
         }
     }
-    .leia-mais {
-        display: inline-block;
-        color: #fff;
-        background-color: #c8ac48;
-        font-size: 18px;
-        padding: 10px 20px;
-        margin-top: 25px;
-        transition: 0.8s all;
-        text-decoration: none;
-        font-family: 'Playfair Display', serif;
-        
-        &:hover {
-            color: #c8ac48;
-            background-color: #fff;
-            border: 1px #c8ac48 solid;
-            transition: 0.8s all;
-        }
-    }
+
 }
 .area-pratica  {
     margin: 100px 0px;
@@ -226,25 +209,7 @@ p{
             font-family: 'Playfair Display', serif;
         }
     }
-    .leia-mais {
-        color: #fff;
-        background-color: #c8ac48;
-        font-size: 18px;
-        padding: 10px 20px;
-        margin-bottom: 25px;
-        transition: 0.8s all;
-        float: right;
-        text-decoration: none;
-        font-family: 'Playfair Display', serif;
 
-    
-        &:hover {
-            color: #c8ac48;
-            background-color: #fff;
-            border: 1px #c8ac48 solid;
-            transition: 0.8s all;
-        }
-    }
 }
 
 .noticias-container {
@@ -261,6 +226,7 @@ p{
     }
 }
 .noticias {
+    
     margin: 50px 0px;
     h5 {
         color: #636363;
@@ -321,23 +287,6 @@ p{
             font-family: 'Playfair Display', serif;
         }
     }
-    .ler-mais {
-        display: inline-block;
-        color: #fff;
-        background-color: #c8ac48;
-        font-size: 20px;
-        padding: 10px 15px;
-        margin-top: 25px;
-        transition: 0.8s all;
-        text-decoration: none;
-     
-        &:hover {
-            color: #c8ac48;
-            background-color: #fff;
-            border: 1px #c8ac48 solid;
-            transition: 0.8s all;
-        }
-    }
 }
 #carousel-brief{
 
@@ -380,34 +329,7 @@ p{
         }
     }
 }
-// .brief {
-//     display: inline;
-//     text-align: center;
-//     .icon-carousel {
-//         display: inline;
-//         text-align: center;
-//     }
 
-// }
-.leia-mais {
-    display: inline-block;
-    color: #fff;
-    background-color: #c8ac48;
-    font-size: 18px;
-    padding: 10px 20px;
-    margin-top: 25px;
-    transition: 0.8s all;
-    text-decoration: none;
-    font-family: 'Playfair Display', serif;
-
-
-    &:hover {
-        color: #c8ac48;
-        background-color: #fff;
-        border: 1px #c8ac48 solid;
-        transition: 0.8s all;
-    }
-}
 @media (max-width: 576px) {
     .navbar-brand img {
         width: 65%;

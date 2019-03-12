@@ -209,37 +209,42 @@
                     </div>
                 </div>
             </div>
-            <!-- <div class="carousel-item">
+            <div class="carousel-item ">
                 <div class="brief">
-                    <img src="./assets/img/1400x400.png" alt="">
+                    <img src="./assets/img/banner-brief.jpg" alt="">
                     <div class="carousel-caption">
-                        <div class="icon-carousel">
-                            <h3><img src="./assets/img/icons/icon.png" alt=""></h3>
+                        <div class="icon-carousel col-md-12">
+                            <img src="./assets/img/icons/icon.png" alt="">
                         </div>
-                        <div class="col-md-9"> 
+                        <div class="col-md-12"> 
                             <div class="brief-content">
-                                <h1 class="">Nós somos o que fazem repetidamente. A exelência, portanto, não é um ato, mas um habito</h1>
+                                <p>“Há 12 anos sou cliente da Teixeira Muller. Quando precisamos de advogado, raramente é por bons motivos, por isso é tão importante contar com alguém que tenha empatia para compreender seus problemas e assumi-los como se fossem seus, ou seja, antes mesmo dos serviços jurídicos entrarem em cena, considero importante uma atitude de parceria autêntica: só assim é possível confiar que todos os esforços para obter êxito serão empreendidos. Dra. Vanessa, sem dúvida, é esta profissional! Uma mulher admirável e uma advogada que usa o coração e a mente afiada para brigar a seu lado pelo que é justo”.</p>
+                            </div>
+                            <div class="txt-destaque">
+                                <h3>Daniel Costa, empresário e escritor</h3> 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item ">
                 <div class="brief">
-                    <img src="./assets/img/1400x400.png" alt="">
+                    <img src="./assets/img/banner-brief.jpg" alt="">
                     <div class="carousel-caption">
-                        <div class="icon-carousel">
-                            <h3><img src="./assets/img/icons/icon.png" alt=""></h3>
+                        <div class="icon-carousel col-md-12">
+                            <img src="./assets/img/icons/icon.png" alt="">
                         </div>
-                        <div class="col-md-9"> 
+                        <div class="col-md-12"> 
                             <div class="brief-content">
-                                <h1 class="">Nós somos o que fazem repetidamente. A exelência, portanto, não é um ato, mas um habito</h1>
+                                <p>“Há 12 anos sou cliente da Teixeira Muller. Quando precisamos de advogado, raramente é por bons motivos, por isso é tão importante contar com alguém que tenha empatia para compreender seus problemas e assumi-los como se fossem seus, ou seja, antes mesmo dos serviços jurídicos entrarem em cena, considero importante uma atitude de parceria autêntica: só assim é possível confiar que todos os esforços para obter êxito serão empreendidos. Dra. Vanessa, sem dúvida, é esta profissional! Uma mulher admirável e uma advogada que usa o coração e a mente afiada para brigar a seu lado pelo que é justo”.</p>
+                            </div>
+                            <div class="txt-destaque">
+                                <h3>Daniel Costa, empresário e escritor</h3> 
                             </div>
                         </div>
                     </div>
-                    </div>
                 </div>
-            </div> -->
+            </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>

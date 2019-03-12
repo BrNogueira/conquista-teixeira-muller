@@ -10,7 +10,7 @@
     <link rel="icon" href="img/favicon.png">
     <!-- css -->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/sass/layout.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/sass/base/_header-pages.scss">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/sass/base/_menu.scss">
 
     <!-- bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -27,8 +27,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light absolute-top" id="topo">
-        <div class="container">
+    <nav class="navbar navbar-expand-lg absolute-top" id="topo">
+    <a href="index.php" class="navbar-brand" alt="">
+                    <img src="./assets/img/icons/logo.png" class="img-fluid" alt="Teixeira Müller Advogados Associados">
+                </a>    
+    <div class="container">
             <div class="topbar">
                 <a href="index.php" class="logo" alt=""><img src="./assets/img/icons/logo.png" alt="Teixeira Müller Advogados Associados"></a>
                 <div class="navbar-menu">

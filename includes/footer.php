@@ -1,3 +1,16 @@
+
+<script>
+   $(document).ready(function() {
+      $("#my-menu").mmenu({
+         // options
+      }, {
+         // configuration
+         offCanvas: {
+            pageNodetype: "section"
+         }
+      });
+   });
+</script>
 <footer>
   <div class="container">
     <div class="row">

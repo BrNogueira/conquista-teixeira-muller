@@ -1,0 +1,39 @@
+.leia-mais {
+    display: inline-block;
+    color: #fff;
+    background-color: #c8ac48;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    transition: 0.8s all;
+    border: 1px #c8ac48 solid;
+
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+    
+    &:hover {
+        color: #c8ac48;
+        background-color: #fff;
+        border: 1px #c8ac48 solid;
+        transition: 0.8s all;
+    }
+}
+
+.ler-mais {
+    display: inline-block;
+    color: #fff;
+    background-color: #c8ac48;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-top: 25px;
+    transition: 0.8s all;
+    border: 1px #c8ac48 solid;
+    text-decoration: none;
+ 
+    &:hover {
+        color: #c8ac48;
+        background-color: #fff;
+        border: 1px #c8ac48 solid;
+        transition: 0.8s all;
+    }
+}
