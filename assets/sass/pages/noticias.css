@@ -52,24 +52,15 @@ p {
   padding: 0px 45px;
 }
 
-.page {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(25, 25, 25, 0.4)), to(rgba(25, 25, 25, 0.4))), no-repeat center center fixed, url(../img/_MG_7825_cut.jpg);
-  background: linear-gradient(to right, rgba(25, 25, 25, 0.4), rgba(25, 25, 25, 0.4)), no-repeat center center fixed, url(../img/_MG_7825_cut.jpg);
-  width: 100%;
-  height: 150px;
-  margin-top: 95px;
-  position: relative;
-  background-attachment: fixed;
-}
-
-.page::before {
+.noticiaspage-container::before {
   background: #c8ac48;
-  width: 120px;
+  width: 50px;
   height: 1px;
   content: "";
   display: block;
-  margin: 80px 50px;
+  margin: 60px 5px;
   position: absolute;
+  left: 50px;
 }
 
 .page h1 {
@@ -85,19 +76,8 @@ p {
   font-family: "Playfair Display", serif;
 }
 
-.noticiaspage-container::before {
-  background: #c8ac48;
-  width: 50px;
-  height: 1px;
-  content: "";
-  display: block;
-  margin: 60px 5px;
-  position: absolute;
-  left: 50px;
-}
-
 .noticias {
-  background: rgba(177, 177, 177, 0.4);
+  background: #f7f7f7;
   padding: 50px 0px;
 }
 

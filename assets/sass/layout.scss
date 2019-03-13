@@ -48,12 +48,38 @@ p{
     font-family: 'Cambria Regular';
 }   
 
+.page {
+    display: table;
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    background: linear-gradient(to right, rgba(25, 25, 25, 0.4), rgba(25, 25, 25, 0.4)),url(../img/intro.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 95px;
+ 
+    // position: relative;
+    // top: 0;
+    // width: 100%;
+    // margin: 0;
+    // padding-top: 75px;
+    // background-attachment: fixed;
+
+    &::before {
+        display: block; 
+        position: absolute;
+        content: "";
+        width: 120px;
+        height: 2px;
+        margin:  80px 50px;
+        background: #c8ac48;
+    }
+} 
 .carousel-inner {
     .txt-fullbanner {
         &::before {
             background: #c8ac48;
             width: 120px;
-            height: 1px;
+            height: 2px;
             content: "";
             display: block;
             margin:  10px;
@@ -128,15 +154,15 @@ p{
             color: #c8ac48;
         }
     }
-}
+} 
 .info-container {
     &::before {
         background: #c8ac48;
         width: 45px;
-        height: 1px;
+        height: 2px;
         content: "";
         display: block;
-        margin: 70px 5px;
+        margin: 39px -10px;
         position: absolute;
         left: 73px;
     }
@@ -149,7 +175,6 @@ p{
         font-weight: 500;
         letter-spacing: 0.5px;
     }
-
     .txt-destaque {
         h2 {
             font-size: 30px;
@@ -166,14 +191,27 @@ p{
             font-family: 'Playfair Display', serif;
         }
     }
-
+}
+.pratica-container {
+    &::before {
+        background: #c8ac48;
+        width: 45px;
+        height: 2px;
+        content: "";
+        display: block;
+        margin: 93px 5px;
+        position: absolute;
+        left: 73px;
+    }
 }
 .area-pratica  {
-    margin: 100px 0px;
+    margin: auto;
+    padding: 25px 0;
     background-color: #f7f7f7;
     
     h2 {
         font-size: 20px;
+        padding-top: 10px;
         font-family: 'Cambria Regular';
     }
     
@@ -209,7 +247,9 @@ p{
             font-family: 'Playfair Display', serif;
         }
     }
-
+    .leia-mais {
+        float: right;
+    }
 }
 
 .noticias-container {
@@ -217,16 +257,16 @@ p{
     &::before {
         background: #c8ac48;
         width: 50px;
-        height: 1px;
+        height: 2px;
         content: "";
         display: block;
-        margin: 10px 5px;
+        margin: 60px 25px;
         position: absolute;
         left: 50px;    
     }
 }
 .noticias {
-    
+    background: #fff;
     margin: 50px 0px;
     h5 {
         color: #636363;

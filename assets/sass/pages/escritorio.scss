@@ -1,0 +1,57 @@
+.page {
+    .title {
+        display: inline-flex;
+        color: #c8ac48;
+        font-size: 35px;
+        font-weight: lighter;
+        margin-left: 70px;
+        margin-top: 70px !important;
+        line-height: 15px;
+        font-family: "Playfair Display", serif;
+    }
+}
+.quem-somos {
+    display: block;
+    
+    .pic {
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 705px;
+    }
+    .txt-destaque {
+        display:block;
+        text-align: center;
+        color: #c8ac48;
+        font-size: 35px;
+        font-weight: lighter;
+        line-height: 15px;
+        padding: 15px 15px;
+        font-family: "Playfair Display", serif;
+    }
+    .txt-introduction {
+        padding: 10% 3% 0% 6%;
+
+        p{
+            color: #9e9da0;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+    }
+}
+.guides-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 200px;
+    height: 300px;
+    float: left;
+    margin-right: 30px;
+    text-align: center;
+    padding: 95px 0;
+    box-sizing: border-box; 
+    .fa {
+        display: block;
+        font-size: 50px;
+        margin-bottom: 25px; 
+    }
+}

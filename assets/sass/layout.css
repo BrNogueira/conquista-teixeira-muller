@@ -323,24 +323,15 @@ p {
   padding: 0px 45px;
 }
 
-.page {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(25, 25, 25, 0.4)), to(rgba(25, 25, 25, 0.4))), no-repeat center center fixed, url(../img/_MG_7825_cut.jpg);
-  background: linear-gradient(to right, rgba(25, 25, 25, 0.4), rgba(25, 25, 25, 0.4)), no-repeat center center fixed, url(../img/_MG_7825_cut.jpg);
-  width: 100%;
-  height: 150px;
-  margin-top: 95px;
-  position: relative;
-  background-attachment: fixed;
-}
-
-.page::before {
+.noticiaspage-container::before {
   background: #c8ac48;
-  width: 120px;
+  width: 50px;
   height: 1px;
   content: "";
   display: block;
-  margin: 80px 50px;
+  margin: 60px 5px;
   position: absolute;
+  left: 50px;
 }
 
 .page h1 {
@@ -356,19 +347,8 @@ p {
   font-family: "Playfair Display", serif;
 }
 
-.noticiaspage-container::before {
-  background: #c8ac48;
-  width: 50px;
-  height: 1px;
-  content: "";
-  display: block;
-  margin: 60px 5px;
-  position: absolute;
-  left: 50px;
-}
-
 .noticias {
-  background: rgba(177, 177, 177, 0.4);
+  background: #f7f7f7;
   padding: 50px 0px;
 }
 
@@ -453,6 +433,70 @@ p {
   transition: 0.8s all;
 }
 
+.page .title {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 35px;
+  font-weight: lighter;
+  margin-left: 70px;
+  margin-top: 70px !important;
+  line-height: 15px;
+  font-family: "Playfair Display", serif;
+}
+
+.quem-somos {
+  display: block;
+}
+
+.quem-somos .pic {
+  padding-left: 0px;
+  padding-right: 0px;
+  max-width: 705px;
+}
+
+.quem-somos .txt-destaque {
+  display: block;
+  text-align: center;
+  color: #c8ac48;
+  font-size: 35px;
+  font-weight: lighter;
+  line-height: 15px;
+  padding: 15px 15px;
+  font-family: "Playfair Display", serif;
+}
+
+.quem-somos .txt-introduction {
+  padding: 10% 3% 0% 6%;
+}
+
+.quem-somos .txt-introduction p {
+  color: #9e9da0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.guides-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+  padding: 95px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.guides-title .fa {
+  display: block;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+
 body {
   overflow-x: hidden;
   -webkit-box-sizing: border-box;
@@ -505,10 +549,31 @@ p {
   font-family: 'Cambria Regular';
 }
 
+.page {
+  display: table;
+  position: relative;
+  width: 100vw;
+  height: 250px;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(25, 25, 25, 0.4)), to(rgba(25, 25, 25, 0.4))), url(../img/intro.jpg) no-repeat center center fixed;
+  background: linear-gradient(to right, rgba(25, 25, 25, 0.4), rgba(25, 25, 25, 0.4)), url(../img/intro.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 95px;
+}
+
+.page::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 120px;
+  height: 2px;
+  margin: 80px 50px;
+  background: #c8ac48;
+}
+
 .carousel-inner .txt-fullbanner::before {
   background: #c8ac48;
   width: 120px;
-  height: 1px;
+  height: 2px;
   content: "";
   display: block;
   margin: 10px;
@@ -593,10 +658,10 @@ p {
 .info-container::before {
   background: #c8ac48;
   width: 45px;
-  height: 1px;
+  height: 2px;
   content: "";
   display: block;
-  margin: 70px 5px;
+  margin: 39px -10px;
   position: absolute;
   left: 73px;
 }
@@ -628,13 +693,26 @@ p {
   font-family: 'Playfair Display', serif;
 }
 
+.pratica-container::before {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 93px 5px;
+  position: absolute;
+  left: 73px;
+}
+
 .area-pratica {
-  margin: 100px 0px;
+  margin: auto;
+  padding: 25px 0;
   background-color: #f7f7f7;
 }
 
 .area-pratica h2 {
   font-size: 20px;
+  padding-top: 10px;
   font-family: 'Cambria Regular';
 }
 
@@ -675,18 +753,23 @@ p {
   font-family: 'Playfair Display', serif;
 }
 
+.area-pratica .leia-mais {
+  float: right;
+}
+
 .noticias-container::before {
   background: #c8ac48;
   width: 50px;
-  height: 1px;
+  height: 2px;
   content: "";
   display: block;
-  margin: 10px 5px;
+  margin: 60px 25px;
   position: absolute;
   left: 50px;
 }
 
 .noticias {
+  background: #fff;
   margin: 50px 0px;
 }
 

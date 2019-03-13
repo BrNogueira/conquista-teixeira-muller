@@ -1,16 +1,7 @@
 
-<script>
-   $(document).ready(function() {
-      $("#my-menu").mmenu({
-         // options
-      }, {
-         // configuration
-         offCanvas: {
-            pageNodetype: "section"
-         }
-      });
-   });
-</script>
+<script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+
+
 <footer>
   <div class="container">
     <div class="row">
@@ -63,8 +54,8 @@
         <div class="row">
           <div class="col-md-12">
             <div class="redes-sociais">
-              <a href="https://www.facebook.com/feltesadvocacia" target="blank"><i class="fab fa-facebook-f"></i></a>
-              <a href="https://www.instagram.com/feltesadvocacia/" target="blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.facebook.com/teixeiramuller" target="blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.instagram.com/teixeiramuller/" target="blank"><i class="fab fa-instagram"></i></a>
             </div>
           </div>
         </div>

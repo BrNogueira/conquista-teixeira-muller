@@ -65,7 +65,7 @@
         </div>
     </section>
     <section>
-        <div class="info-container">
+        <div class="pratica-container">
             <div class="area-pratica">
                 <div class="row">
                     <div class="container">
