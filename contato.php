@@ -1,6 +1,5 @@
 <?php include "./includes/header.php";?>
 
-
 <main>
 <div class="page">
 	<div class="container">

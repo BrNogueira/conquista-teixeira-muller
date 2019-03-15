@@ -1,14 +1,31 @@
-.page .title {
+.page .txt-destaque {
+  display: block;
+  color: #c8ac48;
+  font-size: 30px;
+  margin: 0;
+  font-weight: lighter;
+  line-height: 15px;
+  padding: 15px 15px;
+  font-family: "Playfair Display", serif;
+  margin: 55px 40px 0;
+}
+
+.page .txt-destaque h2 {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.page .txt-destaque h3 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
   color: #c8ac48;
   font-size: 35px;
-  font-weight: lighter;
-  margin-left: 70px;
-  margin-top: 70px !important;
+  margin: 0;
   line-height: 15px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .quem-somos {
@@ -16,33 +33,55 @@
 }
 
 .quem-somos .pic {
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0;
+  padding-right: 0;
   max-width: 705px;
 }
 
 .quem-somos .txt-destaque {
   display: block;
-  text-align: center;
   color: #c8ac48;
-  font-size: 35px;
+  font-size: 20px;
+  margin: 0;
   font-weight: lighter;
   line-height: 15px;
   padding: 15px 15px;
   font-family: "Playfair Display", serif;
 }
 
+.quem-somos .txt-destaque h2 {
+  font-size: 30px;
+  color: #000;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.quem-somos .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
 .quem-somos .txt-introduction {
-  padding: 10% 3% 0% 6%;
+  padding-right: 25px;
+  margin: 20px 0;
+  padding-left: 25px;
 }
 
 .quem-somos .txt-introduction p {
   color: #9e9da0;
   font-weight: 500;
   letter-spacing: 0.5px;
+  line-height: 18px;
+  font-family: 'Cambria Regular';
 }
 
-.guides-title {
+.quem-somos .guides-title {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -56,9 +95,127 @@
           box-sizing: border-box;
 }
 
-.guides-title .fa {
+.quem-somos .guides-title .fa {
   display: block;
   font-size: 50px;
   margin-bottom: 25px;
+  margin-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+.values {
+  text-align: center;
+}
+
+.values .values-descritions {
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+.values .values-descritions p {
+  color: #9e9da0;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 16px;
+}
+
+.values .values-descritions ul {
+  text-align: center;
+}
+
+.values .values-descritions ul li {
+  color: #9e9da0;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 16px;
+  position: relative;
+  display: contents;
+  padding: 0px 0px 7px 0px;
+}
+
+.values .values-descritions .box-not {
+  margin: 25px 0px;
+}
+
+.values .txt-destaque {
+  margin-top: 100px;
+}
+
+.values .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.values .txt-destaque h3 h2 {
+  font-size: 20px;
+  color: #000;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.values .txt-destaque li {
+  color: #9e9da0;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 16px;
+  display: contents;
+  position: relative;
+  padding: 0px 0px 7px 30px;
+}
+
+.values .txt-destaque p {
+  color: #9e9da0;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  line-height: 18px;
+  font-family: 'Cambria Regular';
+}
+
+.lider {
+  margin: auto;
+  padding: 0;
+}
+
+#img-lider {
+  background-image: url(./assets/img/equipe.jpg);
+  min-height: 100%;
+  position: relative;
+}
+
+#img-lider .txt-destaque {
+  display: block;
+  color: #c8ac48;
+  font-size: 30px;
+  margin: 0;
+  font-weight: lighter;
+  line-height: 15px;
+  padding: 15px 15px;
+  font-family: "Playfair Display", serif;
+  margin: 55px 40px 0;
+}
+
+#img-lider .txt-destaque h2 {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+#img-lider .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
 }
 /*# sourceMappingURL=escritorio.css.map */

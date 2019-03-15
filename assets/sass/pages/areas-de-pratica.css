@@ -1,0 +1,65 @@
+.area-pratica {
+  display: inline-block;
+  margin: auto;
+  padding: 25px 0;
+  text-align: left;
+  background-color: #f7f7f7;
+}
+
+.area-pratica h2 {
+  font-size: 20px;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.area-pratica p {
+  color: #9e9da0;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 16px;
+}
+
+.area-pratica .box-not {
+  display: inline-block;
+  margin: 24px;
+  width: 100%;
+}
+
+.area-pratica .box-not .icon {
+  margin-bottom: 10px;
+}
+
+.area-pratica .page .txt-destaque {
+  display: block;
+  color: #c8ac48;
+  font-size: 30px;
+  margin: 0;
+  font-weight: lighter;
+  line-height: 15px;
+  padding: 15px 15px;
+  font-family: "Playfair Display", serif;
+  margin: 55px 40px 0;
+}
+
+.area-pratica .page .txt-destaque h2 {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.area-pratica .page .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 35px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.area-pratica .leia-mais {
+  float: right;
+}
+/*# sourceMappingURL=areas-de-pratica.css.map */

@@ -1,8 +1,7 @@
 <?php include("./includes/header.php");?>
-
 <main>
     <section>
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carousel-fullbanner" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="./assets/img/fullbanner.png" alt="First slide">
@@ -19,27 +18,23 @@
             <div class="carousel-item">
                 <img class="d-block w-100" src="./assets/img/fullbanner.png" alt="Second slide">
                 <div class="carousel-caption">
-                        <div class="txt-fullbanner">
-                            <h3>Aristóteles</h3>
-                        </div>
-                        <div class="col-md-9"> 
-                            <h1>Nós somos o que fazem repetidamente.<br>A exelência, portanto, não é um ato, mas um habito</h1>
-                        </div>
-                        <a href="#" class="leia-mais">LEIA MAIS</a> 
+                    <div class="txt-fullbanner">
+                        <h3>Camila Lustosa,<br> Sócia-diretora da Santo de Casa Endomarketing  </h3>
                     </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="./assets/img/fullbanner.png" alt="Third slide">
-                <div class="carousel-caption">
-                        <div class="txt-fullbanner">
-                            <h3>Aristóteles</h3>
-                        </div>
-                        <div class="col-md-9"> 
-                            <h1>Nós somos o que fazem repetidamente.<br>A exelência, portanto, não é um ato, mas um habito</h1>
-                        </div>
-                        <a href="#" class="leia-mais">LEIA MAIS</a> 
+                    <div class="col-md-9"> 
+                        <h1>"Trabalhamos hoje com complexidades <br> tais que exigem parceiros com inteligência, agilidade e efetividade...</h1>
                     </div>
+                    <a href="#" class="leia-mais">LEIA MAIS</a> 
+                </div>
             </div>
+            <a class="carousel-control-prev" href="#carousel-fullbanner" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-fullbanner" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
         </div>
 
     </div>
@@ -48,6 +43,7 @@
         <div class="container info-container">
             <div class="info">
                 <div class="row">	
+                    
                     <div class="col-md-6">
                         <div class="txt-destaque">
                             <h3>Conheça nosso</h3>
@@ -64,7 +60,7 @@
             </div>
         </div>
     </section>
-    <section>
+    <section >
         <div class="pratica-container">
             <div class="area-pratica">
                 <div class="row">
@@ -99,7 +95,7 @@
                                     <div class="box-not row">
                                     <img class="icon" src="./assets/img/icons/icon-work3.png" alt="">
                                         <div class="row">
-                                            <h2>Tributário Colsultivo e Contencioso</h2>
+                                            <h2>Tributário Consultivo e Contencios</h2>
                                             <p>Prestação de assessoria consultiva tributária e fiscal atuando na área de planejamento tributário...</p>
                                         </div>
                                     </div>
@@ -122,6 +118,9 @@
             </div>
         </div>
     </section>
+
+    <!-- NOTICIAS -->
+
     <section>
         <div class="noticias-container">
             <div class="noticias">
@@ -135,53 +134,37 @@
                         </div>
 
                         <div class="row">
+                            <!-- EDITAR APARTIR DAQUI -->
                             <div class="col-md-4">
-                                <img src="./assets/img/390x260.png" class="img-fluid">
+                            <a href="./noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.php">
+                            <img  class=" img-news img-fluid" src="./assets/img/noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.jpg" ></a> 
                                 <div class="noticia">
                                     <span class="data">
-                                        <div class="speech-bubble">
-                                            08 Mar
-                                        </div>
+                                        <div class="speech-bubble">12 Mar</div>
                                     </span>
                                     <div class="content-noticia">
-                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec malesuada lorem. Aliquam leo nibh...</p>
-                                        <a href="#" class="ler-mais">LER MAIS</a> 
+                                        <h5>CNJ cria grupo de para debater recuperações judiciais e falências</h5>
+                                        <p>A Construtora Edisul Ltda., de Porto Alegre, conseguiu, em recurso para o Tribunal Superior do Trabalho, afastar a condenação ao ressarcimento dos custos com...</p>
+                                        <a href="./noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.php" class="ler-mais">LER MAIS</a> 
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <div class="col-md-4">
-                                <img src="./assets/img/390x260.png" class="img-fluid">
+                                <a href="./noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.php">
+                                <img  class="img-news img-fluid" src="./assets/img/noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.jpg" ></a> 
                                 <div class="noticia">
                                     <span class="data">
-                                        <div class="speech-bubble">
-                                            08 Mar
-                                        </div>
+                                        <div class="speech-bubble">12 Mar</div>
                                     </span>
                                     <div class="content-noticia">
-                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec malesuada lorem. Aliquam leo nibh...</p>
-                                        <a href="#" class="ler-mais">LER MAIS</a> 
+                                        <h5>CNJ cria grupo de para debater recuperações judiciais e falências</h5>
+                                        <p>"Excesso de burocracia, ineficiência e morosidade permeiam a vida de nossas empresas, desde sua...</p>
+                                        <a href="./noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.php" class="ler-mais">LER MAIS</a> 
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
-                                <img src="./assets/img/390x260.png" class="img-fluid">
-                                <div class="noticia">
-                                <span class="data">
-                                        <div class="speech-bubble">
-                                            08 Mar
-                                        </div>
-                                    </span>
-                                    <div class="content-noticia">
-                                        <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec malesuada lorem. Aliquam leo nibh...</p>
-                                        <a href="#" class="ler-mais">LER MAIS</a> 
-                                    </div>
-                                </div>
-                            </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -196,7 +179,7 @@
                     <img src="./assets/img/banner-brief.jpg" alt="">
                     <div class="carousel-caption">
                         <div class="icon-carousel col-md-12">
-                            <img src="./assets/img/icons/icon.png" alt="">
+                            <img  src="./assets/img/icons/icon.png" alt="">
                         </div>
                         <div class="col-md-12"> 
                             <div class="brief-content">
@@ -209,7 +192,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item ">
+            <div class="carousel-item">
                 <div class="brief">
                     <img src="./assets/img/banner-brief.jpg" alt="">
                     <div class="carousel-caption">
@@ -221,35 +204,17 @@
                                 <p>“Há 12 anos sou cliente da Teixeira Muller. Quando precisamos de advogado, raramente é por bons motivos, por isso é tão importante contar com alguém que tenha empatia para compreender seus problemas e assumi-los como se fossem seus, ou seja, antes mesmo dos serviços jurídicos entrarem em cena, considero importante uma atitude de parceria autêntica: só assim é possível confiar que todos os esforços para obter êxito serão empreendidos. Dra. Vanessa, sem dúvida, é esta profissional! Uma mulher admirável e uma advogada que usa o coração e a mente afiada para brigar a seu lado pelo que é justo”.</p>
                             </div>
                             <div class="txt-destaque">
-                                <h3>Daniel Costa, empresário e escritor</h3> 
+                                <h3>Camila Lustosa,<br> Sócia-diretora da Santo de Casa Endomarketing  </h3> 
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="carousel-item ">
-                <div class="brief">
-                    <img src="./assets/img/banner-brief.jpg" alt="">
-                    <div class="carousel-caption">
-                        <div class="icon-carousel col-md-12">
-                            <img src="./assets/img/icons/icon.png" alt="">
-                        </div>
-                        <div class="col-md-12"> 
-                            <div class="brief-content">
-                                <p>“Há 12 anos sou cliente da Teixeira Muller. Quando precisamos de advogado, raramente é por bons motivos, por isso é tão importante contar com alguém que tenha empatia para compreender seus problemas e assumi-los como se fossem seus, ou seja, antes mesmo dos serviços jurídicos entrarem em cena, considero importante uma atitude de parceria autêntica: só assim é possível confiar que todos os esforços para obter êxito serão empreendidos. Dra. Vanessa, sem dúvida, é esta profissional! Uma mulher admirável e uma advogada que usa o coração e a mente afiada para brigar a seu lado pelo que é justo”.</p>
-                            </div>
-                            <div class="txt-destaque">
-                                <h3>Daniel Costa, empresário e escritor</h3> 
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carousel-brief" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carousel-brief" role="button" data-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>

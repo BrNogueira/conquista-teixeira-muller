@@ -52,17 +52,6 @@ p {
   padding: 0px 45px;
 }
 
-.noticiaspage-container::before {
-  background: #c8ac48;
-  width: 50px;
-  height: 1px;
-  content: "";
-  display: block;
-  margin: 60px 5px;
-  position: absolute;
-  left: 50px;
-}
-
 .page h1 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -89,6 +78,7 @@ p {
 .noticias p {
   color: #9e9da0;
   font-weight: 500;
+  max-height: 75px;
 }
 
 .noticias .noticia .content-noticia {

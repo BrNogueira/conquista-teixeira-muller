@@ -1,0 +1,74 @@
+.page .txt-destaque {
+  display: block;
+  color: #c8ac48;
+  font-size: 30px;
+  margin: 0;
+  font-weight: lighter;
+  line-height: 15px;
+  padding: 15px 15px;
+  font-family: "Playfair Display", serif;
+  margin: 55px 40px 0;
+}
+
+.page .txt-destaque h2 {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.page .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 35px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.equipe {
+  padding: 25px;
+}
+
+.equipe .box-team {
+  -webkit-box-shadow: 0px 0px 1px 0 #b1b1b1;
+          box-shadow: 0px 0px 1px 0 #b1b1b1;
+  padding: 25px;
+  background: #f7f7f7;
+}
+
+.equipe .box-team h4 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  margin: 0;
+  line-height: 15px;
+  padding-bottom: 20px;
+  margin-left: 55px;
+  font-family: 'Playfair Display', serif;
+}
+
+.equipe .box-team h4::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 45px;
+  height: 2px;
+  margin: 9px -55px;
+  background: #c8ac48;
+}
+
+.equipe .box-team h5 {
+  padding-top: 10px;
+  color: #000;
+}
+
+.equipe .box-team p {
+  color: #9e9da0;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+/*# sourceMappingURL=equipe.css.map */

@@ -7,7 +7,24 @@
     <title>Teixeira Müller Advogados Associados</title>
     <meta name="author" content="Conquista Comunicação">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="img/favicon.png">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <!-- css -->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/sass/layout.css">
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/sass/base/_menu.scss">
@@ -16,10 +33,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
     <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/sass/font-awesome/css/all.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!-- google font -->
     <link rel="stylesheet" href="https://use.typekit.net/lpj4vtm.css">
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    
     <!-- scripts -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -64,33 +83,7 @@
                 <a class="" href="contato.php">CONTATO</a>
             </li>
         </ul>
-        <!-- <div class="container">
-            <div class="topbar">
-                <a href="index.php" class="logo" alt=""><img src="./assets/img/icons/logo.png" alt="Teixeira Müller Advogados Associados"></a>
-                <div class="navbar-menu">
-                    <ul class="navbar-init">
-                        <li class="nav-link">
-                            <a class="nav-link" href="index.php">HOME</a>
-                        </li>
-                        <li class="nav-link">
-                            <a class="nav-link" href="escritorio.php">ESCRITÓRIO</a>
-                        </li>
-                        <li class="nav-link">
-                            <a class="nav-link" href="areas-de-pratica.php">ÁREAS DE PRÁTICA</a>
-                        </li>
-                        <li class="nav-link">
-                            <a class="nav-link" href="equipe.php">EQUIPE</a>
-                        </li>
-                        <li class="nav-link">
-                            <a class="nav-link" href="noticias.php">NOTÍCIAS</a>
-                        </li>
-                        <li class="nav-link">
-                            <a class="nav-link" href="#">CONTATO</a>
-                        </li>
-                    </ul>
-                </div>  
-            </div>
-        </div> -->
+
     </nav>
 </body>
 
