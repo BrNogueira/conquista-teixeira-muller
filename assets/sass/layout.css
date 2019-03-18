@@ -1511,4 +1511,49 @@ p {
   margin-bottom: 15px;
   text-align: justify;
 }
+
+@media (max-width: 576px) {
+  .navbar-brand img {
+    width: 65%;
+  }
+  .logo {
+    padding: 0;
+  }
+  .info-container::before {
+    display: none;
+  }
+  .info {
+    padding: 0;
+  }
+  .info img {
+    max-width: 345px !important;
+    padding-top: 25px;
+    margin-bottom: 15px;
+  }
+  .info::before {
+    background: #c8ac48;
+    width: 45px;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: 52px 0px;
+    position: absolute;
+  }
+  .txt-destaque h3 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #c8ac48;
+    font-size: 20px;
+    line-height: 15px;
+    margin-top: 30px;
+    font-family: 'Playfair Display', serif;
+  }
+  .txt-destaque h2 {
+    margin-bottom: 0 !important;
+  }
+  .area-pratica .txt-destaque {
+    margin-top: 0;
+  }
+}
 /*# sourceMappingURL=layout.css.map */
