@@ -640,6 +640,7 @@ p {
     .logo {
         padding: 0;
     }
+
     .info-container {
         &::before {
             display: none;
@@ -649,7 +650,7 @@ p {
         padding: 0;
 
         img {
-            max-width: 345px !important;
+            max-width: 360px !important;
             padding-top:25px;
             margin-bottom: 15px;
             }
@@ -660,7 +661,7 @@ p {
             height: 2px;
             content: "";
             display: block;
-            margin: 52px 0px;
+            margin: 38px 0px;
             position: absolute;
        }
     }
@@ -672,21 +673,50 @@ p {
             color: #c8ac48;
             font-size: 20px;
             line-height: 15px;
-            margin-top: 30px;
+            margin: 30px 0 0 60px;
             font-family: 'Playfair Display', serif;
         }
         h2 {
-            margin-bottom: 0 !important;
+            margin: 0 0 0 60px;
+            margin-bottom: 20px !important;
         }
     }
-    .area-pratica {
-        .txt-destaque {
-            margin-top: 0;
-        }  
-        .box-not {
-            display: inline-block;
-            margin: 35px 0 0 140px;
-            width: 60%;
+
+    .pratica-container {
+        &::before {
+            background: #c8ac48;
+            width: 45px;
+            height: 2px;
+            content: "";
+            display: block;
+            margin: 34px -50px;
+            position: absolute;
+            left: 73px;
+        }
+        h3 {
+            margin: 0 60px !important;
+        } 
+
+        h2 {
+            margin: 0 60px !important;
+        }
+        
+        .area-pratica {
+            .txt-destaque {
+                margin-top: 0;
+            }  
+            .box-not {
+                display: inline-block;
+                margin: 35px 0;
+                width: 100%;
+                text-align: center;
+                padding: 0 40px;
+            }
+            .leia-mais {
+                float: none;
+                display: inline-block;
+                margin: 0px 110px
+            }
         }
     }
 }

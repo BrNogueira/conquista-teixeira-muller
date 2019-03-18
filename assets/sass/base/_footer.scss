@@ -52,3 +52,14 @@ footer {
         }
     }
 }
+
+@media (max-width: 764px) {
+    footer {
+        .col-md-3 {
+            &:nth-child(2) {
+                display: none;
+            }
+        }
+
+    }
+}
