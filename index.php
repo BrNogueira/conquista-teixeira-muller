@@ -135,7 +135,7 @@
 
                         <div class="row">
                             <!-- EDITAR APARTIR DAQUI -->
-                            <div class="col-md-4">
+                            <div class="col-md-4 box-news">
                             <a href="./noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.php">
                             <img  class=" img-news img-fluid" src="./assets/img/noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.jpg" ></a> 
                                 <div class="noticia">
@@ -150,7 +150,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
+                            <div class="col-md-4 box-news">
                                 <a href="./noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.php">
                                 <img  class="img-news img-fluid" src="./assets/img/noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.jpg" ></a> 
                                 <div class="noticia">
