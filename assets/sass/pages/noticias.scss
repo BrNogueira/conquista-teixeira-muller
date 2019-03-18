@@ -1,8 +1,5 @@
 @import "../base/header-pages";
 
-.noticiaspage-container {
- 
-}
 .page {
     h1 { 
         display: inline-flex;
@@ -19,6 +16,11 @@
     background: #f7f7f7;
     padding: 50px 0px;
 
+    .box-news {
+        padding: 15px;
+        border: 1px solid #e5e5e5;
+        margin-right: 15px;
+    }
 
     h5 {
         color: #636363;
@@ -30,11 +32,13 @@
         font-weight: 500;
         max-height: 75px;
     }
+    
     .noticia {
         .content-noticia {
             margin-top: 25px;
         }
     }
+
     .data {
         color: #fff;
         font-size: 20px;

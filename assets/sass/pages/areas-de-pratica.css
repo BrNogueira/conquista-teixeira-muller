@@ -1,35 +1,60 @@
-.area-pratica {
-  display: inline-block;
+.content-pratica {
   margin: auto;
   padding: 25px 0;
   text-align: left;
   background-color: #f7f7f7;
 }
 
-.area-pratica h2 {
+.content-pratica h2 {
   font-size: 20px;
   padding-top: 10px;
   font-family: 'Cambria Regular';
 }
 
-.area-pratica p {
+.content-pratica p {
   color: #9e9da0;
   font-weight: 500;
   font-family: 'Cambria Regular';
   font-size: 16px;
 }
 
-.area-pratica .box-not {
+.content-pratica .box-not {
   display: inline-block;
   margin: 24px;
   width: 100%;
 }
 
-.area-pratica .box-not .icon {
+.content-pratica .box-not .icon {
   margin-bottom: 10px;
+  float: left;
+  padding-right: 20px;
 }
 
-.area-pratica .page .txt-destaque {
+.content-pratica .box-not h2 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 25px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+  margin-left: 65px;
+  line-height: 40px;
+  font-family: "Playfair Display", serif;
+}
+
+.content-pratica .box-not h2::before {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 22px 40px;
+  position: absolute;
+  left: 73px;
+}
+
+.content-pratica .page .txt-destaque {
   display: block;
   color: #c8ac48;
   font-size: 30px;
@@ -41,14 +66,14 @@
   margin: 55px 40px 0;
 }
 
-.area-pratica .page .txt-destaque h2 {
+.content-pratica .page .txt-destaque h2 {
   font-size: 40px;
   color: #fff;
   padding-top: 10px;
   font-family: 'Cambria Regular';
 }
 
-.area-pratica .page .txt-destaque h3 {
+.content-pratica .page .txt-destaque h3 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -59,7 +84,7 @@
   font-family: 'Playfair Display', serif;
 }
 
-.area-pratica .leia-mais {
+.content-pratica .leia-mais {
   float: right;
 }
 /*# sourceMappingURL=areas-de-pratica.css.map */

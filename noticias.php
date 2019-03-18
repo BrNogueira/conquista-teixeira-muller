@@ -4,8 +4,8 @@
 <div class="page">
         <div class="container">
             <div class="txt-destaque">
-                <h3>Leia nossas</h3>
-                <h2>NOTÍCIAS E ARTIGOS</h2>
+                <h3>NOTÍCIAS E ARTIGOS</h3>
+                <h2></h2>
             </div>
         </div> 
     </div>
@@ -16,8 +16,8 @@
                     <div class="container">
                         <div class="row">
 
-                        <div class="col-md-4">
-                            <img src="./assets/img/noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.jpg" class="img-fluid">
+                        <div class="col-md-4 box-news">
+                        <a href="./noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.php"><img src="./assets/img/noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.jpg" class="img-fluid">                    </a> 
                                 <div class="noticia">
                                     <span class="data">
                                         <div class="speech-bubble">15 Mar</div>
@@ -30,8 +30,9 @@
                                 </div>
                             </div>
 
-                            <div class="col-md-4">
-                            <img src="./assets/img/noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.jpg" class="img-fluid">
+                            <div class="col-md-4 box-news">
+                            <a href="./noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.php"><img src="./assets/img/noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.jpg" class="img-fluid"></a> 
+
                                 <div class="noticia">
                                     <span class="data">
                                         <div class="speech-bubble">12 Mar</div>

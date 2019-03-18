@@ -1,9 +1,8 @@
 
-.area-pratica  { 
-    display: inline-block; 
+.content-pratica  { 
     margin: auto;
     padding: 25px 0;
-    text-align: left;
+    text-align: left; 
     background-color: #f7f7f7;
     
     h2 { 
@@ -26,8 +25,31 @@
         
         .icon {
             margin-bottom: 10px;
+            float: left;
+            padding-right: 20px;
         }  
-    }
+        h2 {
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 25px;
+            font-weight: lighter; 
+            margin-bottom: 20px;
+            margin-left: 65px;
+            line-height: 40px;
+            font-family: "Playfair Display", serif;
+
+            &::before {
+                background: #c8ac48;
+                width: 45px;
+                height: 2px;
+                content: "";
+                display: block;
+                margin: 22px 40px;
+                position: absolute;
+                left: 73px;
+            }
+        }
+    } 
     .page {
     .txt-destaque {
         display: block;

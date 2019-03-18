@@ -11,7 +11,7 @@
 
     <section>
         <div class="service-container">
-            <div class="area-pratica">
+            <div class="content-pratica">
                 <div class="row">
                     <div class="container">
                         <div class="row">

@@ -4,19 +4,19 @@
     <div id="carousel-fullbanner" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="./assets/img/fullbanner.png" alt="First slide">
+                    <img class="d-block w-100 img-fluid" src="./assets/img/fullbanner.png" alt="First slide">
                     <div class="carousel-caption">
                         <div class="txt-fullbanner">
                             <h3>Aristóteles</h3>
                         </div>
                         <div class="col-md-9"> 
-                            <h1>Nós somos o que fazem repetidamente.<br>A exelência, portanto, não é um ato, mas um habito</h1>
+                            <h1>Nós somos o que fazem repetidamente.<br>A exelência, portanto, não é um ato, mas um habito.</h1>
                         </div>
                         <a href="#" class="leia-mais">LEIA MAIS</a> 
                     </div>
                 </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="./assets/img/fullbanner.png" alt="Second slide">
+            <!-- <div class="carousel-item">
+                <img class="d-block w-100"img-fluid src="./assets/img/fullbanner.png" alt="Second slide">
                 <div class="carousel-caption">
                     <div class="txt-fullbanner">
                         <h3>Camila Lustosa,<br> Sócia-diretora da Santo de Casa Endomarketing  </h3>
@@ -26,7 +26,7 @@
                     </div>
                     <a href="#" class="leia-mais">LEIA MAIS</a> 
                 </div>
-            </div>
+            </div> -->
             <a class="carousel-control-prev" href="#carousel-fullbanner" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>

@@ -3,17 +3,15 @@
 <main>
 <div class="page">
 	<div class="container">
-    	<h1>Contato</h1>
+    	<h1>CONTATO</h1>
     </div>
 </div>
 
 <div class="contato">
 	<div class="container">    	
         <div class="row">
-            
             <div class="col-lg-8">
-                <h3>Envie sua Mensagem</h3>
-                
+                <h2>Envie sua Mensagem</h2>
                 <form class="contact-form" action="http://www.conquistacom.com/feltes/includes/contato-script.php" method="post">
                 <div class="row">
                         <div class="col-lg-6">
@@ -44,17 +42,16 @@
             </div>
             
             <div class="col-lg-4 contact-info">
-            	<h3>Entre em Contato</h3>
-                <ul class="info">
+            	<h2>Entre em Contato</h2>
+                <ul class="info-contact">
                   <li>
                       <i class="fas fa-map-marker-alt icon"></i>
                       <div class="content">
                           <p>
-                                Rua Celeste Gobbato, 32/204 - Praia de Belas
+                                Rua Celeste Gobbato, 32/204 - Praia de Belas                           Porto Alegre / RS
+
                           </p>
-                          <p>
-                          Porto Alegre / RS
-                          </p>
+
                       </div>
                   </li>
 

@@ -3,6 +3,7 @@
 @import "./pages/escritorio";
 @import "./pages/contato";
 @import "./pages/equipe";
+@import "./pages/areas-de-pratica";
 
 body {
     overflow-x: hidden;
@@ -23,12 +24,12 @@ h2 {
     padding: 0;
 }
 
-#parallaxBar {  
+#parallaxBar {
     height: 750px;
     background-color: #004c82;
     background: url(../img/liders.jpg) 50% 0 fixed;
     position: relative;
-    background-attachment: fixed;   
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,21 +62,19 @@ h2 {
         }
 
         h3 {
-            display: -webkit-inline-box;
-            display: -ms-inline-flexbox;
             display: inline-flex;
             font-size: 40px;
             margin: 0;
-            color: #fff; 
+            color: #fff;
             line-height: 40px;
-            padding-bottom: 25px; 
+            padding-bottom: 25px;
             padding-left: 35px;
             font-family: 'Cambria Regular', serif;
-        }  
- 
-        li {  
+        }
+
+        li {
             color: #9e9da0;
-            font-weight: 500; 
+            font-weight: 500;
             font-family: 'Cambria Regular';
             font-size: 16px;
             display: contents;
@@ -83,9 +82,8 @@ h2 {
             padding: 0px 0px 7px 30px;
         }
 
-  
         p {
-            color: #9e9da0;
+            color: #9e9da0 !important;
             font-weight: 700;
             letter-spacing: 2.5px;
             line-height: 18px;
@@ -133,7 +131,7 @@ p {
     background: linear-gradient(to right, rgba(25, 25, 25, 0.4), rgba(25, 25, 25, 0.4)), url(../img/intro.jpg) no-repeat center center fixed;
     background-size: cover;
     padding-top: 65px;
-    
+
     &::before {
         display: block;
         position: absolute;
@@ -267,14 +265,17 @@ p {
 
 .info {
     padding: 75px 0;
+
     p {
         color: #9e9da0;
         font-weight: 500;
         letter-spacing: 0.5px;
     }
+
     .img-fluid {
         max-width: 650px;
-    }  
+    }
+
     .txt-destaque {
         h2 {
             font-size: 30px;
@@ -481,15 +482,11 @@ p {
 
         .icon-carousel {
             margin-bottom: 40px;
-            // left: 70px;
             display: block;
             text-align: center;
         }
 
         .txt-destaque {
-            // right: 300px;
-            // margin-top: 10px;
-            // position: absolute;
 
             h3 {
                 display: inline-flex;
@@ -540,7 +537,6 @@ p {
                 font-family: 'Cambria Regular';
             }
         }
-
     }
 
     .content {
@@ -632,51 +628,5 @@ p {
             margin-bottom: 15px;
             text-align: justify;
         }
-
     }
 }
-
-@media (max-width: 576px) {
-    .navbar-brand img {
-        width: 65%;
-    }
-    .logo { 
-        padding: 0;
-    }
-
-    .info-container {
-        &::before {
-            background: #c8ac48;
-            width: 45px;
-            height: 2px;
-            content: "";
-            display: block;
-            margin: 112px 0px;
-            position: absolute;
-            left: 15px;
-        }
-        .txt-destaque {
-            h3 {
-                padding-left: 55px;
-            }
-            h2 {
-                padding-left: 52px;
-            }
-        }
-
-        .info {
-            padding: 10px 0;
-            .img-fluid {
-                max-width: 350px;
-                padding: 25px 0;
-            }
-        }
-    }
-};
-@media (min-width: 768px) {};
-
-@media (min-width: 992px) {  };
-
-@media (min-width: 1200px) {  };
-
-
