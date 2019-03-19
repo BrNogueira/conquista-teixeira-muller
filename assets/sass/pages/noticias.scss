@@ -7,8 +7,8 @@
 
     .box-news {
         padding: 15px;
-        margin-right: 0;
-        margin-bottom: 25px;
+        margin-right: 0 !important;
+        margin-bottom: 25px !important;
     }
 
     h5 {
@@ -23,6 +23,7 @@
     }
     
     .noticia {
+        padding: 20px;
         .content-noticia {
             margin-top: 25px;
         }

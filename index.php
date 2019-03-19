@@ -145,11 +145,11 @@
                                     </span>
                                     <div class="content-noticia">
                                         <h5>Empresa não pode ser desclassificada de processo licitatório por apresentar proposta com valor abaixo do previsto em Portaria do MPOG</h5>
-                                        <p>A 6ª Turma do Tribunal Regional Federal da 1ª Região (TRF1) manteve a sentença do Juízo da 5ª Vara da Seção Judiciária do Pará que...</p>
+                                        <p>A 6ª Turma do Tribunal Regional Federal da 1ª Região (TRF1) manteve a sentença do Juízo...</p>
                                         <a href="./noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.php" class="ler-mais">LER MAIS</a> 
                                     </div>
                                 </div>
-
+                            </div>
                             <div class="col-md-4 box-news">
                             <a href="./noticias/consumidor-e-condenado-por-ma-fe-apos-contestar-divida-que-realmente-fez.php">
                             <img  class=" img-news img-fluid" src="./assets/img/noticias/consumidor-e-condenado-por-ma-fe-apos-contestar-divida-que-realmente-fez.jpg" ></a> 

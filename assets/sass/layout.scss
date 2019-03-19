@@ -383,7 +383,7 @@ p {
         }
     }
 
-    .leia-mais {
+    .leia-mais { 
         float: right;
     }
 }
@@ -396,7 +396,7 @@ p {
         height: 2px;
         content: "";
         display: block;
-        margin: 60px 25px;
+        margin: 33px 25px;
         position: absolute;
         left: 50px;
     }
@@ -440,8 +440,8 @@ p {
             background: #c8ac48;
             padding: 5px 15px;
             line-height: 21px;
-            top: 10px;
-            left: 30px;
+            top: 20px;
+            left: 25px;
         }
 
         .speech-bubble:after {
@@ -545,30 +545,34 @@ p {
     background: #f7f7f7;
 
     .page {
-        &::before {
-            display: none;
-        }
-
         .txt-destaque {
-            display: block;
+            display: block; 
             color: #c8ac48;
-            font-size: 30px;
+            font-size: 35px;
             margin: 0;
             font-weight: lighter;
             line-height: 15px;
-            padding: 15px 0;
+            padding: 15px 15px;
             font-family: "Playfair Display", serif;
-            margin: 30px 0px 0;
-
+            margin: 55px 40px 0;
+            
             h2 {
-                font-size: 40px;
-                color: #fff;
+                font-size:40px;
+                color: #fff; 
                 padding-top: 10px;
                 font-family: 'Cambria Regular';
             }
+    
+            h3 {
+                display: inline-flex;
+                color: #c8ac48;
+                font-size: 35px;
+                margin: 0;
+                line-height: 15px;
+                font-family: 'Playfair Display', serif;
+            }
         }
     }
-
     .content {
         display: table;
         width: 100%;
@@ -584,7 +588,7 @@ p {
                 background: #c8ac48;
                 padding: 5px 15px;
                 line-height: 21px;
-                top: 360px;
+                top: 330px;
                 right: 440px;
             }
 
@@ -861,7 +865,7 @@ p {
 
         .ler-mais {
             display: inline-block;
-            color: #fff;
+            color: #fff; 
             background-color: #c8ac48;
             font-size: 16px;
             padding: 5px 10px;
@@ -875,6 +879,8 @@ p {
         }
         .box-news {
             margin-top: 15px;
+            border: 0 !important;
+            margin-right: 0 !important;
         }
         .txt-destaque {
             h2 {

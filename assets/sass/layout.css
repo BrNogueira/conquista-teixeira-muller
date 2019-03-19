@@ -388,8 +388,8 @@ p {
 
 .noticias .box-news {
   padding: 15px;
-  border: 1px solid #e5e5e5;
-  margin-right: 15px;
+  margin-right: 0 !important;
+  margin-bottom: 25px !important;
 }
 
 .noticias h5 {
@@ -401,6 +401,10 @@ p {
   color: #9e9da0;
   font-weight: 500;
   max-height: 75px;
+}
+
+.noticias .noticia {
+  padding: 20px;
 }
 
 .noticias .noticia .content-noticia {
@@ -1347,7 +1351,7 @@ p {
   height: 2px;
   content: "";
   display: block;
-  margin: 60px 25px;
+  margin: 33px 25px;
   position: absolute;
   left: 50px;
 }
@@ -1388,8 +1392,8 @@ p {
   background: #c8ac48;
   padding: 5px 15px;
   line-height: 21px;
-  top: 10px;
-  left: 30px;
+  top: 20px;
+  left: 25px;
 }
 
 .noticias .data .speech-bubble:after {
@@ -1487,20 +1491,16 @@ p {
   background: #f7f7f7;
 }
 
-#news-public .page::before {
-  display: none;
-}
-
 #news-public .page .txt-destaque {
   display: block;
   color: #c8ac48;
-  font-size: 30px;
+  font-size: 35px;
   margin: 0;
   font-weight: lighter;
   line-height: 15px;
-  padding: 15px 0;
+  padding: 15px 15px;
   font-family: "Playfair Display", serif;
-  margin: 30px 0px 0;
+  margin: 55px 40px 0;
 }
 
 #news-public .page .txt-destaque h2 {
@@ -1508,6 +1508,17 @@ p {
   color: #fff;
   padding-top: 10px;
   font-family: 'Cambria Regular';
+}
+
+#news-public .page .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 35px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
 }
 
 #news-public .content {
@@ -1527,7 +1538,7 @@ p {
   background: #c8ac48;
   padding: 5px 15px;
   line-height: 21px;
-  top: 360px;
+  top: 330px;
   right: 440px;
 }
 
@@ -1788,6 +1799,8 @@ p {
   }
   .noticias .box-news {
     margin-top: 15px;
+    border: 0 !important;
+    margin-right: 0 !important;
   }
   .noticias .txt-destaque h2 {
     margin: 10px 0;

@@ -9,10 +9,11 @@
 </header>
 
 <section id="news-public">
-    <div class="page">
+<div class="page">
         <div class="container">
             <div class="txt-destaque">
-                <h2>NOTÍCIAS E ARTIGOS</h2>
+                <h3>NOTÍCIAS E ARTIGOS</h3>
+                <h2></h2>
             </div>
         </div> 
     </div>
