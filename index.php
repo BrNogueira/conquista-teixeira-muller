@@ -124,7 +124,7 @@
     <section>
         <div class="noticias-container">
             <div class="noticias">
-                <div class="row">
+                <div class="row mobile-notice">
                     <div class="container">
                         <div class="col-md-12">
                             <div class="txt-destaque">
@@ -192,7 +192,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <!-- <div class="carousel-item">
                 <div class="brief">
                     <img src="./assets/img/banner-brief.jpg" alt="">
                     <div class="carousel-caption">
@@ -209,7 +209,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <a class="carousel-control-prev" href="#carousel-brief" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>

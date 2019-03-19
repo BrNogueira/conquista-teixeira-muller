@@ -195,6 +195,8 @@
 footer .line-top {
   border-top: solid 1px #cfcdd3;
   padding-top: 20px;
+  position: relative;
+  width: 100%;
 }
 
 footer .direitos {
@@ -251,6 +253,34 @@ footer .box-footer .txt-destaque h3 {
 @media (max-width: 764px) {
   footer .col-md-3:nth-child(2) {
     display: none;
+  }
+  footer .box-footer {
+    margin: 25px 0;
+    width: 100%;
+    display: inline-block;
+  }
+  footer .box-footer .txt-destaque::after {
+    width: 40px;
+    height: 2px;
+    background: #c8ac48;
+    margin: 10px 20px;
+    display: block;
+    content: "";
+  }
+  footer .box-footer .txt-destaque h3 {
+    color: #c8ac48;
+    font-size: 20px;
+    padding: 15px 0px;
+    font-weight: 400;
+    margin: 0px 0 0 20px;
+    line-height: 15px;
+    font-family: "Playfair Display", serif;
+  }
+  footer .box-footer p {
+    padding: 0px 20px;
+  }
+  footer .box-footer .redes-sociais {
+    padding: 0 20px;
   }
 }
 
@@ -1541,12 +1571,70 @@ p {
   text-align: justify;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 764px) {
+  .top-nav {
+    height: 65px !important;
+  }
   .navbar-brand img {
     width: 65%;
   }
   .logo {
     padding: 0;
+  }
+  .logo img {
+    width: 85%;
+  }
+  #carousel-fullbanner .carousel-inner .txt-fullbanner::before {
+    background: #c8ac48;
+    width: 40px;
+    height: 2px;
+    content: "";
+    display: block;
+    margin: 60px 10px;
+    position: absolute;
+  }
+  #carousel-fullbanner .carousel-inner .txt-fullbanner h3 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #c8ac48;
+    font-size: 15px;
+    font-weight: lighter;
+    margin-left: 60px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    line-height: 40px;
+    font-family: "Playfair Display", serif;
+  }
+  #carousel-fullbanner .carousel-inner .carousel-caption {
+    position: absolute;
+    right: 18%;
+    top: 8%;
+    left: 6%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+  }
+  #carousel-fullbanner .carousel-inner .carousel-caption h1 {
+    font-size: 1rem;
+  }
+  #carousel-fullbanner .carousel-inner .carousel-caption .leia-mais {
+    color: #fff;
+    background-color: #c8ac48;
+    font-size: 13px;
+    padding: 10px 5px;
+    float: right;
+    margin-top: 0;
+    position: relative;
+    -webkit-transition: 0.8s all;
+    transition: 0.8s all;
+    text-decoration: none;
+    font-family: "Playfair Display", serif;
+    top: -40px;
+    z-index: 99;
+    right: -60px;
   }
   .info-container::before {
     display: none;
@@ -1555,7 +1643,7 @@ p {
     padding: 0;
   }
   .info img {
-    max-width: 360px !important;
+    max-width: 345px !important;
     padding-top: 25px;
     margin-bottom: 15px;
   }
@@ -1588,18 +1676,22 @@ p {
     height: 2px;
     content: "";
     display: block;
-    margin: 34px -50px;
+    margin: 53px -35px;
     position: absolute;
     left: 73px;
   }
-  .pratica-container h3 {
-    margin: 0 60px !important;
-  }
   .pratica-container h2 {
-    margin: 0 60px !important;
+    margin: 10px 40px;
+  }
+  .pratica-container h3 {
+    margin: 15px 0;
   }
   .pratica-container .area-pratica .txt-destaque {
     margin-top: 0;
+    padding: 0 25px;
+  }
+  .pratica-container .area-pratica .txt-destaque h2 {
+    margin: 10px 0;
   }
   .pratica-container .area-pratica .box-not {
     display: inline-block;
@@ -1611,7 +1703,41 @@ p {
   .pratica-container .area-pratica .leia-mais {
     float: none;
     display: inline-block;
-    margin: 0px 110px;
+    margin: 0px 115px;
+  }
+  .noticias-container::before {
+    margin: 93px -5px;
+  }
+  .noticias {
+    background: #fff;
+    margin: 0 15px;
+  }
+  .noticias .mobile-notice {
+    margin: 0;
+  }
+  .noticias .box-news {
+    margin-top: 15px;
+  }
+  .noticias .txt-destaque h2 {
+    margin: 10px 0;
+  }
+  .noticias .txt-destaque h3 {
+    margin: 15px 0;
+  }
+  #carousel-brief .carousel-caption {
+    top: 14px;
+  }
+  #carousel-brief .carousel-caption .icon-carousel {
+    margin-bottom: 20px;
+  }
+  #carousel-brief .carousel-caption .icon-carousel img {
+    width: 25px;
+  }
+  #carousel-brief .carousel-caption h3 {
+    margin: 0;
+  }
+  #carousel-brief .carousel-caption p {
+    font-size: 12px;
   }
 }
 /*# sourceMappingURL=layout.css.map */

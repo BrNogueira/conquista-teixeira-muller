@@ -3,8 +3,10 @@ footer {
     .line-top {
         border-top: solid 1px #cfcdd3;
         padding-top: 20px;
-
+        position: relative;
+        width: 100%;
     }
+
     .direitos {
         color: #9e9da0;
         display: inline;
@@ -60,6 +62,36 @@ footer {
                 display: none;
             }
         }
+        .box-footer {
+            margin: 25px 0;
+            width: 100%;
+            display: inline-block;
 
+            .txt-destaque {
+                &::after {
+                    width: 40px;
+                    height: 2px;
+                    background: #c8ac48;
+                    margin: 10px 20px;
+                    display: block;
+                    content: "";
+                }
+                h3 {
+                    color: #c8ac48;
+                    font-size: 20px;
+                    padding: 15px 0px;
+                    font-weight: 400;
+                    margin: 0px 0 0 20px;
+                    line-height: 15px;
+                    font-family: "Playfair Display", serif;
+                }
+            }
+            p {
+                padding: 0px 20px;
+            }
+            .redes-sociais {
+                padding: 0 20px;
+            }
+        }
     }
 }
