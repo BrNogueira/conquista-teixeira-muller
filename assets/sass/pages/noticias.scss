@@ -1,25 +1,14 @@
 @import "../base/header-pages";
 
-.page {
-    h1 { 
-        display: inline-flex;
-        color: #c8ac48;
-        font-size: 35px;
-        font-weight: lighter;
-        margin-left: 70px;
-        margin-top: 70px;
-        line-height: 15px;
-        font-family: "Playfair Display", serif;
-    }
-}
+
 .noticias {
     background: #f7f7f7;
-    padding: 50px 0px;
+    padding: 25px;
 
     .box-news {
         padding: 15px;
-        border: 1px solid #e5e5e5;
-        margin-right: 15px;
+        margin-right: 0;
+        margin-bottom: 25px;
     }
 
     h5 {
@@ -102,4 +91,56 @@
             transition: 0.8s all;
         }
     }
+}
+@media (max-width: 764px) {
+
+    .top-nav {
+        height: 65px !important;
+    }
+
+    .navbar-brand img {
+        width: 65%;
+    }
+
+    .logo {
+        padding: 0;
+
+        img {
+        width: 85%;
+        }
+    }
+
+
+    .noticias {
+        background: #fff;
+        margin: 0 15px;
+        padding: 25px;
+        
+        .ler-mais {
+            display: inline-block;
+            color: #fff;
+            background-color: #c8ac48;
+            font-size: 16px;
+            padding: 5px 10px;
+            margin-top: 35px;
+            -webkit-transition: 0.8s all;
+            transition: 0.8s all;
+            text-decoration: none;
+        }
+        .mobile-notice {
+            margin: 0;
+        }
+        .box-news {
+            margin-top: 15px;
+        }
+        .txt-destaque {
+            h2 {
+                margin: 10px 0;
+            }
+            h3 {
+                margin: 15px 0;
+            }
+        }
+    }
+
 }

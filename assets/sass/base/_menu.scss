@@ -1,3 +1,4 @@
+
 .top-nav {
   z-index: 999;
   display: flex;
@@ -66,11 +67,11 @@
 
 .menu-button::before {
   content: '';
-  margin-top: -8px;
+  margin-top: -11px;
 }
 .menu-button::after {
   content: '';
-  margin-top: -32px;
+  margin-top: -35px;
 }
 
 @media (max-width: 700px) {
@@ -80,8 +81,8 @@
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 96px;
-    left: 0;
+    margin-top: 67px;
+    left: 0; 
     flex-direction: column;
     width: 100%;
     justify-content: center;

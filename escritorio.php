@@ -16,8 +16,8 @@
         <div class="row">
             <div class="quem-somos">
                 <div class="row">
-                    <div class="col-lg-6 ">
-                        <img class="pic" src="./assets/img/_MG_7811.jpg" alt="">
+                    <div class="col-lg-6 "> 
+                        <img class="pic img-fluid" src="./assets/img/_MG_7811.jpg" alt="">
                     </div>
                     <div class="col-lg-6">
                         <div class="txt-introduction">
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 ">
-                        <img class="pic" src="./assets/img/_MG_7834_comquadro.jpg" alt="">
+                        <img class="pic img-fluid" src="./assets/img/_MG_7833_comquadro.jpg" alt="">
                     </div>    
                 </div>
             <div>
@@ -104,27 +104,6 @@
         </div>
 
     </section>
-    <!-- BOTTON BANNER -->
-    <section id="parallaxBar" data-speed="6" data-type="background">
-        <div class="container-fluid">
-        <div class="row">
-            <div class="txt-parallax">
-            <div class="container">
-                <h2>Aristóteles</h2>
-                <h3>Nós somos o que fazem repetidamente.<br>A exelência, portanto, não é um ato, mas um habito.</h3>
-            </div>
-        </div>
-        </div>
-        </div>
-
-    <!-- <div class="lider">
-
-        <div id=img-lider>
-
-        </div>
-    </div> -->
-    </section>
-
 </main>
 
 <?php include "./includes/footer.php";?>

@@ -1,43 +1,17 @@
-.page {
-    .txt-destaque {
-        display: block;
-        color: #c8ac48;
-        font-size: 30px;
-        margin: 0;
-        font-weight: lighter;
-        line-height: 15px;
-        padding: 15px 15px;
-        font-family: "Playfair Display", serif;
-        margin: 55px 40px 0;
-        
-        h2 {
-            font-size:40px;
-            color: #fff;
-            padding-top: 10px;
-            font-family: 'Cambria Regular';
-        }
 
-        h3 {
-            display: inline-flex;
-            color: #c8ac48;
-            font-size: 35px;
-            margin: 0;
-            line-height: 15px;
-            font-family: 'Playfair Display', serif;
-        }
-    }
-}
 .quem-somos {
     display: block;
-
+    .col-lg-6 {
+        padding-right: 0;
+        padding-left: 0;
+    }
     .pic {
         padding-left: 0;
         padding-right: 0;
-        max-width: 702px;
     }
 
     .txt-destaque {
-        display: block;
+        display: lock;
         color: #c8ac48;
         font-size: 20px;
         margin: 0;
@@ -62,12 +36,13 @@
             line-height: 15px;
             font-family: 'Playfair Display', serif;
         }
-    }
+    } 
     
     .txt-introduction {
         padding-right: 25px;
-        margin: 20px 0;
-        padding:50px 25px;
+        margin: 10px 0;
+        padding: 50px 45px;
+        text-align: justify;
 
         p{
             color: #9e9da0;
@@ -213,5 +188,48 @@
             font-family: 'Playfair Display', serif;
         }
     }
+};
 
-}
+@media (max-width: 764px) {
+
+    .quem-somos {
+        padding: 15px;
+        
+        .txt-introduction {
+            padding: 25px 30px;
+        }
+    }
+    .values {
+        .txt-destaque {
+            margin-top: 25px;
+        }
+    }
+   #parallaxBar {
+        height: 650px;
+        
+        .txt-parallax {
+            &::before {
+                width: 45px !important;
+                
+                h2 {
+                    padding-left: 0 !important;
+                    padding: 15px 55px !important;
+                }
+                h3 {
+                    line-height: 0 !important;
+                    font-size: 14px !important;
+                    
+                }
+            }
+        }
+    
+    }
+};
+
+@media (min-width: 992px) {}
+
+;
+
+@media (min-width: 1200px) {}
+
+;

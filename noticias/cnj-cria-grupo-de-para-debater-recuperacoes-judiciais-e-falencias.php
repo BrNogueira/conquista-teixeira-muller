@@ -23,7 +23,7 @@
                 <h5>CNJ cria grupo de para debater recuperações judiciais e falências</h5>
                         </div>
                 <div class="noticia">
-                    <img class="img-news" src="../assets/img/noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.jpg" alt="CNJ cria grupo de para debater recuperações judiciais e falências">
+                    <img class="img-news img-fluid" src="../assets/img/noticias/cnj-cria-grupo-de-para-debater-recuperacoes-judiciais-e-falencias.jpg" alt="CNJ cria grupo de para debater recuperações judiciais e falências">
                     <span class="data">
                         <div class="speech-bubble">12 Mar</div>
                     </span>

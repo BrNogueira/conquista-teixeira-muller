@@ -50,36 +50,36 @@
             }
         }
     } 
-    .page {
-    .txt-destaque {
-        display: block;
-        color: #c8ac48;
-        font-size: 30px;
-        margin: 0;
-        font-weight: lighter;
-        line-height: 15px;
-        padding: 15px 15px;
-        font-family: "Playfair Display", serif;
-        margin: 55px 40px 0;
-        
-        h2 {
-            font-size:40px;
-            color: #fff;
-            padding-top: 10px;
-            font-family: 'Cambria Regular';
-        }
 
-        h3 {
-            display: inline-flex;
-            color: #c8ac48;
-            font-size: 35px;
-            margin: 0;
-            line-height: 15px;
-            font-family: 'Playfair Display', serif;
-        }
-    }
-}
     .leia-mais {
         float: right;
     }
-}
+};
+
+@media (max-width: 764px) {
+    .content-pratica {
+        .box-not {
+            margin: 0;
+            text-align: center;
+            
+            .icon {
+                padding-right: 0;
+                margin: 25px 0 0;
+                float: none;
+            }
+            h2 {
+                font-size: 16px;
+                margin-left: 90px;
+                &::before {
+                    left: 0;
+                    margin: 20px 35px;
+                }
+                p {
+                    font-size: 16px;
+                    margin: 0 35px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+};

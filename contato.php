@@ -2,11 +2,14 @@
 
 <main>
 <div class="page">
-	<div class="container">
-    	<h1>CONTATO</h1>
+        <div class="container">
+            <div class="txt-destaque">
+                <h3>CONTATO</h3>
+                <h2></h2>
+            </div>
+        </div> 
     </div>
-</div>
-
+<section>
 <div class="contato">
 	<div class="container">    	
         <div class="row">

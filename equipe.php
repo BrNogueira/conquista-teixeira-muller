@@ -56,5 +56,26 @@
             </div>
         </div> -->
     </section>
+    
+     <!-- BOTTON BANNER -->
+     <section id="parallaxBar" data-speed="6" data-type="background">
+        <div class="container-fluid">
+        <div class="row">
+            <div class="txt-parallax">
+            <div class="container">
+                <h3>Atuação estratégica, atenta, precisa e idônea reflete o refinado trabalho desenvolvido pelos sócios.</h3>
+            </div>
+        </div>
+        </div>
+        </div>
+
+     <div class="lider">
+
+        <div id=img-lider>
+
+        </div>
+    </div>
+    </section> 
+
 </main>
 <?php include "./includes/footer.php";?>

@@ -35,13 +35,14 @@
               <div class="redes-sociais">
                 <a href="https://www.facebook.com/teixeiramuller" target="blank"><i class="fab fa-facebook-f"></i></a>
                 <a href="https://www.instagram.com/teixeiramuller/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/company/teixeiramulleradvogados" target="blank"><i class="fab fa-linkedin"></i></a>
             </div>
           </div>
         </div>
       </div>
     <div class="row line-top justify-content-between">
       <div class="col-md-10">
-        <span class="direitos">2018 © Todos os direitos reservados - Teixeira Müller Advogados Associados</span>
+        <span class="direitos">2019 © Todos os direitos reservados - Teixeira Müller Advogados Associados</span>
       </div>
       <div class=" lex">
         <a href="http://lexmarketing.com.br/" target="_blank">

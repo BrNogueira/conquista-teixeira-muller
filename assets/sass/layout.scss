@@ -23,6 +23,35 @@ h2 {
     margin: 0;
     padding: 0;
 }
+.page {
+    .txt-destaque {
+        display: block; 
+        color: #c8ac48;
+        font-size: 35px;
+        margin: 0;
+        font-weight: lighter;
+        line-height: 15px;
+        padding: 15px 15px;
+        font-family: "Playfair Display", serif;
+        margin: 55px 40px 0;
+        
+        h2 {
+            font-size:40px;
+            color: #fff; 
+            padding-top: 10px;
+            font-family: 'Cambria Regular';
+        }
+
+        h3 {
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 35px;
+            margin: 0;
+            line-height: 15px;
+            font-family: 'Playfair Display', serif;
+        }
+    }
+}
 
 #parallaxBar {
     height: 750px;
@@ -44,7 +73,7 @@ h2 {
         opacity: 0.9;
 
         &::before {
-            display: block;
+            display: none;
             position: absolute;
             content: "";
             width: 120px;
@@ -81,8 +110,8 @@ h2 {
             position: relative;
             padding: 0px 0px 7px 30px;
         }
-
-        p {
+ 
+        p {  
             color: #9e9da0 !important;
             font-weight: 700;
             letter-spacing: 2.5px;
@@ -202,13 +231,14 @@ p {
         padding-bottom: 20px;
         color: #fff;
         text-align: left;
-
+ 
         .leia-mais {
+
             display: inline-block;
             color: #fff;
             background-color: #c8ac48;
-            font-size: 20px;
-            padding: 15px 30px;
+            font-size: 16px;
+            padding: 10px 20px;
             margin-top: 60px;
             transition: 0.8s all;
             text-decoration: none;
@@ -627,9 +657,9 @@ p {
             line-height: 180%;
             margin-bottom: 15px;
             text-align: justify;
-        }
-    }
-}
+        }  
+    } 
+}  
 
 @media (max-width: 764px) {
     .top-nav {
@@ -637,6 +667,37 @@ p {
     }
     .navbar-brand img {
         width: 65%;
+    }
+   
+    .page {
+        padding-top: 50px;
+        height: 100px !important;
+
+        &::before {
+            display: block;
+            position: absolute; 
+            content: "";
+            width: 45px !important;
+            height: 2px;
+            margin: 45px 20px;
+            background: #c8ac48; 
+        }
+        .txt-destaque {
+            display: block;
+            color: #c8ac48;
+            margin: 0 !important;
+            padding: 28px 55px 0 !important;
+            font-family: "Playfair Display", serif;
+
+            h3 {
+                display: inline-flex;
+                color: #c8ac48;
+                font-size: 16px !important;
+                margin: 10px 0;
+                line-height: 15px;
+                font-family: 'Playfair Display', serif;
+            }
+        }
     }
 
     .logo {
@@ -703,12 +764,8 @@ p {
                     z-index: 99;
                     right: -60px;
                 }
-                .carousel-item {
-
-                }
             }
         }
-
     }
     .info-container {
         &::before {
@@ -802,6 +859,17 @@ p {
         background: #fff;
         margin: 0 15px;
 
+        .ler-mais {
+            display: inline-block;
+            color: #fff;
+            background-color: #c8ac48;
+            font-size: 16px;
+            padding: 5px 10px;
+            margin-top: 35px;
+            -webkit-transition: 0.8s all;
+            transition: 0.8s all;
+            text-decoration: none;
+        }
         .mobile-notice {
             margin: 0;
         }
@@ -837,7 +905,7 @@ p {
         }
     }
 }
-
+ 
     @media (min-width: 992px) {}
 
     ;
