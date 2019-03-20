@@ -3,18 +3,17 @@
 @import "./pages/escritorio";
 @import "./pages/contato";
 @import "./pages/equipe";
-@import "./pages/areas-de-pratica";
+@import "./pages/areas-de-pratica"; 
 
 body {
     overflow-x: hidden;
     box-sizing: border-box;
 }
-
 h2 {
     font-size: 30px;
     margin-bottom: 45px;
     font-family: 'Cambria Regular';
-}
+} 
 
 *,
 *::before,

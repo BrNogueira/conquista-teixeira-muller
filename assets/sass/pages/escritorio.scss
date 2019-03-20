@@ -83,6 +83,7 @@
         padding-bottom: 50px;
         background-color: #f7f7f7;
 
+
         p{
             color: #9e9da0;
             font-weight: 500;
@@ -91,7 +92,7 @@
         }
 
         ul {
-            text-align: center;
+            text-align: center; 
 
             li {
                 color: #9e9da0;
@@ -102,8 +103,12 @@
                 display: contents;
                 padding: 0px 0px 7px 0px;
             }
+        } 
+        .values-work { 
+            .img-values {
+                width: 40%;
+            }
         }
-
         .box-not {
             margin: 25px 0px;
         }

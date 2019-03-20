@@ -54,7 +54,7 @@
                             <div class="txt-destaque">
                                 <h3>DIFERENCIAL</h3>
                             </div>
-                            <div class="col-md-11">
+                            <div class="col-md-12">
                                 <div class="box-not row">
                                     <div class="row">
                                         <p>A sociedade é formada por profissionais que detém expertise nas áreas em que atuam. O trabalho desempenhado pelos advogados que compõem o escritório pode ser comparado com a atividade de um artesão, pois ‘arte’ nada mais é do que o desenvolvimento de uma especialidade com as próprias mãos. Este é o principal diferencial desta sociedade advocatícia. A atuação dos sócios é íntima com os assuntos que lhe são confiados.</p>
@@ -67,7 +67,7 @@
                             <div class="txt-destaque">
                                 <h3>MISSÃO</h3>
                             </div>
-                            <div class="col-md-11">
+                            <div class="col-md-12">
                                 <div class="box-not row">
                                     <div class="row">
                                         <p>Figurar como uma sociedade de advogados de excelência nos seguimentos Cível, Trabalhista e Societário (corporativo e individual), reconhecida pelo trabalho prestado de forma especializada, pautado na efetividade, bem como pela envoltura diferenciada com seus clientes. Ser reconhecido como um escritório de soluções seguras, inteligentes e satisfatórias dadas aos casos que lhe são confiados.</p>
@@ -79,21 +79,19 @@
                             <div class="txt-destaque">
                                 <h3>VALORES</h3>
                             </div>
-                            <div class="col-md-11">
+                            <div class="col-md-12">
                                 <div class="box-not row">
-                                    <div class="row">
-                                    <ul>
-                                        <li> Excelência;</li>
-                                        <li> Dedicação;</li>
-                                        <li> Acessibilidade;</li>
-                                        <li> Ética;</li>
-                                        <li> Transparência;</li>
-                                        <li> Pessoalidade;</li>
-                                        <li> Estratégia;</li>
-                                        <li> Proatividade;</li>
-                                        <li> Eficiência;</li>
-                                        <li> Intimidade com a causa; </li>
-                                    </ul>
+                                    <div class="row values-work">
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/exelency-escritorio.png" alt=""> <br>Excelência</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/dedicacao-escritorio.png" alt=""> <br>Dedicação</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/acessibilidade.png" alt=""> <br>Acessibilidade</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/honesty.png" alt=""> <br> Ética</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/transparencia.png" alt=""> <br>Transparência</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/pessoalidade.png" alt=""> <br>Pessoalidade</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/estrategia.png" alt=""> <br>Estratégia</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/proatividade.png" alt=""> <br>Proatividade</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/mission.png" alt=""> <br>Eficiência</p>
+                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/intimidade.png" alt=""> <br>Intimidade com a causa </p>
                                     </div>
                                 </div>
                             </div>

@@ -26,7 +26,7 @@
                                     </span>
                                     <div class="content-noticia">
                                         <h5>Empresa não pode ser desclassificada de processo licitatório por apresentar proposta com valor abaixo do previsto em Portaria do MPOG</h5>
-                                        <p>A 6ª Turma do Tribunal Regional Federal da...</p>
+                                        <p>A 6ª Turma do Tribunal Regional...</p>
                                         <a href="./noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.php" class="ler-mais">LER MAIS</a> 
                                     </div>
                                 </div>

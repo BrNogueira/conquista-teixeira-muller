@@ -12,19 +12,19 @@
                         <div class="col-md-9"> 
                             <h1>Nós somos o que fazem repetidamente.<br>A exelência, portanto, não é um ato, mas um habito.</h1>
                         </div>
-                        <a href="#" class="leia-mais">LEIA MAIS</a> 
+                        <a href="equipe.php" class="leia-mais">LEIA MAIS</a> 
                     </div>
                 </div>
             <div class="carousel-item">
-                <img class="d-block w-100"img-fluid src="./assets/img/fullbanner.png" alt="Second slide">
+                <img class="d-block w-100"img-fluid src="./assets/img/_MG_7834_comquadro.jpg" alt="Second slide">
                 <div class="carousel-caption">
                     <div class="txt-fullbanner">
-                        <h3>Camila Lustosa,<br> Sócia-diretora da Santo de Casa Endomarketing  </h3>
+                    <h3>Teixeira Müller Advogados Associados</h3>
                     </div>
                     <div class="col-md-9"> 
-                        <h1>"Trabalhamos hoje com complexidades <br> tais que exigem parceiros com inteligência, agilidade e efetividade...</h1>
+                        <h1>Atuação estratégica, atenta, precisa e idônea.</h1>
                     </div>
-                    <a href="#" class="leia-mais">LEIA MAIS</a> 
+                    <a href="escritorio.php" class="leia-mais">LEIA MAIS</a> 
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carousel-fullbanner" role="button" data-slide="prev">
@@ -145,7 +145,7 @@
                                     </span>
                                     <div class="content-noticia">
                                         <h5>Empresa não pode ser desclassificada de processo licitatório por apresentar proposta com valor abaixo do previsto em Portaria do MPOG</h5>
-                                        <p>A 6ª Turma do Tribunal Regional Federal da 1ª Região (TRF1) manteve a sentença do Juízo...</p>
+                                        <p>A 6ª Turma do Tribunal Regional Feder...</p>
                                         <a href="./noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.php" class="ler-mais">LER MAIS</a> 
                                     </div>
                                 </div>
@@ -198,10 +198,10 @@
                         </div>
                         <div class="col-md-12"> 
                             <div class="brief-content">
-                                <p>“Há 12 anos sou cliente da Teixeira Muller. Quando precisamos de advogado, raramente é por bons motivos, por isso é tão importante contar com alguém que tenha empatia para compreender seus problemas e assumi-los como se fossem seus, ou seja, antes mesmo dos serviços jurídicos entrarem em cena, considero importante uma atitude de parceria autêntica: só assim é possível confiar que todos os esforços para obter êxito serão empreendidos. Dra. Vanessa, sem dúvida, é esta profissional! Uma mulher admirável e uma advogada que usa o coração e a mente afiada para brigar a seu lado pelo que é justo”.</p>
+                                <p>"Trabalhamos hoje com complexidades tais que exigem parceiros com inteligência, agilidade e efetividade. E foi assim que a <strong>Teixeira Muller desenvolveu uma parceria de longa data conosco</strong>, nos orientando e apoiando em todos os processos relativos às questões legais da agência/consultoria há 10 anos. Tanto tempo de parceria com uma empresa como a nossa, que vende e valoriza qualidade e resultados, quer dizer alguma coisa!".</p>
                             </div>
                             <div class="txt-destaque">
-                                <h3>Daniel Costa, empresário e escritor</h3> 
+                                <h3>Camila Lustosa, Sócia-diretora da Santo de Casa Endomarketing  </h3> 
                             </div>
                         </div>
                     </div>
@@ -219,7 +219,7 @@
                                 <p>“Há 12 anos sou cliente da Teixeira Muller. Quando precisamos de advogado, raramente é por bons motivos, por isso é tão importante contar com alguém que tenha empatia para compreender seus problemas e assumi-los como se fossem seus, ou seja, antes mesmo dos serviços jurídicos entrarem em cena, considero importante uma atitude de parceria autêntica: só assim é possível confiar que todos os esforços para obter êxito serão empreendidos. Dra. Vanessa, sem dúvida, é esta profissional! Uma mulher admirável e uma advogada que usa o coração e a mente afiada para brigar a seu lado pelo que é justo”.</p>
                             </div>
                             <div class="txt-destaque">
-                                <h3>Camila Lustosa,<br> Sócia-diretora da Santo de Casa Endomarketing  </h3> 
+                                <h3> Daniel Costa, empresário e escritor.</h3> 
                             </div>
                         </div>
                     </div>

@@ -632,6 +632,10 @@ p {
   padding: 0px 0px 7px 0px;
 }
 
+.values .values-descritions .values-work .img-values {
+  width: 40%;
+}
+
 .values .values-descritions .box-not {
   margin: 25px 0px;
 }
@@ -744,7 +748,7 @@ p {
 }
 
 .contato {
-  margin: 50px;
+  margin: 50px 0 100px;
 }
 
 .contato input {
