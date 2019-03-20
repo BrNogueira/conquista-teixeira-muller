@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>>Cadastro Empresas Associadas</title>
-</head>
+</head><
 
 <body>
 <script src='https://www.google.com/recaptcha/api.js'></script>
@@ -44,18 +44,18 @@ $estado1 = utf8_decode($estado);
 /* Destinat&aacute;rio */
 	/*
 	*/
-$subject = "Cadastro Empresas Associadas";
+$subject = "Contato do site";
 
 /* mensagem */
 $message = "
 <html>
 <meta http-equiv='Content-Type' content='text/html; charset=iso-8859-1' />
 <head>
- <title>Cadastro Empresas Associadas</title>
+ <title>Contato do site</title>
 </head>
 <body><font face='arial' size='2'>
 __________________________________________________<br><br>
-<b>Cadastro Empresas Associadas</b><br>
+<b>Contato do site</b><br>
 <br>
 <b>Nome:</b> $nome1<br>
 <b>E-mail:</b> <a href=\"mailto:$email\">$email</a><br>
@@ -64,7 +64,6 @@ __________________________________________________<br><br>
 <b>CNPJ:</b> $cnpj<br>
 <b>Endere&ccedil;o:</b> $endereco1<br>
 <b>Cidade:</b> $cidade1<br>
-<b>Estado:</b> $estado1<br>
 <b>CEP:</b> $cep<br>
 <b>Telefone:</b> $telefone<br>
 
@@ -81,24 +80,27 @@ include_once ('class.phpmailer.php');
 $mail = new PHPMailer;
 
 // Now you only need to add the necessary stuff
-$mail->From = "dennis@conquistacom.com";
-$mail->Sender = "dennis@conquistacom.com";
+$mail->From = "contato@teixeiramuller.com.br";
+$mail->Sender = "contato@teixeiramuller.com.br";
 $mail->AddReplyTo("$email", "$nome1");
 $mail->FromName = "$nome1";
-$mail->AddAddress("abtb@abtb.com.br");
 $mail->AddAddress("dennis@conquistacom.com");
-$mail->AddAddress("nubia.regionalsul@abtb.com.br");
-$mail->Subject = "Cadastro Empresas Associadas";
+// $mail->AddAddress("contato@teixeiramuller.com.br");
+$mail->Subject = "Contato do site";
 $mail->IsHTML(true);
 $mail->Body = $message;
+
 //$mail->AddAttachment($_FILES['curriculo']['tmp_name'], $_FILES['curriculo']['name']); // optional name
 
-if (!$captcha_data) {
-    echo "<script>alert('Por favor, confirme o captcha.');</script>";
-	echo"<script>window.location.replace('http://abtb.com.br/cadastro-pj.php');</script>";
-    exit;
-}
-$resposta = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Lc3JmYUAAAAAKFD0PZKMDXyII7i8bXDNfW5d9CH&response=".$captcha_data."&remoteip=".$_SERVER['REMOTE_ADDR']);
+// if (!$captcha_data) {
+//     echo "<script>alert('Por favor, confirme o captcha.');</script>";
+
+//     // fazer replace pagina de contato
+//     echo"<script>window.location.replace('http://abtb.com.br/cadastro-pj.php');</script>";
+    
+//     exit;
+// }
+// $resposta = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Lc3JmYUAAAAAKFD0PZKMDXyII7i8bXDNfW5d9CH&response=".$captcha_data."&remoteip=".$_SERVER['REMOTE_ADDR']);
  
  
 if ($resposta.success) {

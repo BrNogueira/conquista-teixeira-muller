@@ -1,5 +1,7 @@
 <?php include "./includes/header.php";?>
 
+<?php require "./assets/js/class.contato-script.php";?>
+
 <main>
 <div class="page">
         <div class="container">
@@ -15,7 +17,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2>Envie sua Mensagem</h2>
-                <form class="contact-form" action="http://www.conquistacom.com/feltes/includes/contato-script.php" method="post">
+                <form class="contact-form" action="./assets/js/contato-script.php" method="post">
                 <div class="row">
                         <div class="col-lg-6">
                             <div class="form-field">

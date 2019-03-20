@@ -16,7 +16,7 @@
                     </div>
                 </div>
             <div class="carousel-item">
-                <img class="d-block w-100"img-fluid src="./assets/img/_MG_7834_comquadro.jpg" alt="Second slide">
+                <img class="d-block w-100"img-fluid src="./assets/img/fullbanner2.png" alt="Second slide">
                 <div class="carousel-caption">
                     <div class="txt-fullbanner">
                     <h3>Teixeira Müller Advogados Associados</h3>
