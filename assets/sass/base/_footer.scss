@@ -29,9 +29,13 @@ footer {
             font-family: 'Cambria Regular';
         }
         .redes-sociais .fab {
-            padding: 8px;
+            padding:0 8px;
             font-size: 22px;
-            color: #000;
+            color: #636363;
+            &:hover {
+                color: #c8ac48;
+            }
+
         }
         
         .txt-destaque {

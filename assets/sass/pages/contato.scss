@@ -75,4 +75,17 @@
             line-height: 1;
         }
     }
+};
+
+@media (max-width: 764px) {
+    .contato {
+        margin:50px 0;
+
+        .mobile-button {
+            width: 100%;
+            text-align: center;
+            margin-top: 0;
+            margin: 25px;
+        }
+    }
 }

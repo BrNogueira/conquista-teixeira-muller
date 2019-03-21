@@ -49,7 +49,7 @@
                 left: 73px;
             }
         }
-    } 
+    }  
 
     .leia-mais {
         float: right;
@@ -60,19 +60,23 @@
     .content-pratica {
         .box-not {
             margin: 0;
-            text-align: center;
+            padding: 0px 15px;
+            text-align: justify;
             
             .icon {
                 padding-right: 0;
-                margin: 25px 0 0;
-                float: none;
+                margin: 7px 0 0px;
+                float: left;
+                left: -10px;
+                position: relative;
+            
             }
             h2 {
                 font-size: 16px;
-                margin-left: 90px;
+                margin-left: 0;
                 &::before {
                     left: 0;
-                    margin: 20px 35px;
+                    margin: 40px 80px;
                 }
                 p {
                     font-size: 16px;

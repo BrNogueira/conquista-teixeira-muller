@@ -225,9 +225,13 @@ footer .box-footer p {
 }
 
 footer .box-footer .redes-sociais .fab {
-  padding: 8px;
+  padding: 0 8px;
   font-size: 22px;
-  color: #000;
+  color: #636363;
+}
+
+footer .box-footer .redes-sociais .fab:hover {
+  color: #c8ac48;
 }
 
 footer .box-footer .txt-destaque {
@@ -739,6 +743,7 @@ p {
 
 #values .values-work {
   text-align: left;
+  margin: 30px 0 0;
 }
 
 #values .values-work .img-values {
@@ -747,7 +752,8 @@ p {
 }
 
 #values .values-work .img-values-bottom {
-  width: 25%;
+  width: 15%;
+  margin: 0 10px;
 }
 
 #values .values-work .img-values-bottom p {
@@ -852,8 +858,21 @@ p {
   .quem-somos .txt-introduction {
     padding: 25px 30px;
   }
-  .values .txt-destaque {
+  #values {
     margin-top: 25px;
+  }
+  #values .value-top::before {
+    margin: 72px 55px;
+    left: 60px;
+  }
+  #values .value-top::after {
+    right: 50px;
+  }
+  #values .value-top .icon-value-top {
+    width: 15%;
+  }
+  #values .value-top .box-not {
+    margin: 25px 15px 0 15px;
   }
   #parallaxBar {
     height: 650px;
@@ -957,6 +976,18 @@ p {
   line-height: 1;
 }
 
+@media (max-width: 764px) {
+  .contato {
+    margin: 50px 0;
+  }
+  .contato .mobile-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin: 25px;
+  }
+}
+
 .equipe {
   padding: 25px;
 }
@@ -1007,6 +1038,17 @@ p {
   color: #9e9da0;
   font-weight: 500;
   letter-spacing: 0.5px;
+}
+
+@media (max-width: 764px) {
+  .equipe .box-team h4 {
+    line-height: 25px;
+    margin-left: 0;
+  }
+  .equipe .box-team h4::before {
+    margin: 9px -35px;
+    width: 30px;
+  }
 }
 
 .content-pratica {
@@ -1072,20 +1114,23 @@ p {
 @media (max-width: 764px) {
   .content-pratica .box-not {
     margin: 0;
-    text-align: center;
+    padding: 0px 15px;
+    text-align: justify;
   }
   .content-pratica .box-not .icon {
     padding-right: 0;
-    margin: 25px 0 0;
-    float: none;
+    margin: 7px 0 0px;
+    float: left;
+    left: -10px;
+    position: relative;
   }
   .content-pratica .box-not h2 {
     font-size: 16px;
-    margin-left: 90px;
+    margin-left: 0;
   }
   .content-pratica .box-not h2::before {
     left: 0;
-    margin: 20px 35px;
+    margin: 40px 80px;
   }
   .content-pratica .box-not h2 p {
     font-size: 16px;
@@ -1244,6 +1289,11 @@ p {
   font-weight: 500;
   letter-spacing: 0.5px;
   font-family: 'Cambria Regular';
+}
+
+.txt-destaque {
+  text-align: left;
+  margin: 0;
 }
 
 .page {
@@ -1483,11 +1533,11 @@ p {
 
 .noticias-container::before {
   background: #c8ac48;
-  width: 50px;
+  width: 45px;
   height: 2px;
   content: "";
   display: block;
-  margin: 8px -35px;
+  margin: 30px 10px;
   position: absolute;
   left: 50px;
 }
@@ -1881,14 +1931,7 @@ p {
     margin-bottom: 20px !important;
   }
   .pratica-container::before {
-    background: #c8ac48;
-    width: 45px;
-    height: 2px;
-    content: "";
-    display: block;
-    margin: 53px -35px;
-    position: absolute;
-    left: 73px;
+    margin: 33px -35px;
   }
   .pratica-container h2 {
     margin: 10px 40px;
@@ -1898,7 +1941,7 @@ p {
   }
   .pratica-container .area-pratica .txt-destaque {
     margin-top: 0;
-    padding: 0 25px;
+    padding: 0 30px 0 80px;
   }
   .pratica-container .area-pratica .txt-destaque h2 {
     margin: 10px 0;
@@ -1916,7 +1959,7 @@ p {
     margin: 0px 115px;
   }
   .noticias-container::before {
-    margin: 93px -5px;
+    margin: 50px -35px;
   }
   .noticias {
     background: #fff;
@@ -1961,6 +2004,25 @@ p {
   }
   #carousel-brief .carousel-caption p {
     font-size: 12px;
+  }
+  #parallaxBar {
+    height: 190px;
+  }
+  #parallaxBar .txt-parallax {
+    left: 20px;
+    bottom: 10px;
+  }
+  #parallaxBar .txt-parallax h3 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    font-size: 16px;
+    margin: 0;
+    color: #fff;
+    line-height: 20px;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-family: 'Cambria Regular', serif;
   }
 }
 /*# sourceMappingURL=layout.css.map */

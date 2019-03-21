@@ -49,4 +49,15 @@
   font-weight: 500;
   letter-spacing: 0.5px;
 }
+
+@media (max-width: 764px) {
+  .equipe .box-team h4 {
+    line-height: 25px;
+    margin-left: 0;
+  }
+  .equipe .box-team h4::before {
+    margin: 9px -35px;
+    width: 30px;
+  }
+}
 /*# sourceMappingURL=equipe.css.map */

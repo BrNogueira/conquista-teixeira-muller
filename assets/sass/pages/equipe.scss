@@ -45,4 +45,18 @@
             letter-spacing: 0.5px;
         }
     }
+};
+@media (max-width: 764px) {
+    .equipe {
+        .box-team {
+            h4 {
+                line-height: 25px;
+                margin-left: 0;
+                &::before {
+                    margin: 9px -35px;
+                    width: 30px;
+                }
+            }
+        }
+    }
 }

@@ -150,7 +150,10 @@ p {
     letter-spacing: 0.5px;
     font-family: 'Cambria Regular';
 }
-
+.txt-destaque {
+    text-align: left;
+    margin: 0;
+}
 .page {
     display: table;
     position: relative;
@@ -306,6 +309,7 @@ p {
     }
 
     .txt-destaque {
+
         h2 {
             font-size: 30px;
             margin-bottom: 45px;
@@ -346,7 +350,7 @@ p {
         padding-top: 10px;
         font-family: 'Cambria Regular';
     }
-
+ 
     p {
         color: #9e9da0;
         font-weight: 500;
@@ -391,11 +395,11 @@ p {
 
     &::before { 
         background: #c8ac48;   
-        width: 50px; 
+        width: 45px; 
         height: 2px;
         content: "";
         display: block;
-        margin: 8px -35px;
+        margin: 30px 10px;
         position: absolute;
         left: 50px;
     }
@@ -408,7 +412,7 @@ p {
     h5 {
         color: #636363;
         font-family: 'Playfair Display', serif;
-    } 
+    }  
  
     p { 
         color: #9e9da0; 
@@ -421,7 +425,7 @@ p {
     }
 
     .noticia {
-        .content-noticia {
+        .content-noticia { 
             margin-top: 25px;
 
         }
@@ -537,7 +541,7 @@ p {
         }
     }
 }
-
+  
 // noticias 
 
 #news-public {
@@ -657,12 +661,12 @@ p {
             font-weight: 400;
             font-size: 17px;
             color: #9e9da0;
-            line-height: 180%;
+            line-height: 180%; 
             margin-bottom: 15px;
             text-align: justify;
         }  
-    } 
-}  
+    }  
+}   
 
 @media (max-width: 764px) {
     .top-nav {
@@ -813,14 +817,7 @@ p {
 
     .pratica-container {
         &::before {
-            background: #c8ac48;
-            width: 45px;
-            height: 2px;
-            content: "";
-            display: block;
-            margin: 53px -35px;
-            position: absolute;
-            left: 73px;
+            margin: 33px -35px;
         }
         h2 {
             margin: 10px 40px;
@@ -832,7 +829,7 @@ p {
         .area-pratica {
             .txt-destaque {
                 margin-top: 0;
-                padding: 0 25px;
+                padding: 0 30px 0 80px;
                 h2 {
                     margin: 10px 0;
                 }
@@ -849,12 +846,12 @@ p {
                 display: inline-block;
                 margin: 0px 115px;
             }
-        }
+        } 
     }
 
     .noticias-container {
         &::before {
-            margin: 93px -5px;
+            margin: 50px -35px;
         }
     }
     
@@ -906,6 +903,27 @@ p {
             }
             p {
                 font-size: 12px;
+            }
+        }
+    }
+    #parallaxBar {
+        height: 190px;
+
+        .txt-parallax {
+            left: 20px;
+            bottom: 10px;
+            
+            h3 {
+                display: -webkit-inline-box;
+                display: -ms-inline-flexbox;
+                display: inline-flex;
+                font-size: 16px;
+                margin: 0;
+                color: #fff;
+                line-height: 20px;
+                padding-bottom: 0;
+                padding-left: 0;
+                font-family: 'Cambria Regular', serif;
             }
         }
     }

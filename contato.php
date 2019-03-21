@@ -1,7 +1,5 @@
 <?php include "./includes/header.php";?>
 
-<?php require "./assets/js/class.contato-script.php";?>
-
 <main>
 <div class="page">
         <div class="container">
@@ -17,7 +15,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h2>Envie sua Mensagem</h2>
-                <form class="contact-form" action="./assets/js/contato-script.php" method="post">
+                <form class="contact-form" action="includes/contato-script.php" method="post">
                 <div class="row">
                         <div class="col-lg-6">
                             <div class="form-field">
@@ -37,7 +35,7 @@
                         </div>
                 </div>   
                 <div class="row">     
-                        <div class="col-lg-12 mt-30">
+                        <div class="col-lg-12 mt-30 mobile-button">
                             <button class="btn-text" type="submit" id="submit" name="button">
                                 Enviar Mensagem
                             </button>
