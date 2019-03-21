@@ -14,32 +14,38 @@
 
     <section>
         <div class="row">
+            <div class="container">
             <div class="quem-somos">
                 <div class="row">
-                    <div class="col-lg-6 "> 
-                        <img class="pic img-fluid" src="./assets/img/_MG_7811.jpg" alt="">
-                    </div>
                     <div class="col-lg-6">
+                    <div class="txt-destaque">
+                    <h3>SOBRE NÓS</h3>
+                    </div>
                         <div class="txt-introduction">
                             <p>Fundado em 2006 e situado no Polo Jurídico da cidade de Porto Alegre, com localização estratégica, o Escritório Teixeira Müller Advogados Associados é um atelier jurídico de referência na advocacia consultiva e contenciosa.</p>
                             <p>Composto por uma equipe de profissionais especializados tanto em assuntos corporativos como individuais, a sociedade advocatícia tem como principal  predicado a imersão no contexto apresentado pelo cliente, sempre mediante a prévia investigação dos seus valores e premissas. </p>
                             <p>A atuação estratégica, atenta, precisa e idônea reflete o refinado trabalho desenvolvido por seus sócios, sempre antecedido do atendimento pautado na pessoalidade.</p>
                         </div>
                     </div>
+                    <div class="col-lg-6 "> 
+                        <img class="pic1 img-fluid" src="./assets/img/_MG_7811_cut.jpg" alt="">
+                    </div>
                 </div>
                 
                 <div class="row">
+                <div class="col-lg-6 ">
+                        <img class="pic2 img-fluid" src="./assets/img/caderias.png" alt="">
+                    </div>    
                     <div class="col-lg-6">
-                        <div class="txt-introduction">
+                        <div class="txt-introduction2">
                             <p>Atuante especialmente nas áreas Cível, Trabalhista, Societária e Tributária, o Escritório Teixeira Müller Advogados Associados representa a melhor opção para o cliente que busca confiança, credibilidade e tranquilidade no tratamento de suas demandas.</p>
                             <p>O trabalho realizado pelo escritório remete a uma criação artesanal, meticulosa, projetada cuidadosamente para soluções precisas, resultado de um ofício pautado na especialidade e dedicação. São engrenagens e mecanismos intimamente combinados, cada qual com sua específica finalidade, que denotam a unicidade e o valor da atuação da equipe. </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 ">
-                        <img class="pic img-fluid" src="./assets/img/_MG_7833_comquadro.jpg" alt="">
-                    </div>    
+
                 </div>
             <div>
+            </div>
         </div>
     </section>
 
@@ -50,6 +56,9 @@
             <div class="values-descritions">
                 <div class="row">
                     <div class="container">
+                        <div class="col-lg-12 value-top">
+                            <img class="icon-value-top" src="./assets/img/icons/law_3709.png" alt="">
+                        </div>
                         <div class="col-md-12">
                             <div class="txt-destaque">
                                 <h3>DIFERENCIAL</h3>
@@ -81,17 +90,19 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="box-not row">
-                                    <div class="row values-work">
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/exelency-escritorio.png" alt=""> <br>Excelência</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/dedicacao-escritorio.png" alt=""> <br>Dedicação</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/acessibilidade.png" alt=""> <br>Acessibilidade</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/honesty.png" alt=""> <br> Ética</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/transparencia.png" alt=""> <br>Transparência</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/pessoalidade.png" alt=""> <br>Pessoalidade</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/estrategia.png" alt=""> <br>Estratégia</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/proatividade.png" alt=""> <br>Proatividade</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/mission.png" alt=""> <br>Eficiência</p>
-                                        <p class="col-sm-3"><img class="img-values" src="./assets/img/icons/intimidade.png" alt=""> <br>Intimidade com a causa </p>
+                                    <div class="values-descritions-bottom">
+                                        <div class="row values-work ">
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/exelency-escritorio.png" alt=""> Excelência</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/dedicacao-escritorio.png" alt=""> Dedicação</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/honesty.png" alt="">  Ética</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/estrategia.png" alt=""> Estratégia</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/pessoalidade.png" alt=""> Pessoalidade</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/proatividade.png" alt=""> Proatividade</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/mission.png" alt=""> Eficiência</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/transparencia.png" alt=""> Transparência</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/acessibilidade.png" alt=""> Acessibilidade</p>
+                                            <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/intimidade.png" alt=""> Intimidade com a causa </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

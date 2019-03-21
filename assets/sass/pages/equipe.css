@@ -9,6 +9,14 @@
   background: #f7f7f7;
 }
 
+.equipe .box-team .img-fluid:hover {
+  background-image: url(../../img/equipe/vitor-grey.png);
+}
+
+.equipe .box-team .img-equipe:hover {
+  display: block;
+}
+
 .equipe .box-team h4 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;

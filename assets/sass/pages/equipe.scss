@@ -5,6 +5,17 @@
         box-shadow: 0px 0px 1px 0 rgb(177, 177, 177);
         padding: 25px; 
         background: #f7f7f7;
+
+        .img-fluid {
+            &:hover {
+                background-image: url(../../img/equipe/vitor-grey.png);
+            }
+        }
+        .img-equipe {
+            &:hover {
+                display: block;
+            }
+        }
         h4 {
             display: inline-flex;
             color: #c8ac48;

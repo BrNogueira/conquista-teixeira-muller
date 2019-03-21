@@ -230,6 +230,10 @@ footer .box-footer .redes-sociais .fab {
   color: #000;
 }
 
+footer .box-footer .txt-destaque {
+  margin: 0;
+}
+
 footer .box-footer .txt-destaque::after {
   width: 40px;
   height: 2px;
@@ -530,13 +534,19 @@ p {
   padding-left: 0;
 }
 
-.quem-somos .pic {
+.quem-somos .pic1 {
+  margin-top: 25px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.quem-somos .pic2 {
   padding-left: 0;
   padding-right: 0;
 }
 
 .quem-somos .txt-destaque {
-  display: lock;
+  display: block;
   color: #c8ac48;
   font-size: 20px;
   margin: 0;
@@ -544,6 +554,16 @@ p {
   line-height: 15px;
   padding: 15px 15px;
   font-family: "Playfair Display", serif;
+}
+
+.quem-somos .txt-destaque::before {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 18px -30px;
+  position: absolute;
 }
 
 .quem-somos .txt-destaque h2 {
@@ -559,23 +579,36 @@ p {
   display: inline-flex;
   color: #c8ac48;
   font-size: 20px;
-  margin: 0;
+  margin: 10px 25px 0;
   line-height: 15px;
   font-family: 'Playfair Display', serif;
 }
 
 .quem-somos .txt-introduction {
-  padding-right: 25px;
-  margin: 10px 0;
-  padding: 50px 45px;
+  margin: 0;
+  padding: 10px 40px;
   text-align: justify;
 }
 
 .quem-somos .txt-introduction p {
   color: #9e9da0;
   font-weight: 500;
-  letter-spacing: 0.5px;
-  line-height: 18px;
+  letter-spacing: 0.9px;
+  line-height: 25px;
+  font-family: 'Cambria Regular';
+}
+
+.quem-somos .txt-introduction2 {
+  margin: 0;
+  padding: 100px 40px;
+  text-align: justify;
+}
+
+.quem-somos .txt-introduction2 p {
+  color: #9e9da0;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  line-height: 25px;
   font-family: 'Cambria Regular';
 }
 
@@ -605,43 +638,20 @@ p {
   text-align: center;
 }
 
-.values .values-descritions {
-  margin: auto;
-  padding-bottom: 50px;
-  background-color: #f7f7f7;
-}
-
-.values .values-descritions p {
-  color: #9e9da0;
-  font-weight: 500;
-  font-family: 'Cambria Regular';
-  font-size: 16px;
-}
-
-.values .values-descritions ul {
-  text-align: center;
-}
-
-.values .values-descritions ul li {
-  color: #9e9da0;
-  font-weight: 500;
-  font-family: 'Cambria Regular';
-  font-size: 16px;
-  position: relative;
-  display: contents;
-  padding: 0px 0px 7px 0px;
-}
-
-.values .values-descritions .values-work .img-values {
-  width: 40%;
-}
-
-.values .values-descritions .box-not {
-  margin: 25px 0px;
-}
-
 .values .txt-destaque {
-  margin-top: 100px;
+  text-align: left;
+  margin: 50px 50px 0;
+}
+
+.values .txt-destaque::before {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 8px -45px;
+  position: absolute;
+  left: 50px;
 }
 
 .values .txt-destaque h3 {
@@ -673,6 +683,130 @@ p {
 }
 
 .values .txt-destaque p {
+  color: #9e9da0;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  line-height: 18px;
+  font-family: 'Cambria Regular';
+}
+
+.values .value-top::before {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 99px 50px;
+  position: absolute;
+  left: 410px;
+}
+
+.values .value-top::after {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: -2px 43px;
+  position: absolute;
+  right: 380px;
+}
+
+.values .value-top .icon-value-top {
+  width: 7%;
+  margin: 25px 0 0;
+}
+
+.values .values-descritions {
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+.values .values-descritions p {
+  color: #9e9da0;
+  letter-spacing: 0.9px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 16px;
+}
+
+.values .values-descritions-bottom {
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+.values .values-descritions-bottom p {
+  color: #9e9da0;
+  letter-spacing: 0.9px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 20px;
+}
+
+.values .values-work {
+  text-align: left;
+}
+
+.values .values-work .img-values {
+  margin: 0 10px;
+  width: 30%;
+}
+
+.values .values-work .img-values-bottom {
+  width: 25%;
+}
+
+.values .values-work .img-values-bottom p {
+  color: #9e9da0;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  line-height: 18px;
+  font-family: 'Cambria Regular';
+}
+
+.values .box-not {
+  text-align: justify;
+  margin: 25px 0 0 50px;
+}
+
+.txt-destaque {
+  text-align: left;
+  margin: 50px 50px 0;
+}
+
+.txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.txt-destaque h3 h2 {
+  font-size: 20px;
+  color: #000;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.txt-destaque li {
+  color: #9e9da0;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 16px;
+  display: contents;
+  position: relative;
+  padding: 0px 0px 7px 30px;
+}
+
+.txt-destaque p {
   color: #9e9da0;
   font-weight: 700;
   letter-spacing: 2.5px;
@@ -842,6 +976,14 @@ p {
           box-shadow: 0px 0px 1px 0 #b1b1b1;
   padding: 25px;
   background: #f7f7f7;
+}
+
+.equipe .box-team .img-fluid:hover {
+  background-image: url(../../img/equipe/vitor-grey.png);
+}
+
+.equipe .box-team .img-equipe:hover {
+  display: block;
 }
 
 .equipe .box-team h4 {
@@ -1014,15 +1156,15 @@ h2 {
 }
 
 #parallaxBar {
-  height: 750px;
+  height: 590px;
   background-color: #004c82;
-  background: url(../img/liders.jpg) 50% 0 fixed;
+  background: url(../img/lider.png) 50% 0 fixed;
   position: relative;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.75;
+  background-size: contain;
+  opacity: 0.9;
 }
 
 #parallaxBar .txt-parallax {
@@ -1355,7 +1497,7 @@ p {
   height: 2px;
   content: "";
   display: block;
-  margin: 33px 25px;
+  margin: 8px -35px;
   position: absolute;
   left: 50px;
 }
@@ -1372,7 +1514,6 @@ p {
 
 .noticias p {
   color: #9e9da0;
-  font-weight: 500;
 }
 
 .noticias .img-news:hover {

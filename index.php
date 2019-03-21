@@ -10,13 +10,13 @@
                             <h3>Aristóteles</h3>
                         </div>
                         <div class="col-md-9"> 
-                            <h1>Nós somos o que fazem repetidamente.<br>A exelência, portanto, não é um ato, mas um habito.</h1>
+                            <h1>Nós somos o que fazemos repetidamente.<br>A excelência, portanto, não é um ato, mas um hábito.</h1>
                         </div>
                         <a href="equipe.php" class="leia-mais">LEIA MAIS</a> 
                     </div>
                 </div>
             <div class="carousel-item">
-                <img class="d-block w-100"img-fluid src="./assets/img/fullbanner2.png" alt="Second slide">
+                <img class="d-block w-100"img-fluid src="./assets/img/fullbanner.png" alt="Second slide">
                 <div class="carousel-caption">
                     <div class="txt-fullbanner">
                     <h3>Teixeira Müller Advogados Associados</h3>
