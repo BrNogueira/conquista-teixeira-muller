@@ -102,11 +102,13 @@
     }
 }
 
-.values {
+#values {
     text-align: center;
+
     .txt-destaque {
         text-align: left;
         margin: 50px 50px 0;        
+
             &::before {
                 background: #c8ac48;
                 width: 45px;
@@ -133,18 +135,7 @@
                 font-family: 'Cambria Regular';
             }
         }
-    
-        li {
-            color: #9e9da0;
-            font-weight: 500;
-            font-family: 'Cambria Regular';
-            font-size: 16px;
-            display: contents;
-            position: relative;
-            padding: 0px 0px 7px 30px;
-        }
-    
-        
+
         p{
             color: #9e9da0;
             font-weight: 700;
@@ -284,8 +275,6 @@
     background-image: url(./assets/img/equipe.jpg);
     min-height: 100%;
     position: relative;
-
-    
     .txt-destaque {
         display: block;
         color: #c8ac48;
@@ -303,7 +292,6 @@
             padding-top: 10px;
             font-family: 'Cambria Regular';
         }
-
         h3 {
             display: inline-flex;
             color: #c8ac48;

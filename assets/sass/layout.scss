@@ -478,6 +478,20 @@ p {
 
 #carousel-brief {
 
+    .carousel-caption {
+        
+    .txt-destaque {
+        text-align: center !important;
+        h3 {
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 15px;
+            font-family: "Playfair Display", sans-serif;
+        }
+    }
+    }
     .carousel-control-next,
     .carousel-control-prev {
         position: absolute;
@@ -503,29 +517,16 @@ p {
         padding-top: 0;
         padding-bottom: 0;
         color: #fff;
-        text-align: center;
+        text-align: center; 
         top: 70px;
         left: 40px;
-        right: 40px;
+        right: 40px; 
 
         .icon-carousel {
             margin-bottom: 40px;
             display: block;
             text-align: center;
         }
-
-        .txt-destaque {
-
-            h3 {
-                display: inline-flex;
-                color: #c8ac48;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 15px;
-                font-family: myriad-pro, sans-serif;
-            }
-        }
-
         .brief-content {
             color: #D9D9D9;
             font-size: 16px;

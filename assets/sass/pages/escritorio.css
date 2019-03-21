@@ -107,16 +107,16 @@
   margin-bottom: 25px;
 }
 
-.values {
+#values {
   text-align: center;
 }
 
-.values .txt-destaque {
+#values .txt-destaque {
   text-align: left;
   margin: 50px 50px 0;
 }
 
-.values .txt-destaque::before {
+#values .txt-destaque::before {
   background: #c8ac48;
   width: 45px;
   height: 2px;
@@ -127,7 +127,7 @@
   left: 50px;
 }
 
-.values .txt-destaque h3 {
+#values .txt-destaque h3 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -138,24 +138,14 @@
   font-family: 'Playfair Display', serif;
 }
 
-.values .txt-destaque h3 h2 {
+#values .txt-destaque h3 h2 {
   font-size: 20px;
   color: #000;
   padding-top: 10px;
   font-family: 'Cambria Regular';
 }
 
-.values .txt-destaque li {
-  color: #9e9da0;
-  font-weight: 500;
-  font-family: 'Cambria Regular';
-  font-size: 16px;
-  display: contents;
-  position: relative;
-  padding: 0px 0px 7px 30px;
-}
-
-.values .txt-destaque p {
+#values .txt-destaque p {
   color: #9e9da0;
   font-weight: 700;
   letter-spacing: 2.5px;
@@ -163,7 +153,7 @@
   font-family: 'Cambria Regular';
 }
 
-.values .value-top::before {
+#values .value-top::before {
   background: #c8ac48;
   width: 45px;
   height: 2px;
@@ -174,7 +164,7 @@
   left: 410px;
 }
 
-.values .value-top::after {
+#values .value-top::after {
   background: #c8ac48;
   width: 45px;
   height: 2px;
@@ -185,18 +175,18 @@
   right: 380px;
 }
 
-.values .value-top .icon-value-top {
+#values .value-top .icon-value-top {
   width: 7%;
   margin: 25px 0 0;
 }
 
-.values .values-descritions {
+#values .values-descritions {
   margin: auto;
   padding-bottom: 50px;
   background-color: #f7f7f7;
 }
 
-.values .values-descritions p {
+#values .values-descritions p {
   color: #9e9da0;
   letter-spacing: 0.9px;
   line-height: 25px;
@@ -205,13 +195,13 @@
   font-size: 16px;
 }
 
-.values .values-descritions-bottom {
+#values .values-descritions-bottom {
   margin: auto;
   padding-bottom: 50px;
   background-color: #f7f7f7;
 }
 
-.values .values-descritions-bottom p {
+#values .values-descritions-bottom p {
   color: #9e9da0;
   letter-spacing: 0.9px;
   line-height: 25px;
@@ -220,20 +210,20 @@
   font-size: 20px;
 }
 
-.values .values-work {
+#values .values-work {
   text-align: left;
 }
 
-.values .values-work .img-values {
+#values .values-work .img-values {
   margin: 0 10px;
   width: 30%;
 }
 
-.values .values-work .img-values-bottom {
+#values .values-work .img-values-bottom {
   width: 25%;
 }
 
-.values .values-work .img-values-bottom p {
+#values .values-work .img-values-bottom p {
   color: #9e9da0;
   font-weight: 700;
   letter-spacing: 2.5px;
@@ -241,7 +231,7 @@
   font-family: 'Cambria Regular';
 }
 
-.values .box-not {
+#values .box-not {
   text-align: justify;
   margin: 25px 0 0 50px;
 }
