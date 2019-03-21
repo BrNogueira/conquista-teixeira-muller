@@ -68,7 +68,7 @@
 
     .txt-introduction2 {
         margin: 0;
-        padding: 100px 40px;
+        padding: 65px 40px;
         text-align: justify;
 
         p{
@@ -269,17 +269,17 @@
     }
 }
 
-.lider {
+.parallax-esc {
     margin: auto;
     padding: 0;
 }
 
-#img-lider {
-    background-image: url(./assets/img/equipe.jpg);
+#img-escritorio {
+    background-image: url(../../img/escritorio.png);
     min-height: 100%;
-    position: relative; 
+    position: relative;
     .txt-destaque {
-        display: block; 
+        display: block;
         color: #c8ac48;
         font-size: 30px;
         margin: 0;
@@ -335,26 +335,7 @@
             }
         }
     }
-   #parallaxBar {
-        height: 650px;
-        
-        .txt-parallax {
-            &::before {
-                width: 45px !important;
-                
-                h2 { 
-                    padding-left: 0 !important;
-                    padding: 15px 55px !important;
-                }
-                h3 {
-                    line-height: 0 !important;
-                    font-size: 14px !important;
-                    
-                }
-            }
-        }
-    
-    }
+
 };
 
 @media (min-width: 992px) {}

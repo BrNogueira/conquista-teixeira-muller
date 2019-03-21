@@ -1,0 +1,347 @@
+.quem-somos {
+  display: block;
+}
+
+.quem-somos .col-lg-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.quem-somos .pic1 {
+  margin-top: 25px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.quem-somos .pic2 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.quem-somos .txt-destaque {
+  display: block;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 0;
+  font-weight: lighter;
+  line-height: 15px;
+  padding: 15px 15px;
+  font-family: "Playfair Display", serif;
+}
+
+.quem-somos .txt-destaque::before {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 18px -30px;
+  position: absolute;
+}
+
+.quem-somos .txt-destaque h2 {
+  font-size: 30px;
+  color: #000;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.quem-somos .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 10px 25px 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.quem-somos .txt-introduction {
+  margin: 0;
+  padding: 10px 40px;
+  text-align: justify;
+}
+
+.quem-somos .txt-introduction p {
+  color: #9e9da0;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  line-height: 25px;
+  font-family: 'Cambria Regular';
+}
+
+.quem-somos .txt-introduction2 {
+  margin: 0;
+  padding: 65px 40px;
+  text-align: justify;
+}
+
+.quem-somos .txt-introduction2 p {
+  color: #9e9da0;
+  font-weight: 500;
+  letter-spacing: 0.9px;
+  line-height: 25px;
+  font-family: 'Cambria Regular';
+}
+
+.quem-somos .guides-title {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 200px;
+  height: 300px;
+  float: left;
+  margin-right: 30px;
+  text-align: center;
+  padding: 95px 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.quem-somos .guides-title .fa {
+  display: block;
+  font-size: 50px;
+  margin-bottom: 25px;
+  margin-bottom: 25px;
+  margin-bottom: 25px;
+}
+
+#values {
+  text-align: center;
+}
+
+#values .txt-destaque {
+  text-align: left;
+  margin: 50px 50px 0;
+}
+
+#values .txt-destaque::before {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 8px -45px;
+  position: absolute;
+  left: 50px;
+}
+
+#values .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+#values .txt-destaque h3 h2 {
+  font-size: 20px;
+  color: #000;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+#values .txt-destaque p {
+  color: #9e9da0;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  line-height: 18px;
+  font-family: 'Cambria Regular';
+}
+
+#values .value-top::before {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: 99px 50px;
+  position: absolute;
+  left: 410px;
+}
+
+#values .value-top::after {
+  background: #c8ac48;
+  width: 45px;
+  height: 2px;
+  content: "";
+  display: block;
+  margin: -2px 43px;
+  position: absolute;
+  right: 380px;
+}
+
+#values .value-top .icon-value-top {
+  width: 7%;
+  margin: 25px 0 0;
+}
+
+#values .values-descritions {
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+#values .values-descritions p {
+  color: #9e9da0;
+  letter-spacing: 0.9px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 16px;
+}
+
+#values .values-descritions-bottom {
+  margin: auto;
+  padding-bottom: 50px;
+  background-color: #f7f7f7;
+}
+
+#values .values-descritions-bottom p {
+  color: #9e9da0;
+  letter-spacing: 0.9px;
+  line-height: 25px;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 20px;
+}
+
+#values .values-work {
+  text-align: left;
+  margin: 30px 0 0;
+}
+
+#values .values-work .img-values {
+  margin: 0 10px;
+  width: 30%;
+}
+
+#values .values-work .img-values-bottom {
+  width: 15%;
+  margin: 0 10px;
+}
+
+#values .values-work .img-values-bottom p {
+  color: #9e9da0;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  line-height: 18px;
+  font-family: 'Cambria Regular';
+}
+
+#values .box-not {
+  text-align: justify;
+  margin: 25px 0 0 50px;
+}
+
+.txt-destaque {
+  text-align: left;
+  margin: 50px 50px 0;
+}
+
+.txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+.txt-destaque h3 h2 {
+  font-size: 20px;
+  color: #000;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+.txt-destaque li {
+  color: #9e9da0;
+  font-weight: 500;
+  font-family: 'Cambria Regular';
+  font-size: 16px;
+  display: contents;
+  position: relative;
+  padding: 0px 0px 7px 30px;
+}
+
+.txt-destaque p {
+  color: #9e9da0;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  line-height: 18px;
+  font-family: 'Cambria Regular';
+}
+
+.parallax-esc {
+  margin: auto;
+  padding: 0;
+}
+
+#img-escritorio {
+  background-image: url(../../img/escritorio.png);
+  min-height: 100%;
+  position: relative;
+}
+
+#img-escritorio .txt-destaque {
+  display: block;
+  color: #c8ac48;
+  font-size: 30px;
+  margin: 0;
+  font-weight: lighter;
+  line-height: 15px;
+  padding: 15px 15px;
+  font-family: "Playfair Display", serif;
+  margin: 55px 40px 0;
+}
+
+#img-escritorio .txt-destaque h2 {
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'Cambria Regular';
+}
+
+#img-escritorio .txt-destaque h3 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: #c8ac48;
+  font-size: 20px;
+  margin: 0;
+  line-height: 15px;
+  font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 764px) {
+  .quem-somos {
+    padding: 15px;
+  }
+  .quem-somos .txt-introduction {
+    padding: 25px 30px;
+  }
+  #values {
+    margin-top: 25px;
+  }
+  #values .value-top::before {
+    margin: 72px 55px;
+    left: 60px;
+  }
+  #values .value-top::after {
+    right: 50px;
+  }
+  #values .value-top .icon-value-top {
+    width: 15%;
+  }
+  #values .value-top .box-not {
+    margin: 25px 15px 0 15px;
+  }
+}
+/*# sourceMappingURL=escritorio2.css.map */

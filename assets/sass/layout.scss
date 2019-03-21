@@ -1,8 +1,9 @@
 @import "./main";
 @import "./pages/noticias";
-@import "./pages/escritorio";
+@import "./pages/escritorio"; 
+@import "./pages/escritorio2"; 
 @import "./pages/contato";
-@import "./pages/equipe";
+@import "./pages/equipe"; 
 @import "./pages/areas-de-pratica"; 
 
 body {
@@ -45,8 +46,8 @@ h2 {
             display: inline-flex;
             color: #c8ac48;
             font-size: 35px;
-            margin: 0;
-            line-height: 15px; 
+            margin: 0; 
+            line-height: 15px;  
             font-family: 'Playfair Display', serif;
         }
     }
@@ -120,6 +121,140 @@ h2 {
     }
 }
 
+#parallax-escritorio {
+    height: 350px;
+    background-color: #004c82;
+    background: url(../img/escritorio.png) 50% 0 fixed;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+
+    .txt-parallax {
+        left: 30px;
+        background: #000;
+        bottom: 30px;
+        position: absolute;
+        width: 80%;
+        opacity: 0.9;
+
+        &::before {
+            display: none;
+            position: absolute;
+            content: "";
+            width: 120px;
+            height: 2px;
+            margin: 25px 20px;
+            background: #c8ac48;
+        }
+
+        h2 {
+            color: #c8ac48;
+            padding-top: 5px;
+            font-size: 35px;
+            padding-left: 135px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        h3 {
+            display: inline-flex;
+            font-size: 40px;
+            margin: 0;
+            color: #fff;
+            line-height: 40px;
+            padding-bottom: 25px;
+            padding-left: 35px;
+            font-family: 'Cambria Regular', serif;
+        }
+
+        li {
+            color: #9e9da0;
+            font-weight: 500;
+            font-family: 'Cambria Regular';
+            font-size: 16px;
+            display: contents;
+            position: relative;
+            padding: 0px 0px 7px 30px;
+        }
+ 
+        p {  
+            color: #9e9da0 !important;
+            font-weight: 700;
+            letter-spacing: 2.5px;
+            line-height: 18px;
+            font-family: 'Cambria Regular'; 
+        }
+    }
+}
+#parallax-escritorio2 {
+    height: 350px;
+    background-color: #004c82;
+    background: url(../img/escritorio2.png) 50% 0 fixed;
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.9;
+
+    .txt-parallax {
+        left: 30px;
+        background: #000;
+        bottom: 30px;
+        position: absolute;
+        width: 80%;
+        opacity: 0.9;
+
+        &::before {
+            display: none;
+            position: absolute;
+            content: "";
+            width: 120px;
+            height: 2px;
+            margin: 25px 20px;
+            background: #c8ac48;
+        }
+
+        h2 {
+            color: #c8ac48;
+            padding-top: 5px;
+            font-size: 35px;
+            padding-left: 135px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        h3 {
+            display: inline-flex;
+            font-size: 40px;
+            margin: 0;
+            color: #fff;
+            line-height: 40px;
+            padding-bottom: 25px;
+            padding-left: 35px;
+            font-family: 'Cambria Regular', serif;
+        }
+
+        li {
+            color: #9e9da0;
+            font-weight: 500;
+            font-family: 'Cambria Regular';
+            font-size: 16px;
+            display: contents;
+            position: relative;
+            padding: 0px 0px 7px 30px;
+        }
+ 
+        p {  
+            color: #9e9da0 !important;
+            font-weight: 700;
+            letter-spacing: 2.5px;
+            line-height: 18px;
+            font-family: 'Cambria Regular'; 
+        }
+    }
+}
 ul {
     list-style: none;
 }
@@ -153,7 +288,7 @@ p {
 .txt-destaque {
     text-align: left;
     margin: 0;
-}
+} 
 .page {
     display: table;
     position: relative;
@@ -173,13 +308,13 @@ p {
         background: #c8ac48;
     }
 }
- 
+   
 .carousel-inner {
 
     .carousel-control-next,
     .carousel-control-prev {
         position: absolute;
-        top: 0;
+        top: 0; 
         bottom: 0;
         z-index: 1;
         display: -ms-flexbox;
@@ -261,8 +396,8 @@ p {
     z-index: 10;
     width: 100%;
 }
-
-.nav-link {
+ 
+.nav-link { 
     display: block;
     float: left;
     text-align: left;
@@ -297,7 +432,7 @@ p {
 
 .info {
     padding: 75px 0;
-
+ 
     p {
         color: #9e9da0;
         font-weight: 500;
@@ -927,6 +1062,7 @@ p {
             }
         }
     }
+
 }
  
     @media (min-width: 992px) {}
