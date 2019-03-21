@@ -56,9 +56,7 @@
             <div class="values-descritions">
                 <div class="row">
                     <div class="container">
-                        <div class="col-lg-12 value-top">
-                            <img class="icon-value-top" src="./assets/img/icons/law_3709.png" alt="">
-                        </div>
+
                         <div class="col-md-12">
                             <div class="txt-destaque">
                                 <h3>DIFERENCIAL</h3>
