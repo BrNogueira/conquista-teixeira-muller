@@ -33,40 +33,29 @@
         </div>
     </section>
     <section>
-        <div class="row">
-            <div class="container">
-                <div class="quem-somos">
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <div class="txt-destaque">
-                                <h3>SOBRE NÓS</h3>
-                            </div>
-                            <div class="txt-introduction">
-                                <p>Fundado em 2006 e situado no Polo Jurídico da cidade de Porto Alegre, com localização
-                                    estratégica, o Escritório Teixeira Müller Advogados Associados é um atelier jurídico
-                                    de referência na advocacia consultiva e contenciosa.</p>
-                                <a href="escritorio.php" class="leia-mais">LEIA MAIS</a>
-                            </div>
+        <div class="container info-container">
+            <div class="info">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="txt-destaque">
+                            <h3>Conheça nosso</h3>
+                            <h2>ESCRITÓRIO</h2>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="txt-introduction2">
-                                <p>Composto por uma equipe de profissionais especializados tanto em assuntos
-                                    corporativos como individuais, a sociedade advocatícia tem como principal predicado
-                                    a imersão no contexto apresentado pelo cliente, sempre mediante a prévia
-                                    investigação dos seus valores e premissas. </p>
-                            </div>
-                        </div>
+                        <p>Fundado em 2006 e situado no Polo Jurídico da cidade de Porto Alegre, com localização
+                            estratégica, o Escritório Teixeira Müller Advogados Associados é um atelier jurídico de
+                            referência na advocacia consultiva e contenciosa.</p>
+                        <p>Composto por uma equipe de profissionais especializados tanto em assuntos corporativos como
+                            individuais, a sociedade advocatícia tem como principal predicado a imersão no contexto
+                            apresentado pelo cliente, sempre mediante a prévia investigação dos seus valores e
+                            premissas.</p>
+                        <a href="escritorio.php" class="leia-mais">LEIA MAIS</a>
                     </div>
-                    <div>
+                    <div class="col-md-6">
+                        <img class="img-fluid" src="./assets/img/escritorio-home.png">
                     </div>
                 </div>
-    </section>
-
-    <section id="parallax-escritorio" data-speed="6" data-type="background">
-        <div class="parallax-esc">
-            <div id=img-escritorio>
             </div>
-        </div>
         </div>
     </section>
     <section>

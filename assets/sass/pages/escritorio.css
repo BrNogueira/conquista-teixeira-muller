@@ -27,13 +27,13 @@
   font-weight: lighter;
   line-height: 15px;
   padding: 15px 15px;
-  font-family: 'Raleway Medium';
+  font-family: 'Playfair Display', serif;
 }
 
 .quem-somos .txt-destaque::before {
   background: #c8ac48;
   width: 45px;
-  height: 2px;
+  height: 1px;
   content: "";
   display: block;
   margin: 18px -30px;
@@ -114,12 +114,11 @@
 #values .txt-destaque::before {
   background: #c8ac48;
   width: 45px;
-  height: 2px;
+  height: 1px;
   content: "";
   display: block;
-  margin: 8px -45px;
+  margin: 18px -30px;
   position: absolute;
-  left: 50px;
 }
 
 #values .txt-destaque h3 {
@@ -128,49 +127,15 @@
   display: inline-flex;
   color: #c8ac48;
   font-size: 20px;
-  margin: 0;
+  margin: 10px 25px 0;
   line-height: 15px;
   font-family: 'Playfair Display', serif;
-}
-
-#values .txt-destaque h3 h2 {
-  font-size: 20px;
-  color: #000;
-  padding-top: 10px;
-  font-family: 'Cambria';
 }
 
 #values .txt-destaque p {
   color: #9e9da0;
   font-weight: 500;
   font-family: 'Cambria';
-}
-
-#values .value-top::before {
-  background: #c8ac48;
-  width: 45px;
-  height: 2px;
-  content: "";
-  display: block;
-  margin: 99px 50px;
-  position: absolute;
-  left: 410px;
-}
-
-#values .value-top::after {
-  background: #c8ac48;
-  width: 45px;
-  height: 2px;
-  content: "";
-  display: block;
-  margin: -2px 43px;
-  position: absolute;
-  right: 380px;
-}
-
-#values .value-top .icon-value-top {
-  width: 7%;
-  margin: 25px 0 0;
 }
 
 #values .values-descritions {
@@ -221,7 +186,12 @@
 
 #values .box-not {
   text-align: justify;
-  margin: 25px 0 0 50px;
+  padding: 25px 40px;
+}
+
+#values .box-values {
+  text-align: justify;
+  padding: 10px 0;
 }
 
 .txt-destaque {
@@ -281,7 +251,7 @@
   font-weight: lighter;
   line-height: 15px;
   padding: 15px 15px;
-  font-family: 'Raleway Medium';
+  font-family: 'Playfair Display', serif;
   margin: 55px 40px 0;
 }
 

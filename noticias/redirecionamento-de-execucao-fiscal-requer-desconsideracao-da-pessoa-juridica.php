@@ -4,9 +4,6 @@
     <?php include "../includes/head.inc.php";?>
 </head>
 <body>
-<header>
-    <?php include "../includes/header.inc.php";?>
-</header>
 
 <section id="news-public">
 <div class="page">

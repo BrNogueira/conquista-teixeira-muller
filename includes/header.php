@@ -55,7 +55,8 @@
         </div>
         <input id="menu-toggle" type="checkbox" />
         <label class='menu-button-container' for="menu-toggle">
-            <div class='menu-button'>
+                <img class='menu-button' src="../assets/img/icons/menu-icon.png" alt="">
+            <div>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavbar">
                     <span class="navbar-toggler-icon">
                     </span>

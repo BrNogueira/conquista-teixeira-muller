@@ -2065,10 +2065,6 @@ p {
     top: -20px;
     right: 0;
   }
-  .carousel {
-    z-index: 10;
-    width: 100%;
-  }
   #carousel-fullbanner .carousel-item.active {
     display: block;
     height: 300px !important;

@@ -39,10 +39,12 @@
         </div>
     </section>
      <!-- BOTTON BANNER -->
+
      <section id="parallax-escritorio" data-speed="6" data-type="background">
         <div class="parallax-esc"> 
             <div id=img-escritorio>
             </div>
+        </div>
         </div>
     </section> 
 <!-- VALORES -->
@@ -59,8 +61,8 @@
                                 <div class="col-md-12">
                                     <div class="box-not row">
                                         <div class="row">
-                                            <p>A sociedade é formada por profissionais que detém expertise nas áreas em que atuam. O trabalho desempenhado pelos advogados que compõem o escritório pode ser comparado com a atividade de um artesão, pois ‘arte’ nada mais é do que o desenvolvimento de uma especialidade com as próprias mãos. Este é o principal diferencial desta sociedade advocatícia. A atuação dos sócios é íntima com os assuntos que lhe são confiados.</p>
-                                            <p>A acessibilidade aos sócios também é fator de distinção do escritório, pois a relação junto aos clientes é feita pelo contato sem intermediação. Igualdade, pessoalidade e respeito são premissas basilares da equipe.</p>
+                                                <p>A sociedade é formada por profissionais que detém expertise nas áreas em que atuam. O trabalho desempenhado pelos advogados que compõem o escritório pode ser comparado com a atividade de um artesão, pois ‘arte’ nada mais é do que o desenvolvimento de uma especialidade com as próprias mãos. Este é o principal diferencial desta sociedade advocatícia. A atuação dos sócios é íntima com os assuntos que lhe são confiados.</p>
+                                                <p>A acessibilidade aos sócios também é fator de distinção do escritório, pois a relação junto aos clientes é feita pelo contato sem intermediação. Igualdade, pessoalidade e respeito são premissas basilares da equipe.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -82,7 +84,7 @@
                                     <h3>VALORES</h3>
                                 </div>
                                 <div class="col-md-12">
-                                    <div class="box-not row">
+                                    <div class="box-values row">
                                         <div class="values-descritions-bottom">
                                             <div class="row values-work ">
                                                 <p class="col-sm-4"><img class="img-values-bottom" src="./assets/img/icons/exelency-escritorio.png" alt=""> Excelência</p>

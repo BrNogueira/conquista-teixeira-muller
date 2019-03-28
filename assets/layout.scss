@@ -401,36 +401,36 @@ p {
         transition: opacity .15s ease;
     }
 
-    .box-carousel {
+.box-carousel {
 
-        .txt-fullbanner {
-            &::before {
-                background: #c8ac48;
-                width: 110px;
-                height: 1px;
-                content: "";
-                display: block;
-                margin: 19px 0;
-                position: absolute;
-            }
+    .txt-fullbanner {
+        &::before {
+            background: #c8ac48;
+            width: 110px;
+            height: 1px;
+            content: "";
+            display: block;
+            margin: 19px 0;
+            position: absolute;
+        }
 
-            h1 {
-                font-size: 45px !important;
-                font-family: 'Cambria';
-            }
+        h1 {
+            font-size: 45px !important;
+            font-family: 'Cambria';
+        }
 
-            h3 {
-                display: inline-flex;
-                color: #c8ac48;
-                font-size: 32px;
-                font-weight: lighter;
-                margin-left: 135px;
-                margin-bottom: 15px;
-                line-height: 40px;
-                font-family: 'Playfair Display', serif;
-            }
+        h3 {
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 32px;
+            font-weight: lighter;
+            margin-left: 135px;
+            margin-bottom: 15px;
+            line-height: 40px;
+            font-family: 'Playfair Display', serif;
         }
     }
+}
 
     .carousel-caption {
         position: absolute;
@@ -442,6 +442,7 @@ p {
         padding-bottom: 20px;
         color: #fff;
         text-align: left;
+ 
 
     }
 }
@@ -936,22 +937,14 @@ p {
 
     }
 
-    .carousel {
-        z-index: 10;
-        width: 100%;
-    }
-
     #carousel-fullbanner {
-
         .carousel-item.active {
             display:block;
             height: 300px !important;
         }
 
         .carousel-inner {
-
             .txt-fullbanner {
-
                 &::before {
                     background: #c8ac48;
                     width: 40px;
@@ -962,7 +955,6 @@ p {
                     position: absolute;
                 }
             }
-            
             .carousel-caption {
                 position: absolute;
                 right: 18%;
@@ -1090,24 +1082,23 @@ p {
                 font-size: 12px;
             }
 
-            .brief-content {
-                padding: 10px;
-            }
+        .brief-content {
+            padding: 10px;
+        }
 
-            .icon-carousel {
-                margin-bottom: 20px;
-                img {
-                    width: 25px;
-                }
+        .icon-carousel {
+            margin-bottom: 20px;
+            img {
+                width: 25px;
             }
-            .txt-destaque {
-                h3 {
-                    line-height: 22px;
-                }
+        }
+        .txt-destaque {
+            h3 {
+                line-height: 22px;
             }
         }
     }
-    
+}
     #img-escritorio-home {
         background-image: url(../../img/escritorio.png);
         min-height: 100%;
