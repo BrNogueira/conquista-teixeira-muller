@@ -1,5 +1,6 @@
 .quem-somos {
   display: block;
+  padding: 40px 0;
 }
 
 .quem-somos .col-lg-6 {
@@ -26,7 +27,7 @@
   font-weight: lighter;
   line-height: 15px;
   padding: 15px 15px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway Medium';
 }
 
 .quem-somos .txt-destaque::before {
@@ -43,7 +44,7 @@
   font-size: 30px;
   color: #000;
   padding-top: 10px;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria';
 }
 
 .quem-somos .txt-destaque h3 {
@@ -66,29 +67,24 @@
 .quem-somos .txt-introduction p {
   color: #9e9da0;
   font-weight: 500;
-  letter-spacing: 0.9px;
-  line-height: 25px;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria';
 }
 
 .quem-somos .txt-introduction2 {
   margin: 0;
-  padding: 100px 40px;
+  padding: 65px 40px;
   text-align: justify;
 }
 
 .quem-somos .txt-introduction2 p {
   color: #9e9da0;
   font-weight: 500;
-  letter-spacing: 0.9px;
-  line-height: 25px;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria';
 }
 
 .quem-somos .guides-title {
   font-size: 18px;
   text-transform: uppercase;
-  letter-spacing: 2px;
   width: 200px;
   height: 300px;
   float: left;
@@ -113,7 +109,6 @@
 
 #values .txt-destaque {
   text-align: left;
-  margin: 50px 50px 0;
 }
 
 #values .txt-destaque::before {
@@ -142,15 +137,13 @@
   font-size: 20px;
   color: #000;
   padding-top: 10px;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria';
 }
 
 #values .txt-destaque p {
   color: #9e9da0;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-  line-height: 18px;
-  font-family: 'Cambria Regular';
+  font-weight: 500;
+  font-family: 'Cambria';
 }
 
 #values .value-top::before {
@@ -182,17 +175,15 @@
 
 #values .values-descritions {
   margin: auto;
+  padding: 40px 0;
   padding-bottom: 50px;
   background-color: #f7f7f7;
 }
 
 #values .values-descritions p {
   color: #9e9da0;
-  letter-spacing: 0.9px;
-  line-height: 25px;
   font-weight: 500;
-  font-family: 'Cambria Regular';
-  font-size: 16px;
+  font-family: 'Cambria';
 }
 
 #values .values-descritions-bottom {
@@ -203,11 +194,8 @@
 
 #values .values-descritions-bottom p {
   color: #9e9da0;
-  letter-spacing: 0.9px;
-  line-height: 25px;
   font-weight: 500;
-  font-family: 'Cambria Regular';
-  font-size: 20px;
+  font-family: 'Cambria';
 }
 
 #values .values-work {
@@ -227,10 +215,8 @@
 
 #values .values-work .img-values-bottom p {
   color: #9e9da0;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-  line-height: 18px;
-  font-family: 'Cambria Regular';
+  font-weight: 500;
+  font-family: 'Cambria';
 }
 
 #values .box-not {
@@ -240,7 +226,6 @@
 
 .txt-destaque {
   text-align: left;
-  margin: 50px 50px 0;
 }
 
 .txt-destaque h3 {
@@ -258,13 +243,13 @@
   font-size: 20px;
   color: #000;
   padding-top: 10px;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria';
 }
 
 .txt-destaque li {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria';
   font-size: 16px;
   display: contents;
   position: relative;
@@ -273,24 +258,22 @@
 
 .txt-destaque p {
   color: #9e9da0;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-  line-height: 18px;
-  font-family: 'Cambria Regular';
+  font-weight: 500;
+  font-family: 'Cambria';
 }
 
-.lider {
+.parallax-esc {
   margin: auto;
   padding: 0;
 }
 
-#img-lider {
-  background-image: url(./assets/img/equipe.jpg);
+#img-escritorio {
+  background-image: url(../../img/escritorio.png);
   min-height: 100%;
   position: relative;
 }
 
-#img-lider .txt-destaque {
+#img-escritorio .txt-destaque {
   display: block;
   color: #c8ac48;
   font-size: 30px;
@@ -298,18 +281,18 @@
   font-weight: lighter;
   line-height: 15px;
   padding: 15px 15px;
-  font-family: "Playfair Display", serif;
+  font-family: 'Raleway Medium';
   margin: 55px 40px 0;
 }
 
-#img-lider .txt-destaque h2 {
+#img-escritorio .txt-destaque h2 {
   font-size: 40px;
   color: #fff;
   padding-top: 10px;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria';
 }
 
-#img-lider .txt-destaque h3 {
+#img-escritorio .txt-destaque h3 {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -342,20 +325,6 @@
   }
   #values .value-top .box-not {
     margin: 25px 15px 0 15px;
-  }
-  #parallaxBar {
-    height: 650px;
-  }
-  #parallaxBar .txt-parallax::before {
-    width: 45px !important;
-  }
-  #parallaxBar .txt-parallax::before h2 {
-    padding-left: 0 !important;
-    padding: 15px 55px !important;
-  }
-  #parallaxBar .txt-parallax::before h3 {
-    line-height: 0 !important;
-    font-size: 14px !important;
   }
 }
 /*# sourceMappingURL=escritorio.css.map */

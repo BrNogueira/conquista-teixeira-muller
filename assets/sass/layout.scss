@@ -1,20 +1,50 @@
 @import "./main";
 @import "./pages/noticias";
 @import "./pages/escritorio"; 
-@import "./pages/escritorio2"; 
 @import "./pages/contato";
-@import "./pages/equipe"; 
+@import "./pages/equipe";  
 @import "./pages/areas-de-pratica"; 
 
-body {
-    overflow-x: hidden;
+body { 
+    overflow-x: hidden;  
     box-sizing: border-box;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Cambria';
+    color: #fff; 
+} 
+
 h2 {
     font-size: 30px;
     margin-bottom: 45px;
-    font-family: 'Cambria Regular';
+    font-family: 'Cambria';
 } 
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+h5 { 
+    font-family: 'Playfair Display', serif;
+}
+.fullbanner-img {
+    z-index: -1;
+}
+p {
+    font-weight: 500;
+    text-align:justify !important;
+    font-family: 'Cambria';
+}
 
 *,
 *::before,
@@ -23,7 +53,26 @@ h2 {
     margin: 0;
     padding: 0;
 }
+
 .page {
+    display: table;
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(to right, rgba(25, 25, 25, 0.4), rgba(25, 25, 25, 0.4)), url(../img/intro.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 65px;
+
+    &::before {
+        display: block;
+        position: absolute;
+        content: "";
+        width: 120px;
+        height: 2px;
+        margin: 80px 50px;
+        background: #c8ac48;
+    }
+
     .txt-destaque {
         display: block; 
         color: #c8ac48;
@@ -32,14 +81,14 @@ h2 {
         font-weight: lighter;
         line-height: 15px;
         padding: 15px 15px;
-        font-family: "Playfair Display", serif;
+        font-family: 'Raleway Medium';
         margin: 55px 40px 0;
-        
+
         h2 {
             font-size:40px;
             color: #fff; 
             padding-top: 10px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
         }
 
         h3 {
@@ -52,7 +101,7 @@ h2 {
         }
     }
 }
-    
+   
 #parallaxBar {
     height: 590px;
     background-color: #004c82;
@@ -98,13 +147,13 @@ h2 {
             line-height: 40px;
             padding-bottom: 25px;
             padding-left: 35px;
-            font-family: 'Cambria Regular', serif;
+            font-family: 'Cambria', serif;
         }
 
         li {
             color: #9e9da0;
             font-weight: 500;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
             font-size: 16px;
             display: contents;
             position: relative;
@@ -112,11 +161,11 @@ h2 {
         }
  
         p {  
-            color: #9e9da0 !important;
+            color: #9e9da0 !important; 
             font-weight: 700;
             letter-spacing: 2.5px;
             line-height: 18px;
-            font-family: 'Cambria Regular'; 
+            font-family: 'Cambria'; 
         }
     }
 }
@@ -166,13 +215,13 @@ h2 {
             line-height: 40px;
             padding-bottom: 25px;
             padding-left: 35px;
-            font-family: 'Cambria Regular', serif;
+            font-family: 'Cambria', serif;
         }
 
         li {
             color: #9e9da0;
             font-weight: 500;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
             font-size: 16px;
             display: contents;
             position: relative;
@@ -184,7 +233,7 @@ h2 {
             font-weight: 700;
             letter-spacing: 2.5px;
             line-height: 18px;
-            font-family: 'Cambria Regular'; 
+            font-family: 'Cambria'; 
         }
     }
 }
@@ -233,13 +282,13 @@ h2 {
             line-height: 40px;
             padding-bottom: 25px;
             padding-left: 35px;
-            font-family: 'Cambria Regular', serif;
+            font-family: 'Cambria', serif;
         }
 
         li {
             color: #9e9da0;
             font-weight: 500;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
             font-size: 16px;
             display: contents;
             position: relative;
@@ -251,64 +300,14 @@ h2 {
             font-weight: 700;
             letter-spacing: 2.5px;
             line-height: 18px;
-            font-family: 'Cambria Regular'; 
+            font-family: 'Cambria'; 
         }
-    }
+    } 
 }
-ul {
-    list-style: none;
-}
-
-a {
-    text-decoration: none;
+.carousel-item.active {
+    display:block;
 }
 
-h1 {
-    font-size: 45px;
-    font-family: 'Cambria Regular';
-} 
-
-h2 {
-    font-family: 'Cambria Regular';
-}
-
-h3 {
-    font-family: 'Playfair Display', serif;
-}
-
-h5 { 
-    font-family: 'Playfair Display', serif;
-}
-
-p {
-    font-weight: 500;
-    letter-spacing: 0.5px;
-    font-family: 'Cambria Regular';
-}
-.txt-destaque {
-    text-align: left;
-    margin: 0;
-} 
-.page {
-    display: table;
-    position: relative;
-    width: 100vw;
-    height: 200px;
-    background: linear-gradient(to right, rgba(25, 25, 25, 0.4), rgba(25, 25, 25, 0.4)), url(../img/intro.jpg) no-repeat center center fixed;
-    background-size: cover;
-    padding-top: 65px;
-
-    &::before {
-        display: block;
-        position: absolute;
-        content: "";
-        width: 120px;
-        height: 2px;
-        margin: 80px 50px;
-        background: #c8ac48;
-    }
-}
-   
 .carousel-inner {
 
     .carousel-control-next,
@@ -317,7 +316,6 @@ p {
         top: 0; 
         bottom: 0;
         z-index: 1;
-        display: -ms-flexbox;
         display: flex;
         -ms-flex-align: center;  
         align-items: center; 
@@ -329,7 +327,7 @@ p {
         opacity: .5; 
         transition: opacity .15s ease;
     }
-
+.box-carousel {
     .txt-fullbanner {
         &::before {
             background: #c8ac48;
@@ -343,7 +341,7 @@ p {
 
         h1 {
             font-size: 45px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
         }
 
         h3 {
@@ -352,34 +350,36 @@ p {
             font-size: 35px;
             font-weight: lighter;
             margin-left: 140px;
-            margin-bottom: 40px;
+            margin-bottom: 15px;
             line-height: 40px;
-            font-family: "Playfair Display", serif;
+            font-family: 'Raleway Medium';
         }
     }
+}
 
     .carousel-caption {
         position: absolute;
         right: 18%;
-        top: 25%;
+        top: 0;
         left: 6%;
-        z-index: 10;
+        z-index: 9999;
         padding-top: 20px;
         padding-bottom: 20px;
         color: #fff;
         text-align: left;
  
         .leia-mais {
-
-            display: inline-block;
-            color: #fff;
-            background-color: #c8ac48;
-            font-size: 16px;
+            position: relative;
+            z-index: 99;
+            margin-top: 0;
+            top: 100px;
             padding: 10px 20px;
-            margin-top: 60px;
-            transition: 0.8s all;
+            font-size: 24px;
             text-decoration: none;
-            font-family: "Playfair Display", serif;
+            transition: 0.8s all;
+            background-color: #c8ac48;
+            color: #fff;
+            font-family: 'Cambria';
 
             &:hover {
                 color: #c8ac48;
@@ -391,33 +391,23 @@ p {
     }
 }
 
+.carousel-text-fullbanner {
+    position: absolute !important;
+    
+    z-index: 10;
+    width: 100%;
+    padding: 0 100px;
+    top: 220px;
+
+    
+}
 .carousel {
-    background-color: rgba(114, 113, 116, 0.4) !important;
     z-index: 10;
     width: 100%;
 }
  
-.nav-link { 
-    display: block;
-    float: left;
-    text-align: left;
-    top: 0;
-    padding: 5px 10px 5px 21px;
-    color: #f6f6f6;
-    font-size: 17px;
-
-    a {
-        &:active {
-            color: #c8ac48;
-        }
-
-        &:hover {
-            color: #c8ac48;
-        }
-    }
-}
-
 .info-container {
+
     &::before {
         background: #c8ac48;
         width: 45px;
@@ -431,12 +421,14 @@ p {
 }
 
 .info {
-    padding: 75px 0;
- 
+    padding: 80px 0;
+    position: relative;
+    top: 0;
+
+
     p {
         color: #9e9da0;
         font-weight: 500;
-        letter-spacing: 0.5px;
     }
 
     .img-fluid {
@@ -447,8 +439,8 @@ p {
 
         h2 {
             font-size: 30px;
-            margin-bottom: 45px;
-            font-family: 'Cambria Regular';
+            margin-bottom: 50px;
+            font-family: 'Cambria';
         }
 
         h3 {
@@ -459,6 +451,9 @@ p {
             margin-top: 30px; 
             font-family: 'Playfair Display', serif;
         }
+    }
+    .leia-mais {
+        font-size: 20px;
     }
 }
  
@@ -483,20 +478,21 @@ p {
     h2 {
         font-size: 20px;
         padding-top: 10px;
-        font-family: 'Cambria Regular';
+        font-family: 'Cambria';
     }
  
     p {
         color: #9e9da0;
         font-weight: 500;
-        font-family: 'Cambria Regular';
+        font-family: 'Cambria';
         font-size: 16px;
     }
 
     .box-not {
         display: inline-block;
-        margin: 35px 0 0 140px;
-        width: 60%;
+        width: 100%;
+        margin: 10px 90px;
+        padding: 0 70px;
 
         .icon {
             margin-bottom: 10px;
@@ -508,7 +504,7 @@ p {
 
         h2 {
             font-size: 28px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
         }
  
         h3 {
@@ -600,7 +596,7 @@ p {
     .txt-destaque {
         h2 {
             font-size: 30px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
             margin-bottom: 45px;
         }
 
@@ -614,17 +610,17 @@ p {
     }
 }
 
-
 #carousel-brief {
 
     .carousel-caption {
         
     .txt-destaque {
         text-align: center !important;
+
         h3 {
             display: inline-flex;
             color: #c8ac48;
-            font-size: 16px;
+            font-size: 20px;
             font-weight: 400;
             line-height: 15px;
             font-family: "Playfair Display", sans-serif;
@@ -668,37 +664,35 @@ p {
         }
         .brief-content {
             color: #D9D9D9;
-            font-size: 16px;
+            font-size: 18px; 
             text-align: center;
-            font-family: 'Cambria Regular';
+            padding: 0 75px;
+            font-family: 'Cambria';
             position: relative;
-            // left: 5%;       
         }
     }
 }
   
 // noticias 
-
 #news-public {
     background: #f7f7f7;
-
     .page {
         .txt-destaque {
             display: block; 
             color: #c8ac48;
-            font-size: 35px;
+            font-size: 35px; 
             margin: 0;
             font-weight: lighter;
             line-height: 15px;
             padding: 15px 15px;
-            font-family: "Playfair Display", serif;
+            font-family: 'Raleway Medium';
             margin: 55px 40px 0;
             
             h2 {
                 font-size:40px;
                 color: #fff; 
                 padding-top: 10px;
-                font-family: 'Cambria Regular';
+                font-family: 'Cambria';
             }
     
             h3 {
@@ -829,7 +823,7 @@ p {
             color: #c8ac48;
             margin: 0 !important;
             padding: 28px 55px 0 !important;
-            font-family: "Playfair Display", serif;
+            font-family: 'Raleway Medium';
 
             h3 {
                 display: inline-flex;
@@ -841,28 +835,36 @@ p {
             }
         }
     }
-
+ 
     .logo {
         padding: 0;
         img {
         width: 85%;
-
         }
     }
-
+    .container-fullbanner {
+        position: relative;
+        left: 50px;
+        padding: 0 100px;
+    }
     #carousel-fullbanner {
 
+        .carousel-item.active {
+            display:block;
+            height: 300px !important;
+        }
         .carousel-inner {
             .txt-fullbanner {
                 &::before {
                     background: #c8ac48;
                     width: 40px;
-                    height: 2px;
+                    height: 1px;
                     content: "";
                     display: block;
                     margin: 60px 10px;
                     position: absolute;
                 }
+
                 h3 {
                     display: -webkit-inline-box;
                     display: -ms-inline-flexbox;
@@ -874,7 +876,7 @@ p {
                     margin-bottom: 0px;
                     padding-top: 40px;
                     line-height: 40px;
-                    font-family: "Playfair Display", serif;
+                    font-family: 'Raleway Medium';
                 }
             }
             .carousel-caption {
@@ -887,21 +889,23 @@ p {
                 padding-bottom: 20px;
                 color: #fff;
                 text-align: left;
+
                 h1 {
                     font-size: 1rem;
+                    color: #fff;
                 }
                 .leia-mais {
                     color: #fff;
                     background-color: #c8ac48;
-                    font-size: 13px;
-                    padding: 10px 5px;
+                    font-size: 24px;
+                    padding: 15px 20px;
                     float: right;
                     margin-top: 0;
                     position: relative;
                     -webkit-transition: 0.8s all;
                     transition: 0.8s all;
                     text-decoration: none;
-                    font-family: "Playfair Display", serif;
+                    font-family: 'Cambria';
                     top: -40px;
                     z-index: 99;
                     right: -60px;
@@ -928,7 +932,7 @@ p {
             width: 45px;
             height: 2px;
             content: "";
-            display: block;
+            display: block;  
             margin: 38px 0px;
             position: absolute;
        }
@@ -966,7 +970,7 @@ p {
                 margin-top: 0;
                 padding: 0 30px 0 80px;
                 h2 {
-                    margin: 10px 0;
+                    margin: 0px 0 40px 0px;
                 }
             }  
             .box-not {
@@ -978,54 +982,78 @@ p {
             }
             .leia-mais {
                 float: none;
-                display: inline-block;
-                margin: 0px 115px;
+                font-size: 20px;
             }
         } 
     }
 
-    .noticias-container {
+    .noticias-container { 
         &::before {
             margin: 50px -35px;
-        }
+        } 
     }
     
-    .noticias {
-        background: #fff;
-        margin: 0 15px;
+    // .noticias {
+    //     background: #fff;
+    //     margin: 0 15px;
 
-        .ler-mais {
-            display: inline-block;
-            color: #fff; 
-            background-color: #c8ac48;
-            font-size: 16px;
-            padding: 5px 10px;
-            margin-top: 35px;
-            -webkit-transition: 0.8s all;
-            transition: 0.8s all;
-            text-decoration: none;
-        }
-        .mobile-notice {
-            margin: 0;
-        }
-        .box-news {
-            margin-top: 15px;
-            border: 0 !important;
-            margin-right: 0 !important;
-        }
-        .txt-destaque {
-            h2 {
-                margin: 10px 0;
-            }
-            h3 {
-                margin: 15px 0;
-            }
-        }
-    }
+    //     .ler-mais {
+    //         display: inline-block;
+    //         background-color: #c8ac48;
+    //         color: #fff;
+    //         font-size: 16px;
+    //         padding: 10px 20px;
+    //         margin-top: 25px;
+    //         border: 1px #c8ac48 solid;
+    //         font-family: 'Cambria';
+    //         text-decoration: none;
+    //         transition: 0.8s all;
+    //     } 
+        
+    //     .mobile-notice {
+    //         margin: 0;
+    //     }
+    //     .box-news {
+    //         border: 0 !important; 
+    //         margin-right: 0 !important; 
+    //     }
+    //     .txt-destaque {
+    //         h2 {
+    //             margin: 10px 0;
+    //         }
+    //         h3 {
+    //             margin: 15px 0;
+    //         }
+    //     }
+    //     .ler-mais {
+    //         display: inline-block;
+    //         color: #fff;
+    //         background-color: #c8ac48;
+    //         font-size: 20px;
+    //         padding: 10px 15px;
+    //         margin-top: 25px;
+    //         transition: 0.8s all;
+    //         text-decoration: none;
+         
+    //         &:hover {
+    //             color: #c8ac48;
+    //             background-color: #fff;
+    //             border: 1px #c8ac48 solid;
+    //             transition: 0.8s all;
+    //         }
+    //     }
+    // }
 
     #carousel-brief {
         .carousel-caption {
             top: 14px;
+            
+            h3 {
+                margin: 0;
+            }
+            p {
+                font-size: 12px;
+            }
 
             .icon-carousel {
                 margin-bottom: 20px;
@@ -1033,13 +1061,13 @@ p {
                     width: 25px;
                 }
             }
-            h3 {
-                margin: 0;
-            }
-            p {
-                font-size: 12px;
-            }
         }
+    }
+
+    #img-escritorio-home {
+        background-image: url(../../img/escritorio-home.png);
+        min-height: 100%;
+        position: relative;
     }
     #parallaxBar {
         height: 190px;
@@ -1058,17 +1086,9 @@ p {
                 line-height: 20px;
                 padding-bottom: 0;
                 padding-left: 0;
-                font-family: 'Cambria Regular', serif;
+                font-family: 'Cambria', serif;
             }
         }
     }
 
 }
- 
-    @media (min-width: 992px) {}
-
-    ;
-
-    @media (min-width: 1200px) {}
-
-    ;

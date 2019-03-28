@@ -1,23 +1,24 @@
 <?php include("./includes/header.php");?>
 <main>
-    <section>
-    <div id="carousel-fullbanner" class="carousel slide" data-ride="carousel">
+<section>
+    <img class="d-block w-100 img-fluid fullbanner-img" src="./assets/img/fullbanner.png" alt="First slide">
+    <div id="carousel-fullbanner" class="carousel carousel-text-fullbanner slide" data-ride="carousel">
+        
         <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100 img-fluid" src="./assets/img/fullbanner.png" alt="First slide">
-                    <div class="carousel-caption">
-                        <div class="txt-fullbanner">
-                            <h3>Aristóteles</h3>
-                        </div>
-                        <div class="col-md-9"> 
-                            <h1>Nós somos o que fazemos repetidamente.<br>A excelência, portanto, não é um ato, mas um hábito.</h1>
-                        </div>
-                        <a href="equipe.php" class="leia-mais">LEIA MAIS</a> 
+
+            <div class="carousel-item active">
+                <div class="box-carousel">
+                    <div class="txt-fullbanner">
+                        <h3>Aristóteles</h3>
                     </div>
+                    <div class="col-md-9"> 
+                        <h1>Nós somos o que fazemos repetidamente.<br>A excelência, portanto, não é um ato,<br> mas um hábito.</h1>
+                    </div>
+                    <a href="equipe.php" class="leia-mais">LEIA MAIS</a> 
                 </div>
+            </div>
             <div class="carousel-item">
-                <img class="d-block w-100"img-fluid src="./assets/img/fullbanner.png" alt="Second slide">
-                <div class="carousel-caption">
+            <div class="box-carousel">
                     <div class="txt-fullbanner">
                     <h3>Teixeira Müller Advogados Associados</h3>
                     </div>
@@ -25,18 +26,9 @@
                         <h1>Atuação estratégica, atenta, precisa e idônea.</h1>
                     </div>
                     <a href="escritorio.php" class="leia-mais">LEIA MAIS</a> 
-                </div>
+                    </div>
             </div>
-            <a class="carousel-control-prev" href="#carousel-fullbanner" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-fullbanner" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
-
     </div>
     </section>
     <section>
@@ -54,7 +46,7 @@
                         <a href="escritorio.php" class="leia-mais">LEIA MAIS</a>
                     </div>
                     <div class="col-md-6">
-                        <img class="img-fluid" src="./assets/img/_MG_7811_cut.jpg">
+                        <img class="img-fluid" src="./assets/img/escritorio-home.png">
                     </div>
                 </div>
             </div>
@@ -73,7 +65,7 @@
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6">
+                                <div class="col-md-5">
                                     <div class="box-not row">
                                         <img class="icon" src="./assets/img/icons/icon-work.png" alt="">
                                         <div class="row">
@@ -91,7 +83,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-5">
                                     <div class="box-not row">
                                     <img class="icon" src="./assets/img/icons/icon-work3.png" alt="">
                                         <div class="row">
@@ -120,7 +112,6 @@
     </section>
 
     <!-- NOTICIAS -->
-
     <section>
         <div class="noticias-container">
             <div class="noticias">
@@ -135,47 +126,48 @@
 
                         <div class="row">
                             <!-- EDITAR APARTIR DAQUI -->
-
+                            
                             <div class="col-md-4 box-news">
-                            <a href="./noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.php">
-                            <img  class=" img-news img-fluid" src="./assets/img/noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.jpg" ></a> 
+                            <a href="./noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.php">
+                            <img  class=" img-news img-fluid" src="./assets/img/noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.jpg" ></a> 
                                 <div class="noticia">
                                     <span class="data">
-                                        <div class="speech-bubble">15 Mar</div>
+                                        <div class="speech-bubble">27 Mar</div>
                                     </span>
                                     <div class="content-noticia">
-                                        <h5>Empresa não pode ser desclassificada de processo licitatório por apresentar proposta com valor abaixo do previsto em Portaria do MPOG</h5>
-                                        <p>A 6ª Turma do Tribunal Regional Feder...</p>
-                                        <a href="./noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.php" class="ler-mais">LER MAIS</a> 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 box-news">
-                            <a href="./noticias/consumidor-e-condenado-por-ma-fe-apos-contestar-divida-que-realmente-fez.php">
-                            <img  class=" img-news img-fluid" src="./assets/img/noticias/consumidor-e-condenado-por-ma-fe-apos-contestar-divida-que-realmente-fez.jpg" ></a> 
-                                <div class="noticia">
-                                    <span class="data">
-                                        <div class="speech-bubble">15 Mar</div>
-                                    </span>
-                                    <div class="content-noticia">
-                                        <h5>Consumidor é condenado por má-fé após contestar dívida que realmente fez</h5>
-                                        <p>Um consumidor foi condenado por litigância de má-fé após ajuizar ação contra a Telefônica (Vivo) reclamando ....</p>
-                                        <a href="./noticias/consumidor-e-condenado-por-ma-fe-apos-contestar-divida-que-realmente-fez.php" class="ler-mais">LER MAIS</a> 
+                                        <h5>Sócios em comum e relação entre empresas não são suficientes para responsabilização solidária</h5>
+                                        <p>A Quinta Turma do Tribunal Superior do Trabalho afastou a responsabilidade solidária da Contécnica Consultoria Técnica Ltda., de São Paulo (SP), pelo pagamento de...</p>  
+                                    <a href="./noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.php" class="ler-mais">LER MAIS</a> 
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 box-news">
-                            <a href="./noticias/redirecionamento-de-execucao-fiscal-requer-desconsideracao-da-pessoa-juridica.php">
-                            <img  class=" img-news img-fluid" src="./assets/img/noticias/redirecionamento-de-execucao-fiscal-requer-desconsideracao-da-pessoa-juridica.jpg" ></a> 
+                            <a href="./noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.php">
+                            <img  class=" img-news img-fluid" src="./assets/img/noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.jpg" ></a> 
                                 <div class="noticia">
                                     <span class="data">
-                                        <div class="speech-bubble">14 Mar</div>
+                                        <div class="speech-bubble">26 Mar</div>
                                     </span>
                                     <div class="content-noticia">
-                                        <h5>Redirecionamento de execução fiscal requer desconsideração da pessoa jurídica</h5>
-                                        <p>O redirecionamento de execução fiscal a pessoa jurídica que integra o mesmo grupo econômico....</p>
-                                        <a href="./noticias/redirecionamento-de-execucao-fiscal-requer-desconsideracao-da-pessoa-juridica.php" class="ler-mais">LER MAIS</a> 
+                                        <h5>Atividade básica da empresa é que vincula sua inscrição perante os conselhos de fiscalização</h5>
+                                        <p>Contratar e manter funcionários em cargos pretensamente privativos de Administradores sem que possuam formação superior em Administração não configura...</p>  
+                                    <a href="./noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.php" class="ler-mais">LER MAIS</a> 
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-4 box-news">
+                            <a href="./noticias/justica-considera-ilegal-cobranca-de-taxa-de-conveniencia-na-venda-de-ingressos-online.php">
+                            <img  class=" img-news img-fluid" src="./assets/img/noticias/justica-considera-ilegal-cobranca-de-taxa-de-conveniencia-na-venda-de-ingressos-online.jpg" ></a> 
+                                <div class="noticia">
+                                    <span class="data">
+                                        <div class="speech-bubble">25 Mar</div>
+                                    </span>
+                                    <div class="content-noticia">
+                                        <h5>Justiça considera ilegal cobrança de taxa de conveniência na venda de ingressos online</h5>
+                                        <p>A Terceira Turma do Superior Tribunal de Justiça (STJ) restabeleceu sentença que reconheceu a ilegalidade da taxa de conveniência cobrada pelo site Ingresso Rápido ...</p>
+                                        <a href="./noticias/justica-considera-ilegal-cobranca-de-taxa-de-conveniencia-na-venda-de-ingressos-online.php" class="ler-mais">LER MAIS</a> 
                                     </div>
                                 </div>
                             </div>

@@ -29,7 +29,7 @@
                     <img class="img-news img-fluid" src="../assets/img/noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.jpg">
                     <span class="data">
                         <!-- DATA DA NOTICIA -->
-                        <div class="speech-bubble">16 Mar</div>
+                        <div class="speech-bubble">18 Mar</div>
                     </span>
                 </div>
                 <!-- CONTEUDO -->

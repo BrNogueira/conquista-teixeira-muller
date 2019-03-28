@@ -25,7 +25,6 @@ h5 {
 
 p {
   font-weight: 500;
-  letter-spacing: 0.5px;
   font-family: 'Cambria Regular';
 }
 
@@ -48,17 +47,13 @@ p {
   z-index: 999;
 }
 
-.logo {
-  padding: 0px 45px;
-}
-
 .noticias {
   background: #f7f7f7;
   padding: 25px;
 }
 
 .noticias .box-news {
-  padding: 15px;
+  padding: 7.5px;
   margin-right: 0 !important;
   margin-bottom: 25px !important;
 }
@@ -72,10 +67,8 @@ p {
   color: #9e9da0;
   font-weight: 500;
   max-height: 75px;
-}
-
-.noticias .noticia {
-  padding: 20px;
+  letter-spacing: 0;
+  line-height: 20px;
 }
 
 .noticias .noticia .content-noticia {
@@ -131,14 +124,16 @@ p {
 
 .noticias .ler-mais {
   display: inline-block;
-  color: #fff;
   background-color: #c8ac48;
-  font-size: 20px;
-  padding: 10px 15px;
+  color: #fff;
+  font-size: 16px;
+  padding: 6px 20px;
   margin-top: 25px;
+  border: 1px #c8ac48 solid;
+  font-family: 'Cambria';
+  text-decoration: none;
   -webkit-transition: 0.8s all;
   transition: 0.8s all;
-  text-decoration: none;
 }
 
 .noticias .ler-mais:hover {

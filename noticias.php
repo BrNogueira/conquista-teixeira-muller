@@ -15,14 +15,119 @@
             <div class="noticias">
                 <div class="row">
                     <div class="container">
-                        <div class="row">
+                    <div class="row">
+
+                    <div class="col-md-4 box-news">
+                    <a href="./noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.php">
+                    <img  class=" img-news img-fluid" src="./assets/img/noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.jpg" ></a> 
+                        <div class="noticia">
+                            <span class="data">
+                                <div class="speech-bubble">27 Mar</div>
+                            </span>
+                            <div class="content-noticia">
+                                <h5>Sócios em comum e relação entre empresas não são suficientes para responsabilização solidária</h5>
+                                <p>A Quinta Turma do Tribunal Superior do Trabalho afastou a responsabilidade solidária da Contécnica Consultoria Técnica Ltda., de São Paulo (SP), pelo pagamento de...</p>  
+                              <a href="./noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.php" class="ler-mais">LER MAIS</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box-news">
+                    <a href="./noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.php">
+                    <img  class=" img-news img-fluid" src="./assets/img/noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.jpg" ></a> 
+                        <div class="noticia">
+                            <span class="data">
+                                <div class="speech-bubble">26 Mar</div>
+                            </span>
+                            <div class="content-noticia">
+                                <h5>Atividade básica da empresa é que vincula sua inscrição perante os conselhos de fiscalização</h5>
+                                <p>Contratar e manter funcionários em cargos pretensamente privativos de Administradores sem que possuam formação superior em Administração não configura...</p>  
+                              <a href="./noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.php" class="ler-mais">LER MAIS</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box-news">
+                    <a href="./noticias/justica-considera-ilegal-cobranca-de-taxa-de-conveniencia-na-venda-de-ingressos-online.php">
+                    <img  class=" img-news img-fluid" src="./assets/img/noticias/justica-considera-ilegal-cobranca-de-taxa-de-conveniencia-na-venda-de-ingressos-online.jpg" ></a> 
+                        <div class="noticia">
+                            <span class="data">
+                                <div class="speech-bubble">25 Mar</div>
+                            </span>
+                            <div class="content-noticia">
+                                <h5>Justiça considera ilegal cobrança de taxa de conveniência na venda de ingressos online</h5>
+                                <p>A Terceira Turma do Superior Tribunal de Justiça (STJ) restabeleceu sentença que reconheceu a ilegalidade da taxa de conveniência cobrada pelo site Ingresso Rápido ...</p>
+                                <a href="./noticias/justica-considera-ilegal-cobranca-de-taxa-de-conveniencia-na-venda-de-ingressos-online.php" class="ler-mais">LER MAIS</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box-news">
+                    <a href="./noticias/tst-afasta-penhora-sobre-parte-da-aposentadoria-de-socio-de-empresa.php">
+                    <img  class=" img-news img-fluid" src="./assets/img/noticias/tst-afasta-penhora-sobre-parte-da-aposentadoria-de-socio-de-empresa.jpg" ></a> 
+                        <div class="noticia">
+                            <span class="data">
+                                <div class="speech-bubble">22 Mar</div>
+                            </span>
+                            <div class="content-noticia">
+                                <h5>TST afasta penhora sobre parte da aposentadoria de sócio de empresa</h5>
+                                <p>A Subseção II Especializada em Dissídios Individuais (SDI-2) do Tribunal Superior do Trabalho ...</p>
+                                <a href="./noticias/tst-afasta-penhora-sobre-parte-da-aposentadoria-de-socio-de-empresa.php" class="ler-mais">LER MAIS</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box-news">
+                    <a href="./noticias/fisco-nao-pode-utilizar-se-da-retencao-de-mercadoria-importada-como-forma-de-impor-o-recebimento-de-tributos.php">
+                    <img  class=" img-news img-fluid" src="./assets/img/noticias/fisco-nao-pode-utilizar-se-da-retencao-de-mercadoria-importada-como-forma-de-impor-o-recebimento-de-tributos.jpg" ></a> 
+                        <div class="noticia">
+                            <span class="data">
+                                <div class="speech-bubble">21 Mar</div>
+                            </span>
+                            <div class="content-noticia">
+                                <h5>Empresa não pode ser desclassificada de processo licitatório por apresentar proposta com valor abaixo do previsto em Portaria do MPOG</h5>
+                                <p>A 6ª Turma do Tribunal Regional Feder...</p>
+                                <a href="./noticias/fisco-nao-pode-utilizar-se-da-retencao-de-mercadoria-importada-como-forma-de-impor-o-recebimento-de-tributos.php" class="ler-mais">LER MAIS</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box-news">
+                    <a href="./noticias/seguradora-sub-rogada-tem-garantias-do-CDC-iguais-as-de-titular-do-direito.php">
+                    <img  class=" img-news img-fluid" src="./assets/img/noticias/seguradora-sub-rogada-tem-garantias-do-CDC-iguais-as-de-titular-do-direito.jpg" ></a> 
+                        <div class="noticia">
+                            <span class="data">
+                                <div class="speech-bubble">20 Mar</div>
+                            </span>
+                            <div class="content-noticia">
+                                <h5>Seguradora sub-rogada tem garantias do CDC iguais às de titular do direito</h5>
+                                <p>A 3ª turma do STJ negou provimento a recurso especial e confirmou entendimento no sentido de ...</p>
+                                <a href="./noticias/seguradora-sub-rogada-tem-garantias-do-CDC-iguais-as-de-titular-do-direito.php" class="ler-mais">LER MAIS</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 box-news">
+                    <a href="./noticias/empregada-e-condenada-por-litigancia-de-ma-fe-por-apresentar-fatos-inveridicos.php">
+                    <img  class=" img-news img-fluid" src="./assets/img/noticias/empregada-e-condenada-por-litigancia-de-ma-fe-por-apresentar-fatos-inveridicos.jpg" ></a> 
+                        <div class="noticia">
+                            <span class="data">
+                                <div class="speech-bubble">19 Mar</div>
+                            </span>
+                            <div class="content-noticia">
+                                <h5>Empregada é condenada por litigância de má-fé por apresentar fatos inverídicos</h5>
+                                <p>O Tribunal Regional do Trabalho da 24ª Região manteve, por unanimidade, a condenação de...</p>
+                                <a href="./noticias/empregada-e-condenada-por-litigancia-de-ma-fe-por-apresentar-fatos-inveridicos.php" class="ler-mais">LER MAIS</a> 
+                            </div>
+                        </div>
+                    </div>
 
                         <div class="col-md-4 box-news">
                             <a href="./noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.php">
                             <img  class=" img-news img-fluid" src="./assets/img/noticias/empresa-nao-pode-ser-desclassificada-de-processo-licitatorio-por-apresentar-proposta-com-valor-abaixo-do-previsto-em-portaria-do-mpog.jpg" ></a> 
                                 <div class="noticia">
                                     <span class="data">
-                                        <div class="speech-bubble">15 Mar</div>
+                                        <div class="speech-bubble">18 Mar</div>
                                     </span>
                                     <div class="content-noticia">
                                         <h5>Empresa não pode ser desclassificada de processo licitatório por apresentar proposta com valor abaixo do previsto em Portaria do MPOG</h5>
@@ -68,7 +173,7 @@
                             <img src="./assets/img/noticias/construtora-nao-pagara-por-lavagem-de-uniforme-de-carpinteiro.jpg" class="img-news img-fluid">                    </a> 
                                 <div class="noticia">
                                     <span class="data">
-                                        <div class="speech-bubble">15 Mar</div>
+                                        <div class="speech-bubble">13 Mar</div>
                                     </span>
                                     <div class="content-noticia">
                                         <h5>Construtora não pagará por lavagem de uniforme de carpinteiro</h5>

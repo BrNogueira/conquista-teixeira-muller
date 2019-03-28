@@ -1,6 +1,6 @@
-
 .quem-somos {
     display: block;
+    padding: 40px 0;
     .col-lg-6 {
         padding-right: 0;
         padding-left: 0;
@@ -23,7 +23,7 @@
         font-weight: lighter;
         line-height: 15px;
         padding: 15px 15px;
-        font-family: "Playfair Display", serif;
+        font-family: 'Raleway Medium';
 
         &::before {
             background: #c8ac48;
@@ -39,7 +39,7 @@
             font-size: 30px;
             color: #000;
             padding-top: 10px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
         }
 
         h3 {
@@ -60,29 +60,24 @@
         p{
             color: #9e9da0;
             font-weight: 500;
-            letter-spacing: 0.9px;
-            line-height: 25px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
         }
     }
 
     .txt-introduction2 {
         margin: 0;
-        padding: 100px 40px;
+        padding: 65px 40px;
         text-align: justify;
 
         p{
             color: #9e9da0;
             font-weight: 500;
-            letter-spacing: 0.9px;
-            line-height: 25px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
         }
     }
 .guides-title {
     font-size: 18px;
     text-transform: uppercase;
-    letter-spacing: 2px;
     width: 200px;
     height: 300px;
     float: left;
@@ -107,7 +102,6 @@
 
     .txt-destaque {
         text-align: left;
-        margin: 50px 50px 0;        
 
             &::before {
                 background: #c8ac48;
@@ -132,16 +126,14 @@
                 font-size: 20px;
                 color: #000;
                 padding-top: 10px;
-                font-family: 'Cambria Regular';
+                font-family: 'Cambria';
             }
         }
 
         p{
             color: #9e9da0;
-            font-weight: 700;
-            letter-spacing: 2.5px;
-            line-height: 18px;
-            font-family: 'Cambria Regular';
+            font-weight: 500;
+            font-family: 'Cambria';
         }
     }
     
@@ -175,16 +167,14 @@
     }
     .values-descritions {
         margin: auto;
+        padding: 40px 0;
         padding-bottom: 50px;
         background-color: #f7f7f7;
 
         p{
             color: #9e9da0;
-            letter-spacing: 0.9px;
-            line-height: 25px;
             font-weight: 500;
-            font-family: 'Cambria Regular';
-            font-size: 16px;
+            font-family: 'Cambria';
         }
     }
     .values-descritions-bottom {
@@ -195,11 +185,8 @@
 
         p{
             color: #9e9da0;
-            letter-spacing: 0.9px;
-            line-height: 25px;
             font-weight: 500;
-            font-family: 'Cambria Regular';
-            font-size: 20px;
+            font-family: 'Cambria';
         }
     }
     .values-work { 
@@ -216,10 +203,8 @@
 
             p{
                 color: #9e9da0;
-                font-weight: 700;
-                letter-spacing: 2.5px;
-                line-height: 18px;
-                font-family: 'Cambria Regular';
+                font-weight: 500;
+                font-family: 'Cambria';
             }
         }
     }
@@ -231,7 +216,6 @@
 
 .txt-destaque {
     text-align: left;
-    margin: 50px 50px 0;        
     
     h3 {
         display: inline-flex;
@@ -245,14 +229,14 @@
             font-size: 20px;
             color: #000;
             padding-top: 10px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
         }
     }
 
     li {
         color: #9e9da0;
         font-weight: 500;
-        font-family: 'Cambria Regular';
+        font-family: 'Cambria';
         font-size: 16px;
         display: contents;
         position: relative;
@@ -262,38 +246,36 @@
     
     p{
         color: #9e9da0;
-        font-weight: 700;
-        letter-spacing: 2.5px;
-        line-height: 18px;
-        font-family: 'Cambria Regular';
-    }
+        font-weight: 500;
+        font-family: 'Cambria';
+    } 
 }
 
-.lider {
+.parallax-esc {
     margin: auto;
     padding: 0;
 }
 
-#img-lider {
-    background-image: url(./assets/img/equipe.jpg);
+#img-escritorio {
+    background-image: url(../../img/escritorio.png);
     min-height: 100%;
-    position: relative; 
+    position: relative;
     .txt-destaque {
-        display: block; 
+        display: block;
         color: #c8ac48;
         font-size: 30px;
         margin: 0;
         font-weight: lighter;
         line-height: 15px;
         padding: 15px 15px;
-        font-family: "Playfair Display", serif;
+        font-family: 'Raleway Medium';
         margin: 55px 40px 0;
         
         h2 {
             font-size:40px;
             color: #fff;
             padding-top: 10px;
-            font-family: 'Cambria Regular';
+            font-family: 'Cambria';
         }
         h3 {
             display: inline-flex;
@@ -335,26 +317,7 @@
             }
         }
     }
-   #parallaxBar {
-        height: 650px;
-        
-        .txt-parallax {
-            &::before {
-                width: 45px !important;
-                
-                h2 { 
-                    padding-left: 0 !important;
-                    padding: 15px 55px !important;
-                }
-                h3 {
-                    line-height: 0 !important;
-                    font-size: 14px !important;
-                    
-                }
-            }
-        }
-    
-    }
+
 };
 
 @media (min-width: 992px) {}

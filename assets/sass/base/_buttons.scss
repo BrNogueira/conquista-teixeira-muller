@@ -1,21 +1,21 @@
 .leia-mais {
     display: inline-block;
-    color: #fff;
     background-color: #c8ac48;
+    color: #fff;
     font-size: 16px;
     padding: 10px 20px;
     margin-top: 25px;
-    transition: 0.8s all;
     border: 1px #c8ac48 solid;
-
+    font-family: 'Cambria';
     text-decoration: none;
-    font-family: 'Playfair Display', serif;
+    transition: 0.8s all;
     
     &:hover {
         color: #c8ac48;
         background-color: #fff;
         border: 1px #c8ac48 solid;
         transition: 0.8s all;
+        text-decoration: none;
     }
 }
 
