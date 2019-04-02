@@ -64,9 +64,7 @@
             </div>
         </label>
         <ul class="menu menu-mobile">
-            <li class="">
-                <a class="" href="index.php">HOME</a>
-            </li>
+
             <li class="">
                 <a class="" href="escritorio.php">ESCRITÓRIO</a>
             </li>

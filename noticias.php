@@ -17,6 +17,24 @@
                     <div class="container">
                     <div class="row">
 
+                    
+                    <div class="col-md-4 box-news">
+                        <a href="./noticias/prazo-para-pedir-devolucao-por-cobranca-indevida-de-servicos-de-telefonia-nao-contratados-e-de-dez-anos.php">
+                            <img class=" img-news img-fluid"
+                                src="./assets/img/noticias/prazo-para-pedir-devolucao-por-cobranca-indevida-de-servicos-de-telefonia-nao-contratados-e-de-dez-anos.jpg"></a>
+                        <div class="noticia">
+                            <span class="data">
+                                <div class="speech-bubble">28 Mar</div>
+                            </span>
+                            <div class="content-noticia">
+                                <h5>Prazo para pedir devolução por cobrança indevida de serviços de telefonia não contratados é de dez anos</h5>
+                                <p>A Corte Especial do Superior Tribunal de Justiça (STJ) definiu que é de dez anos o prazo de prescrição para o ajuizamento de ação de repetição de indébito por ...</p>
+                                <a href="./noticias/prazo-para-pedir-devolucao-por-cobranca-indevida-de-servicos-de-telefonia-nao-contratados-e-de-dez-anos.php"
+                                    class="ler-mais">LEIA MAIS</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-md-4 box-news">
                     <a href="./noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.php">
                     <img  class=" img-news img-fluid" src="./assets/img/noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.jpg" ></a> 

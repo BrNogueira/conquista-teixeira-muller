@@ -186,4 +186,47 @@ p {
     margin: 15px 0;
   }
 }
+
+@media (max-width: 992px) {
+  .top-nav {
+    height: 65px !important;
+  }
+  .navbar-brand img {
+    width: 65%;
+  }
+  .logo {
+    padding: 0;
+  }
+  .logo img {
+    width: 85%;
+  }
+  .noticias {
+    background: #fff;
+    margin: 0 15px;
+    padding: 25px;
+  }
+  .noticias .ler-mais {
+    display: inline-block;
+    color: #fff;
+    background-color: #c8ac48;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-top: 35px;
+    -webkit-transition: 0.8s all;
+    transition: 0.8s all;
+    text-decoration: none;
+  }
+  .noticias .mobile-notice {
+    margin: 0;
+  }
+  .noticias .box-news {
+    margin-top: 15px;
+  }
+  .noticias .txt-destaque h2 {
+    margin: 10px 0;
+  }
+  .noticias .txt-destaque h3 {
+    margin: 15px 0;
+  }
+}
 /*# sourceMappingURL=noticias.css.map */

@@ -64,3 +64,17 @@
         }
     }
 }
+@media (max-width: 992px) {
+    .equipe {
+        .box-team {
+            h4 {
+                line-height: 25px;
+                margin-left: 35px;
+                &::before {
+                    margin: 9px -35px;
+                    width: 30px;
+                }
+            }
+        }
+    }
+}

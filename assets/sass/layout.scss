@@ -88,16 +88,16 @@ p {
             font-size:40px;
             color: #fff; 
             padding-top: 10px;
-            font-family: 'Cambria';
+            font-family: 'Cambria'; 
         }
-
+         
         h3 {
             display: inline-flex;
             color: #c8ac48;
             font-size: 35px;
-            margin: 0; 
+            margin: 0 45px;  
             line-height: 15px;  
-            font-family: 'Playfair Display', serif;
+            font-family: 'Playfair Display', serif; 
         }
     }
 }
@@ -390,7 +390,7 @@ p {
         bottom: 0;
         z-index: 1;
         display: flex;
-        -ms-flex-align: center;  
+        -ms-flex-align: center;
         align-items: center; 
         -ms-flex-pack: center;
         justify-content: center;
@@ -415,14 +415,14 @@ p {
             }
 
             h1 {
-                font-size: 45px !important;
+                font-size: 30px !important;
                 font-family: 'Cambria';
             }
 
             h3 {
                 display: inline-flex;
                 color: #c8ac48;
-                font-size: 32px;
+                font-size: 25px;
                 font-weight: lighter;
                 margin-left: 135px;
                 margin-bottom: 15px;
@@ -623,7 +623,7 @@ p {
     .data {
         color: #fff;
         font-size: 20px;
-        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        font-family: 'Cambria';
 
         .speech-bubble {
             position: absolute;
@@ -839,12 +839,12 @@ p {
         }
 
         .regular-txt {
-            font-weight: 400;
-            font-size: 17px;
             color: #9e9da0;
-            line-height: 180%; 
-            margin-bottom: 15px;
-            text-align: justify;
+            font-weight: 500;
+            max-height: 75px;
+            letter-spacing: 0; 
+            line-height: 20px;
+            margin: 0px 0 30px;
         }  
     }  
 }   
@@ -1134,5 +1134,300 @@ p {
             }
         }
     }
+}
+@media (max-width: 940px)  {
+    .top-nav {
+        height: 65px !important;
+    }
+    .navbar-brand img {
+        width: 35%;
+    }
+   
+    .page {
+        padding-top: 50px;
+        height: 100px !important;
 
+        &::before {
+            display: block;
+            position: absolute; 
+            content: "";
+            width: 45px !important;
+            height: 1px;
+            margin: 45px 80px;
+            background: #c8ac48; 
+        }
+        .txt-destaque {
+            display: block;
+            color: #c8ac48;
+            margin: 0 !important;
+            padding: 28px 55px 0 !important;
+                        font-family: 'Playfair Display', serif;
+
+            h3 {
+                display: inline-flex;
+                color: #c8ac48;
+                font-size: 25px !important;
+                margin: 10px 0;
+                line-height: 15px;
+                font-family: 'Playfair Display', serif;
+            }
+        }
+    }
+ 
+    .logo {
+        padding: 0;
+        img {
+            width: 35% !important;
+            padding: 10px;      
+        }
+    }
+    .container-fullbanner {
+        position: relative;
+        padding: 0 100px;
+    }
+    .carousel-text-fullbanner {
+        top: 5px;
+        padding: 20px; 
+
+        h3 {  
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 25px !important;
+            font-weight: lighter;
+            margin-left: 60px;
+            margin-bottom: 0px !important;
+            padding-top: 40px;
+            line-height: 40px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        h1 {
+            font-size: 30px;
+        }
+
+        .leia-mais {
+            color: #fff;
+            background-color: #c8ac48;
+            font-size: 13px !important;
+            padding: 5px 10px;
+            margin-top: 0;
+            float: none;
+            position: relative;
+            transition: 0.8s all;
+            text-decoration: none;
+            font-family: 'Cambria';
+            z-index: 99;
+            top: 20px;
+            left: 15px;
+        }
+
+    }
+
+    .carousel {
+        z-index: 10;
+        width: 100%;
+    }
+
+    #carousel-fullbanner {
+
+        .carousel-item.active {
+            display:block;
+            height: 300px !important;
+        }
+
+        .carousel-inner {
+
+            .txt-fullbanner {
+                margin: 0 55px;
+                
+                &::before {
+                    background: #c8ac48;
+                    width: 40px;
+                    height: 1px;
+                    content: "";
+                    display: block;
+                    margin: 60px 20px;
+                    position: absolute;
+                }
+            }
+            
+            .carousel-caption {
+                position: absolute;
+                right: 18%;
+                top: 8%;
+                left: 6%;
+                z-index: 10;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                color: #fff;
+                text-align: left;
+
+                h1 {
+                    font-size: 1rem;
+                    color: #fff;
+                }
+                h3 {
+                    margin-left: 75px !important;
+                }
+
+            }
+        }
+    }
+    .quem-somos {
+        .txt-introduction2 {
+            padding: 35px 40px;
+        }
+    }
+    .info-container {
+        &::before {
+            display: none;
+        }
+    }
+    .info {
+        padding: 0;
+
+        img {
+            max-width: 345px !important;
+            padding-top:25px;
+            margin-bottom: 15px;
+            }
+
+       &::before {
+            background: #c8ac48;
+            width: 45px;
+            height: 1px;
+            content: "";
+            display: block;  
+            margin: 38px 0px;
+            position: absolute;
+       }
+    
+    }
+
+    .txt-destaque {
+
+        h3 {
+            display: -webkit-inline-box;
+            display: -ms-inline-flexbox;
+            display: inline-flex;
+            color: #c8ac48;
+            font-size: 20px;
+            line-height: 15px;
+            margin: 30px 0 0 60px;
+            font-family: 'Playfair Display', serif;
+        }
+        h2 {
+            margin: 0 0 0 60px;
+            padding-top: 10px;
+            margin-bottom: 20px !important;
+        }
+    }
+
+    .pratica-container {
+        &::before {
+            margin: 33px -35px;
+        }
+        h2 {
+            margin: 10px 40px;
+        }
+        h3 {
+            margin: 15px 0;
+        }
+
+        
+        .area-pratica {
+            
+            .txt-destaque {
+                margin-top: 0;
+                padding: 0 30px 0 80px;
+                h2 {
+                    margin: 0px 0 40px 0px;
+                    padding-top: 10px;
+                }
+            }  
+            .box-not {
+                margin: 0;
+                padding: 10 30px;
+            }
+
+            .leia-mais {
+                float: none;
+                margin-top: 20px;
+                font-size: 20px;
+            }
+        } 
+    }
+
+    .noticias-container { 
+        &::before {
+            margin: 35px -10px;
+        } 
+    }
+    .noticias {
+        .txt-destaque {
+            h2 {
+                margin-top: 0;
+            }
+            h3 {
+                margin: 0;
+            }
+        }
+    }
+    
+    #carousel-brief {
+        
+        .carousel-caption {
+            top: 14px;
+            
+            h3 {
+                margin: 0;
+            }
+            p {
+                font-size: 18px;
+            }
+
+            .brief-content {
+                padding: 10px;
+            }
+
+            .icon-carousel {
+                margin-bottom: 20px;
+                img {
+                    width: 25px;
+                }
+            }
+            .txt-destaque {
+                h3 {
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    
+    #img-escritorio-home {
+        background-image: url(../../img/escritorio.png);
+        min-height: 100%;
+        position: relative;
+    }
+    #parallaxBar {
+        height: 190px;
+
+        .txt-parallax {
+            left: 20px;
+            bottom: 10px;
+            
+            h3 {
+                display: -webkit-inline-box;
+                display: -ms-inline-flexbox;
+                display: inline-flex;
+                font-size: 16px;
+                margin: 0;
+                color: #fff;
+                line-height: 20px;
+                padding-bottom: 0;
+                padding-left: 0;
+                font-family: 'Cambria', serif;
+            }
+        }
+    }
 }

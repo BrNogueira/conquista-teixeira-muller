@@ -105,14 +105,14 @@ li {
     background-color: #fff;
     height: 4px;
   }
-&::before {
-  display: block;
-  border-radius: 2px;
-  height: 4px;
+  &::before {
+    display: block;
+    border-radius: 2px;
+    height: 4px;
 
-  background-color: #fff;
-  height: 4px;
-  }
+    background-color: #fff;
+    height: 4px;
+    }
 }
 
 .menu-button::before {
@@ -124,7 +124,7 @@ li {
   margin-top: -15px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 940px) {
   .menu-button-container {
     display: flex;
   }
@@ -197,4 +197,10 @@ li {
       }
     }
   }
+};
+
+@media (max-width: 1200px) {
+    li {
+      padding:10px 20px 0px 0px ;
+    }
 }
