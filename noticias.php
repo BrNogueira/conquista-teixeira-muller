@@ -17,6 +17,22 @@
                     <div class="container">
                     <div class="row">
 
+                    <div class="col-md-4 box-news">
+                                <a href="./noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.php">
+                                    <img class=" img-news img-fluid"
+                                        src="./assets/img/noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.jpg"></a>
+                                <div class="noticia">
+                                    <span class="data">
+                                        <div class="speech-bubble">01 Abril</div>
+                                    </span>
+                                    <div class="content-noticia">
+                                        <h5>Importadora deverá restituir empresa em R$17 mil por atraso na entrega de mercadoria</h5>
+                                        <p>Uma empresa de informática do município da Serra deverá ser indenizada por uma importadora em R$ 19.500 a títulos de danos materiais, por não receber o produto comprado dentro do prazo estabelecido. A decisão é 5ª Vara Cível da Comarca....</p>
+                                        <a href="./noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.php"
+                                            class="ler-mais">LEIA MAIS</a>
+                                    </div>
+                                </div>
+                            </div>
                     
                     <div class="col-md-4 box-news">
                         <a href="./noticias/prazo-para-pedir-devolucao-por-cobranca-indevida-de-servicos-de-telefonia-nao-contratados-e-de-dez-anos.php">

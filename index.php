@@ -148,6 +148,22 @@
                         <div class="row">
                             <!-- EDITAR APARTIR DAQUI -->
 
+                            <div class="col-md-4 box-news">
+                                <a href="./noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.php">
+                                    <img class=" img-news img-fluid"
+                                        src="./assets/img/noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.jpg"></a>
+                                <div class="noticia">
+                                    <span class="data">
+                                        <div class="speech-bubble">01 Abril</div>
+                                    </span>
+                                    <div class="content-noticia">
+                                        <h5>Importadora deverá restituir empresa em R$17 mil por atraso na entrega de mercadoria</h5>
+                                        <p>Uma empresa de informática do município da Serra deverá ser indenizada por uma importadora em R$ 19.500 a títulos de danos materiais, por não receber o produto comprado...</p>
+                                        <a href="./noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.php"
+                                            class="ler-mais">LEIA MAIS</a>
+                                    </div>
+                                </div>
+                            </div>
 
                             <div class="col-md-4 col-lg-4 box-news">
                                 <a
@@ -183,27 +199,6 @@
                                             solidária da Contécnica Consultoria Técnica Ltda., de São Paulo (SP), pelo
                                             pagamento de...</p>
                                         <a href="./noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.php"
-                                            class="ler-mais">LEIA MAIS</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 box-news">
-                                <a
-                                    href="./noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.php">
-                                    <img class=" img-news img-fluid"
-                                        src="./assets/img/noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.jpg"></a>
-                                <div class="noticia">
-                                    <span class="data">
-                                        <div class="speech-bubble">26 Mar</div>
-                                    </span>
-                                    <div class="content-noticia">
-                                        <h5>Atividade básica da empresa é que vincula sua inscrição perante os conselhos
-                                            de fiscalização</h5>
-                                        <p>Contratar e manter funcionários em cargos pretensamente privativos de
-                                            Administradores sem que possuam formação superior em Administração não
-                                            configura...</p>
-                                        <a href="./noticias/atividade-basica-da-empresa-e-que-vincula-sua-inscricao-perante-os-conselhos-de-fiscalizacao.php"
                                             class="ler-mais">LEIA MAIS</a>
                                     </div>
                                 </div>

@@ -44,6 +44,7 @@ p {
     font-weight: 500;
     text-align:justify !important;
     font-family: 'Cambria';
+    font-size: 18px !important;
 }
 
 *,
@@ -646,8 +647,8 @@ p {
             border-top-color: #c8ac48;
             border-bottom: 0;
             border-left: 0;
-            margin-left: -26.5px;
-            margin-bottom: -15px;
+            margin-left: -27.5px;
+            margin-bottom: -14px;
         }
     }
 
@@ -849,7 +850,7 @@ p {
     }  
 }   
 
-@media (max-width: 764px) {
+@media (max-width: 768px) {
     .top-nav {
         height: 65px !important;
     }
@@ -891,7 +892,7 @@ p {
     .logo {
         padding: 0;
         img {
-            width: 80% !important;
+            width: 55% !important;
             padding: 10px;      
         }
     }
@@ -902,16 +903,16 @@ p {
     .carousel-text-fullbanner {
         top: 5px;
         padding: 20px;
-
-        h3 { 
+        
+        h3 {  
             display: inline-flex;
             color: #c8ac48;
             font-size: 15px !important;
             font-weight: lighter;
-            margin-left: 60px;
+            margin-left: 70px !important;
             margin-bottom: 0px !important;
-            padding-top: 40px;
-            line-height: 40px;
+            padding-top: 49px;
+            line-height: 16px !important;
             font-family: 'Playfair Display', serif;
         }
 
@@ -1135,7 +1136,8 @@ p {
         }
     }
 }
-@media (max-width: 940px)  {
+@media (min-width: 770px) and (max-width: 940px)  {
+
     .top-nav {
         height: 65px !important;
     }
@@ -1166,7 +1168,7 @@ p {
             h3 {
                 display: inline-flex;
                 color: #c8ac48;
-                font-size: 25px !important;
+                font-size: 22px !important;
                 margin: 10px 0;
                 line-height: 15px;
                 font-family: 'Playfair Display', serif;
@@ -1383,13 +1385,14 @@ p {
             
             h3 {
                 margin: 0;
+                font-size: 16px !important;
             }
             p {
-                font-size: 12px;
+                font-size: 13px !important;
             }
 
             .brief-content {
-                padding: 10px;
+                padding: 0;
             }
 
             .icon-carousel {
