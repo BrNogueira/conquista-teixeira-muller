@@ -2,13 +2,13 @@
   <div class="container">
     <div class="row">
       <div class="box-footer">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-4">
           <div class="txt-destaque">
             <h3><strong>Endereço</strong></h3>
           </div>
               <p>Rua Celeste Gobbato, 32/204 Porto Alegre</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-4">
           <div class="txt-destaque">
             <h3>
               <strong>Email</strong>
@@ -17,7 +17,7 @@
               <p>contato@teixeiramuller.com.br</p>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-4">
           <div class="txt-destaque">
             <h3>
               <strong>Telefone</strong>
@@ -26,7 +26,7 @@
               <p>(51) 3026-3909</p>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-4">
           <div class="txt-destaque">
             <h3>
               <strong>Redes Sociais</strong>
