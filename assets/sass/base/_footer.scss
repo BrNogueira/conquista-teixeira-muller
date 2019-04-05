@@ -1,4 +1,9 @@
 
+@font-face {
+    font-family: Cambria; 
+    src: local('Cambria'), url ('../fonts/cambria.ttc');
+}
+
 footer {
     .col-sm-4 {
         display: none;
@@ -33,7 +38,7 @@ footer {
             font-weight: 500;
             line-height: 18px;
             text-align: left !important;
-            font-family: 'Cambria Regular';
+                font-family: 'Cambria', serif;
         }
         .redes-sociais .fab {
             padding:0 8px;

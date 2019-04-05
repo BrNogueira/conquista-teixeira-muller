@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Cambria;
+  src: local("Cambria"), url "../fonts/cambria.ttc";
+}
+
 .top-nav {
   z-index: 999;
   display: -webkit-box;
@@ -25,9 +30,8 @@
 
 .logo {
   position: relative;
-  top: 15px;
+  top: 25px;
   left: -15px;
-  padding: 0px 45px 0px 0;
 }
 
 .logo img {
@@ -158,7 +162,7 @@ li a:hover {
   .menu {
     position: absolute;
     top: 0;
-    margin-top: 67px;
+    margin-top: 50px;
     left: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -246,6 +250,11 @@ li a:hover {
   }
 }
 
+@font-face {
+  font-family: Cambria;
+  src: local("Cambria"), url "../fonts/cambria.ttc";
+}
+
 footer .col-sm-4 {
   display: none;
 }
@@ -284,7 +293,7 @@ footer .box-footer p {
   font-weight: 500;
   line-height: 18px;
   text-align: left !important;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria', serif;
 }
 
 footer .box-footer .redes-sociais .fab {
@@ -404,15 +413,20 @@ footer .box-footer .txt-destaque h3 {
   }
 }
 
+@font-face {
+  font-family: Cambria;
+  src: local("Cambria"), url "../fonts/cambria.ttc";
+}
+
 .leia-mais {
   display: inline-block;
   background-color: #c8ac48;
   color: #fff;
-  font-size: 16px;
+  font-size: 16px !important;
   padding: 10px 20px;
   margin-top: 80px;
   border: 1px #c8ac48 solid;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif !important;
   text-decoration: none;
   -webkit-transition: 0.8s all;
   transition: 0.8s all;
@@ -437,6 +451,7 @@ footer .box-footer .txt-destaque h3 {
   -webkit-transition: 0.8s all;
   transition: 0.8s all;
   border: 1px #c8ac48 solid;
+  font-family: 'Cambria', serif !important;
   text-decoration: none;
 }
 
@@ -680,9 +695,14 @@ p {
   }
 }
 
+@font-face {
+  font-family: Cambria;
+  src: local("Cambria"), url "../fonts/cambria.ttc";
+}
+
 .quem-somos {
   display: block;
-  padding: 40px 0;
+  padding: 0 0;
 }
 
 .quem-somos .col-lg-6 {
@@ -726,7 +746,7 @@ p {
   font-size: 30px;
   color: #000;
   padding-top: 10px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .quem-somos .txt-destaque h3 {
@@ -749,7 +769,7 @@ p {
 .quem-somos .txt-introduction p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .quem-somos .txt-introduction2 {
@@ -761,7 +781,7 @@ p {
 .quem-somos .txt-introduction2 p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .quem-somos .guides-title {
@@ -817,7 +837,7 @@ p {
 #values .txt-destaque p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif !important;
 }
 
 #values .values-descritions {
@@ -830,7 +850,7 @@ p {
 #values .values-descritions p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif !important;
 }
 
 #values .values-descritions-bottom {
@@ -842,7 +862,7 @@ p {
 #values .values-descritions-bottom p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif !important;
 }
 
 #values .values-work {
@@ -863,7 +883,7 @@ p {
 #values .values-work .img-values-bottom p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif !important;
 }
 
 #values .box-not {
@@ -895,13 +915,13 @@ p {
   font-size: 20px;
   color: #000;
   padding-top: 10px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .txt-destaque li {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
   font-size: 16px;
   display: contents;
   position: relative;
@@ -911,7 +931,7 @@ p {
 .txt-destaque p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .parallax-esc {
@@ -941,7 +961,7 @@ p {
   font-size: 40px;
   color: #fff;
   padding-top: 10px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 #img-escritorio .txt-destaque h3 {
@@ -1156,6 +1176,11 @@ p {
   }
 }
 
+@font-face {
+  font-family: Cambria;
+  src: local("Cambria"), url "../fonts/cambria.ttc";
+}
+
 .content-pratica {
   margin: auto;
   padding: 25px 0;
@@ -1166,13 +1191,13 @@ p {
 .content-pratica h2 {
   font-size: 20px;
   padding-top: 10px;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria"', serif;
 }
 
 .content-pratica p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria', serif;
   font-size: 16px;
 }
 
@@ -1212,11 +1237,21 @@ p {
   left: 73px;
 }
 
+.content-pratica .box-not p {
+  font-family: 'Cambria"', serif;
+}
+
 .content-pratica .leia-mais {
   float: right;
 }
 
-@media (max-width: 764px) {
+@media (max-width: 940px) {
+  .content-pratica p {
+    font-size: 14px !important;
+    margin: 0 35px 0 0;
+    text-align: left;
+    font-family: 'Cambria', serif;
+  }
   .content-pratica .box-not {
     margin: 0;
     padding: 0px 15px;
@@ -1237,11 +1272,15 @@ p {
     left: 0;
     margin: 40px 80px;
   }
-  .content-pratica .box-not h2 p {
-    font-size: 16px;
-    margin: 0 35px;
-    text-align: left;
-  }
+}
+
+@font-face {
+  font-family: Cambria;
+  src: local("Cambria"), url "../fonts/cambria.ttc";
+}
+
+p {
+  font-family: 'Cambria', serif !important;
 }
 
 body {
@@ -1260,14 +1299,14 @@ a {
 
 h1 {
   font-size: 45px;
-  font-family: 'Cambria';
+  font-family: Cambria,Georgia,serif;
   color: #fff;
 }
 
 h2 {
   font-size: 30px;
   margin-bottom: 45px;
-  font-family: 'Cambria';
+  font-family: Cambria,Georgia,serif;
 }
 
 h3 {
@@ -1285,7 +1324,7 @@ h5 {
 p {
   font-weight: 500;
   text-align: justify !important;
-  font-family: 'Cambria';
+  font-family: Cambria,Georgia,serif;
   font-size: 18px !important;
 }
 
@@ -1335,7 +1374,7 @@ p {
   font-size: 40px;
   color: #fff;
   padding-top: 10px;
-  font-family: 'Cambria';
+  font-family: Cambria,Georgia,serif;
 }
 
 .page .txt-destaque h3 {
@@ -1404,7 +1443,7 @@ p {
 #parallaxBar .txt-parallax li {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
   font-size: 16px;
   display: contents;
   position: relative;
@@ -1416,7 +1455,7 @@ p {
   font-weight: 700;
   letter-spacing: 2.5px;
   line-height: 18px;
-  font-family: 'Cambria';
+  font-family: Cambria,Georgia,serif;
 }
 
 #parallax-home {
@@ -1475,7 +1514,7 @@ p {
 #parallax-home .txt-parallax li {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
   font-size: 16px;
   display: contents;
   position: relative;
@@ -1487,7 +1526,7 @@ p {
   font-weight: 700;
   letter-spacing: 2.5px;
   line-height: 18px;
-  font-family: 'Cambria';
+  font-family: Cambria,Georgia,serif;
 }
 
 .quem-somos {
@@ -1497,6 +1536,7 @@ p {
 
 .quem-somos .leia-mais {
   margin-top: 30px !important;
+  font-family: 'Cambria', serif;
 }
 
 .quem-somos .col-lg-6 {
@@ -1529,7 +1569,8 @@ p {
   font-size: 30px;
   color: #000;
   padding-top: 10px;
-  font-family: 'Cambria';
+  padding-left: 25px;
+  font-family: 'Cambria', serif;
 }
 
 .quem-somos .txt-destaque h3 {
@@ -1552,19 +1593,19 @@ p {
 .quem-somos .txt-introduction p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .quem-somos .txt-introduction2 {
   margin: 0;
-  padding: 65px 40px;
+  padding: 115px 40px 5PX;
   text-align: justify;
 }
 
 .quem-somos .txt-introduction2 p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 #parallax-escritorio {
@@ -1623,7 +1664,7 @@ p {
 #parallax-escritorio .txt-parallax li {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
   font-size: 16px;
   display: contents;
   position: relative;
@@ -1635,7 +1676,7 @@ p {
   font-weight: 700;
   letter-spacing: 2.5px;
   line-height: 18px;
-  font-family: 'Cambria';
+  font-family: Cambria,Georgia,serif;
 }
 
 .carousel-item.active {
@@ -1677,7 +1718,7 @@ p {
 
 .carousel-inner .box-carousel .txt-fullbanner h1 {
   font-size: 30px !important;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .carousel-inner .box-carousel .txt-fullbanner h3 {
@@ -1711,10 +1752,6 @@ p {
   width: 100%;
   padding: 0 100px;
   top: 220px;
-}
-
-.carousel-text-fullbanner .leia-mais {
-  font-size: 24px !important;
 }
 
 .carousel {
@@ -1752,7 +1789,7 @@ p {
   font-size: 30px;
   margin-bottom: 50px;
   padding-top: 10px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .info .txt-destaque h3 {
@@ -1791,13 +1828,13 @@ p {
 .area-pratica h2 {
   font-size: 20px;
   padding-top: 10px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .area-pratica p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
   font-size: 16px;
 }
 
@@ -1819,7 +1856,7 @@ p {
 
 .area-pratica .txt-destaque h2 {
   font-size: 28px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .area-pratica .txt-destaque h3 {
@@ -1874,14 +1911,14 @@ p {
 .noticias .data {
   color: #fff;
   font-size: 20px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 .noticias .data .speech-bubble {
   position: absolute;
   width: 60px;
   background: #c8ac48;
-  padding: 5px 15px;
+  padding: 5px 10px;
   line-height: 21px;
   top: 20px;
   left: 25px;
@@ -1904,7 +1941,7 @@ p {
 
 .noticias .txt-destaque h2 {
   font-size: 30px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
   margin-bottom: 45px;
   padding-top: 10px;
 }
@@ -1970,7 +2007,7 @@ p {
   font-size: 18px;
   text-align: center;
   padding: 0 75px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
   position: relative;
 }
 
@@ -1994,7 +2031,7 @@ p {
   font-size: 40px;
   color: #fff;
   padding-top: 10px;
-  font-family: 'Cambria';
+  font-family: 'Cambria', serif;
 }
 
 #news-public .page .txt-destaque h3 {
@@ -2090,6 +2127,10 @@ p {
   background: #c8ac48;
 }
 
+#news-public .content .regular-text {
+  color: #9e9da0;
+}
+
 #news-public .content .regular-txt {
   color: #9e9da0;
   font-weight: 500;
@@ -2101,7 +2142,7 @@ p {
 
 @media (max-width: 768px) {
   .top-nav {
-    height: 65px !important;
+    height: 50px !important;
   }
   .navbar-brand img {
     width: 65%;
@@ -2156,31 +2197,30 @@ p {
     display: -ms-inline-flexbox;
     display: inline-flex;
     color: #c8ac48;
-    font-size: 15px !important;
+    font-size: 18px !important;
     font-weight: lighter;
     margin-left: 70px !important;
     margin-bottom: 0px !important;
-    padding-top: 49px;
-    line-height: 16px !important;
+    padding-top: 35px;
+    line-height: 20px !important;
     font-family: 'Playfair Display', serif;
   }
   .carousel-text-fullbanner h1 {
-    font-size: 16px;
+    font-size: 15px;
   }
   .carousel-text-fullbanner .leia-mais {
     color: #fff;
     background-color: #c8ac48;
     font-size: 13px !important;
-    padding: 5px 10px;
     float: right;
     margin-top: 0;
     position: relative;
     -webkit-transition: 0.8s all;
     transition: 0.8s all;
     text-decoration: none;
-    font-family: 'Cambria';
+    font-family: 'Cambria',serif;
     z-index: 99;
-    top: -20px;
+    top: 0;
     right: 0;
   }
   .carousel {
@@ -2197,7 +2237,8 @@ p {
     height: 1px;
     content: "";
     display: block;
-    margin: 60px 10px;
+    top: 25px;
+    left: 15px;
     position: absolute;
   }
   #carousel-fullbanner .carousel-inner .carousel-caption {
@@ -2214,6 +2255,15 @@ p {
   #carousel-fullbanner .carousel-inner .carousel-caption h1 {
     font-size: 1rem;
     color: #fff;
+  }
+  .quem-somos .txt-introduction {
+    text-align: center;
+  }
+  .quem-somos .txt-introduction p {
+    font-size: 16px !important;
+  }
+  .quem-somos .txt-introduction2 {
+    display: none;
   }
   .info-container::before {
     display: none;
@@ -2248,6 +2298,8 @@ p {
   .txt-destaque h2 {
     margin: 0 0 0 60px;
     padding-top: 10px;
+    margin: 0px 25px;
+    padding-left: 0 !important;
     margin-bottom: 20px !important;
   }
   .pratica-container::before {
@@ -2287,15 +2339,17 @@ p {
   }
   #carousel-brief .carousel-caption {
     top: 14px;
+    padding: 0;
   }
   #carousel-brief .carousel-caption h3 {
     margin: 0;
+    font-size: 15px !important;
   }
   #carousel-brief .carousel-caption p {
-    font-size: 12px;
+    font-size: 13px !important;
   }
   #carousel-brief .carousel-caption .brief-content {
-    padding: 10px;
+    padding: 0;
   }
   #carousel-brief .carousel-caption .icon-carousel {
     margin-bottom: 20px;
@@ -2394,7 +2448,7 @@ p {
     font-weight: lighter;
     margin-left: 70px !important;
     margin-bottom: 0px !important;
-    padding-top: 49px;
+    padding-top: 35px;
     line-height: 16px !important;
     font-family: 'Playfair Display', serif;
   }
@@ -2412,7 +2466,7 @@ p {
     -webkit-transition: 0.8s all;
     transition: 0.8s all;
     text-decoration: none;
-    font-family: 'Cambria';
+    font-family: 'Cambria', serif;
     z-index: 99;
     top: 0;
     left: -5px;
@@ -2456,7 +2510,7 @@ p {
     margin-left: 75px !important;
   }
   .quem-somos .txt-introduction2 {
-    padding: 35px 40px;
+    padding: 35px 40px 0 40px;
   }
   .info-container::before {
     display: none;
@@ -2502,19 +2556,19 @@ p {
   .pratica-container h3 {
     margin: 15px 0;
   }
-  .pratica-container .area-pratica .txt-destaque {
+  .area-pratica .txt-destaque {
     margin-top: 0;
     padding: 0 30px 0 80px;
   }
-  .pratica-container .area-pratica .txt-destaque h2 {
+  .area-pratica .txt-destaque h2 {
     margin: 0px 0 40px 0px;
     padding-top: 10px;
   }
-  .pratica-container .area-pratica .box-not {
+  .area-pratica .box-not {
     margin: 0;
-    padding: 10 30px;
+    padding: 0 50px !important;
   }
-  .pratica-container .area-pratica .leia-mais {
+  .area-pratica .leia-mais {
     float: none;
     margin-top: 20px;
     font-size: 20px;

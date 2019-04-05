@@ -1,12 +1,18 @@
+
+@font-face {
+    font-family: Cambria; 
+    src: local('Cambria'), url ('../fonts/cambria.ttc');
+}
+
 .leia-mais {
     display: inline-block;
     background-color: #c8ac48;
     color: #fff;
-    font-size: 16px;
+    font-size: 16px !important;
     padding: 10px 20px;
     margin-top: 80px;
     border: 1px #c8ac48 solid;
-    font-family: 'Cambria';
+    font-family: 'Cambria', serif !important;
     text-decoration: none;
     transition: 0.8s all;
     
@@ -28,6 +34,7 @@
     margin-top: 25px;
     transition: 0.8s all;
     border: 1px #c8ac48 solid;
+    font-family: 'Cambria', serif !important;
     text-decoration: none;
  
     &:hover {

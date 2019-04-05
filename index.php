@@ -39,7 +39,8 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="txt-destaque">
-                                <h3>SOBRE NÓS</h3>
+                                <h3>Conheça nosso</h3>
+                                <h2>ESCRITÓRIO</h2>
                             </div>
                             <div class="txt-introduction">
                                 <p>Fundado em 2006 e situado no Polo Jurídico da cidade de Porto Alegre, com localização
@@ -149,60 +150,57 @@
                             <!-- EDITAR APARTIR DAQUI -->
 
                             <div class="col-md-4 box-news">
-                                <a href="./noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.php">
+                                <a href="./noticias/pagamento-de-comissao-de-corretagem-e-cabivel-mesmo-com-desistencia-da-venda-do-imovel.php">
                                     <img class=" img-news img-fluid"
-                                        src="./assets/img/noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.jpg"></a>
+                                        src="./assets/img/noticias/pagamento-de-comissao-de-corretagem-e-cabivel-mesmo-com-desistencia-da-venda-do-imovel.jpg"></a>
                                 <div class="noticia">
                                     <span class="data">
-                                        <div class="speech-bubble">01 Abril</div>
+                                        <div class="speech-bubble">05 Abr</div>
                                     </span>
                                     <div class="content-noticia">
-                                        <h5>Importadora deverá restituir empresa em R$17 mil por atraso na entrega de mercadoria</h5>
-                                        <p>Uma empresa de informática do município da Serra deverá ser indenizada por uma importadora em R$ 19.500 a títulos de danos materiais, por não receber o produto comprado...</p>
-                                        <a href="./noticias/importadora-devera-restituir-empresa-em-17-mil-por-atraso-na-entrega-de-mercadoria.php"
-                                            class="ler-mais">LEIA MAIS</a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 col-lg-4 box-news">
-                                <a
-                                    href="./noticias/prazo-para-pedir-devolucao-por-cobranca-indevida-de-servicos-de-telefonia-nao-contratados-e-de-dez-anos.php">
-                                    <img class=" img-news img-fluid"
-                                        src="./assets/img/noticias/prazo-para-pedir-devolucao-por-cobranca-indevida-de-servicos-de-telefonia-nao-contratados-e-de-dez-anos.jpg"></a>
-                                <div class="noticia">
-                                    <span class="data">
-                                        <div class="speech-bubble">28 Mar</div>
-                                    </span>
-                                    <div class="content-noticia">
-                                        <h5>Prazo para pedir devolução por cobrança indevida de serviços de telefonia não contratados é de dez anos</h5>
-                                        <p>A Corte Especial do Superior Tribunal de Justiça (STJ) definiu que é de dez anos o prazo de prescrição para o ajuizamento de ação de repetição de indébito por ...</p>
-                                        <a href="./noticias/prazo-para-pedir-devolucao-por-cobranca-indevida-de-servicos-de-telefonia-nao-contratados-e-de-dez-anos.php"
+                                        <h5>Pagamento de comissão de corretagem é cabível mesmo com desistência da venda do imóvel</h5>
+                                        <p>A 5ª Turma Cível do Tribunal de Justiça do Distrito Federal condenou um vendedor a pagar comissão de corretagem a uma imobiliária, embora a venda de seu imóvel ...</p>
+                                        <a href="./noticias/pagamento-de-comissao-de-corretagem-e-cabivel-mesmo-com-desistencia-da-venda-do-imovel.php"
                                             class="ler-mais">LEIA MAIS</a>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-md-4 box-news">
-                                <a
-                                    href="./noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.php">
+                                <a href="./noticias/agencia-reguladora-nao-pode-pedir-certidao-negativa-de-empresa-em-recuperacao.php">
                                     <img class=" img-news img-fluid"
-                                        src="./assets/img/noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.jpg"></a>
+                                        src="./assets/img/noticias/agencia-reguladora-nao-pode-pedir-certidao-negativa-de-empresa-em-recuperacao.jpg"></a>
                                 <div class="noticia">
                                     <span class="data">
-                                        <div class="speech-bubble">27 Mar</div>
+                                        <div class="speech-bubble">04 Abr</div>
                                     </span>
                                     <div class="content-noticia">
-                                        <h5>Sócios em comum e relação entre empresas não são suficientes para
-                                            responsabilização solidária</h5>
-                                        <p>A Quinta Turma do Tribunal Superior do Trabalho afastou a responsabilidade
-                                            solidária da Contécnica Consultoria Técnica Ltda., de São Paulo (SP), pelo
-                                            pagamento de...</p>
-                                        <a href="./noticias/socios-em-comum-e-relacao-entre-empresas-nao-sao-suficientes-para-responsabilizacao-solidaria.php"
+                                        <h5>Agência reguladora não pode pedir certidão negativa de empresa em recuperação</h5>
+                                        <p>Ao ter o pedido de recuperação judicial aceito pela Justiça, a empresa recuperanda estará, automaticamente, dispensada de apresentar qualquer certidão negativa...</p>
+                                        <a href="./noticias/agencia-reguladora-nao-pode-pedir-certidao-negativa-de-empresa-em-recuperacao.php"
                                             class="ler-mais">LEIA MAIS</a>
                                     </div>
                                 </div>
                             </div>
+
+                            <div class="col-md-4 box-news">
+                                <a href="./noticias/aplicativo-de-transporte-nao-pode-ser-responsabilizado-por-perda-de-voo-de-passageiros.php">
+                                    <img class=" img-news img-fluid"
+                                        src="./assets/img/noticias/aplicativo-de-transporte-nao-pode-ser-responsabilizado-por-perda-de-voo-de-passageiros.jpg"></a>
+                                <div class="noticia">
+                                    <span class="data">
+                                        <div class="speech-bubble">03 Abr</div>
+                                    </span>
+                                    <div class="content-noticia">
+                                        <h5>Aplicativo de transporte não pode ser responsabilizado por perda de voo de passageiros</h5>
+                                        <p>Juíza substituta do 5º Juizado Especial Cível de Brasília julgou improcedente o pedido de indenização por danos morais e materiais feito por quatro passageiros ...</p>
+                                        <a href="./noticias/aplicativo-de-transporte-nao-pode-ser-responsabilizado-por-perda-de-voo-de-passageiros.php"
+                                            class="ler-mais">LEIA MAIS</a>
+                                    </div>
+                                </div>
+                            </div>
+
+
 
                         </div>
                     </div>
@@ -215,7 +213,7 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="brief">
-                        <img src="./assets/img/banner-brief.jpg" alt="">
+                        <img src="./assets/img/banner-brief.fw.png" alt="">
                         <div class="carousel-caption">
                             <div class="icon-carousel col-md-12">
                                 <img src="./assets/img/icons/icon.png" alt="">
@@ -238,7 +236,7 @@
                 </div>
                 <div class="carousel-item">
                     <div class="brief">
-                        <img src="./assets/img/banner-brief.jpg" alt="">
+                        <img src="./assets/img/banner-brief.fw.png" alt="">
                         <div class="carousel-caption">
                             <div class="icon-carousel col-md-12">
                                 <img src="./assets/img/icons/icon.png" alt="">

@@ -62,7 +62,7 @@
                       <i class="fas fa-mobile-alt icon"></i>
                       <div class="content">
                           <p>
-                              +55 (51) 3026-3909<
+                              +55 (51) 3026-3909
                           </p>
                       </div>
                   </li>

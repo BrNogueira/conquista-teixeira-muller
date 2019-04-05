@@ -1,9 +1,18 @@
 @import "./main";
 @import "./pages/noticias";
 @import "./pages/escritorio"; 
-@import "./pages/contato";
+@import "./pages/contato"; 
 @import "./pages/equipe";  
-@import "./pages/areas-de-pratica"; 
+@import "./pages/areas-de-pratica";   
+ 
+@font-face {
+    font-family: Cambria; 
+    src: local('Cambria'), url ('../fonts/cambria.ttc');
+}
+ 
+p {
+    font-family: 'Cambria', serif !important;
+}
 
 body { 
     overflow-x: hidden;  
@@ -20,14 +29,14 @@ a {
 
 h1 {
     font-size: 45px;
-    font-family: 'Cambria';
+	font-family: Cambria,Georgia,serif; 
     color: #fff; 
 } 
 
 h2 {
     font-size: 30px;
     margin-bottom: 45px;
-    font-family: 'Cambria';
+	font-family: Cambria,Georgia,serif; 
 } 
 
 h3 {
@@ -43,7 +52,7 @@ h5 {
 p {
     font-weight: 500;
     text-align:justify !important;
-    font-family: 'Cambria';
+	font-family: Cambria,Georgia,serif; 
     font-size: 18px !important;
 }
 
@@ -89,7 +98,7 @@ p {
             font-size:40px;
             color: #fff; 
             padding-top: 10px;
-            font-family: 'Cambria'; 
+        	font-family: Cambria,Georgia,serif;  
         }
          
         h3 {
@@ -154,7 +163,7 @@ p {
         li {
             color: #9e9da0;
             font-weight: 500;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
             font-size: 16px;
             display: contents;
             position: relative;
@@ -166,7 +175,7 @@ p {
             font-weight: 700;
             letter-spacing: 2.5px;
             line-height: 18px;
-            font-family: 'Cambria'; 
+        	font-family: Cambria,Georgia,serif;  
         }
     }
 }
@@ -223,7 +232,7 @@ p {
         li {
             color: #9e9da0;
             font-weight: 500;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
             font-size: 16px;
             display: contents;
             position: relative;
@@ -235,16 +244,19 @@ p {
             font-weight: 700;
             letter-spacing: 2.5px;
             line-height: 18px;
-            font-family: 'Cambria'; 
+        	font-family: Cambria,Georgia,serif;  
         }
     }
 }
 .quem-somos {
     display: block;
     padding: 40px 0;
-    .leia-mais {
+
+    .leia-mais { 
         margin-top: 30px !important;   
+        font-family: 'Cambria', serif;
        }
+
     .col-lg-6 {
         padding-right: 0;
         padding-left: 0;
@@ -259,7 +271,7 @@ p {
         padding: 15px 15px;
         font-family: 'Playfair Display', serif;
 
-        &::before {
+        &::before { 
             background: #c8ac48;
             width: 45px;
             height: 1px;
@@ -273,7 +285,8 @@ p {
             font-size: 30px;
             color: #000;
             padding-top: 10px;
-            font-family: 'Cambria';
+            padding-left: 25px;
+            font-family: 'Cambria', serif;
         }
 
         h3 {
@@ -295,19 +308,19 @@ p {
         p{
             color: #9e9da0;
             font-weight: 500;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
         }
     }
 
     .txt-introduction2 {
         margin: 0;
-        padding: 65px 40px;
+        padding: 115px 40px 5PX;
         text-align: justify;
 
         p{
             color: #9e9da0;
             font-weight: 500;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
         }
     }
 }
@@ -363,7 +376,7 @@ p {
         li {
             color: #9e9da0;
             font-weight: 500;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
             font-size: 16px;
             display: contents;
             position: relative;
@@ -375,7 +388,7 @@ p {
             font-weight: 700;
             letter-spacing: 2.5px;
             line-height: 18px;
-            font-family: 'Cambria'; 
+        	font-family: Cambria,Georgia,serif;  
         }
     }
 }
@@ -417,7 +430,7 @@ p {
 
             h1 {
                 font-size: 30px !important;
-                font-family: 'Cambria';
+                font-family: 'Cambria', serif;
             }
 
             h3 {
@@ -453,11 +466,8 @@ p {
     width: 100%;
     padding: 0 100px;
     top: 220px;
-
-    .leia-mais {
-        font-size: 24px !important;
-    }
 }
+
 .carousel {
     z-index: 10;
     width: 100%;
@@ -498,7 +508,7 @@ p {
             font-size: 30px;
             margin-bottom: 50px;
             padding-top: 10px;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
         }
 
         h3 {
@@ -537,17 +547,17 @@ p {
     h2 {
         font-size: 20px;
         padding-top: 10px;
-        font-family: 'Cambria';
+            font-family: 'Cambria', serif;
     }
  
     p {
         color: #9e9da0;
         font-weight: 500;
-        font-family: 'Cambria';
+            font-family: 'Cambria', serif;
         font-size: 16px;
     }
 
-    .box-not {
+    .box-not { 
         display: inline-block;
         margin: 10px 20px 10px 20px;
         width: 100%;
@@ -564,7 +574,7 @@ p {
 
         h2 {
             font-size: 28px;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
         }
  
         h3 {
@@ -624,13 +634,13 @@ p {
     .data {
         color: #fff;
         font-size: 20px;
-        font-family: 'Cambria';
+            font-family: 'Cambria', serif;
 
         .speech-bubble {
             position: absolute;
             width: 60px;
             background: #c8ac48;
-            padding: 5px 15px;
+            padding: 5px 10px;
             line-height: 21px;
             top: 20px;
             left: 25px;
@@ -655,7 +665,7 @@ p {
     .txt-destaque {
         h2 {
             font-size: 30px;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
             margin-bottom: 45px;
             padding-top: 10px;
         }
@@ -719,7 +729,7 @@ p {
             font-size: 18px; 
             text-align: center;
             padding: 0 75px;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
             position: relative;
         }
     }
@@ -745,7 +755,7 @@ p {
                 color: #fff; 
                 padding-top: 10px; 
                 
-                font-family: 'Cambria';
+                font-family: 'Cambria', serif;
             } 
     
             h3 { 
@@ -837,12 +847,15 @@ p {
             &:hover {
                 background: #c8ac48;
             }
-        }
+            
+        }        .regular-text {
+            color: #9e9da0;
+        } 
 
         .regular-txt {
             color: #9e9da0;
             font-weight: 500;
-            max-height: 75px;
+            max-height: 75px; 
             letter-spacing: 0; 
             line-height: 20px;
             margin: 0px 0 30px;
@@ -851,8 +864,11 @@ p {
 }   
 
 @media (max-width: 768px) {
+    #parallax-escritorio {
+    }
+    
     .top-nav {
-        height: 65px !important;
+        height: 50px !important;
     }
     .navbar-brand img {
         width: 65%;
@@ -900,6 +916,7 @@ p {
         position: relative;
         padding: 0 100px;
     }
+
     .carousel-text-fullbanner {
         top: 5px;
         padding: 20px;
@@ -907,31 +924,30 @@ p {
         h3 {  
             display: inline-flex;
             color: #c8ac48;
-            font-size: 15px !important;
+            font-size: 18px !important;
             font-weight: lighter;
             margin-left: 70px !important;
             margin-bottom: 0px !important;
-            padding-top: 49px;
-            line-height: 16px !important;
+            padding-top: 35px;
+            line-height: 20px !important;
             font-family: 'Playfair Display', serif;
         }
 
         h1 {
-            font-size: 16px;
+            font-size: 15px;
         }
         .leia-mais {
             color: #fff;
             background-color: #c8ac48;
             font-size: 13px !important;
-            padding: 5px 10px;
             float: right;
             margin-top: 0;
             position: relative;
             transition: 0.8s all;
             text-decoration: none;
-            font-family: 'Cambria';
+        	font-family: 'Cambria',serif; 
             z-index: 99;
-            top: -20px;
+            top: 0;
             right: 0;
         }
 
@@ -959,7 +975,8 @@ p {
                     height: 1px;
                     content: "";
                     display: block;
-                    margin: 60px 10px;
+                    top: 25px;
+                    left: 15px;   
                     position: absolute;
                 }
             }
@@ -983,11 +1000,24 @@ p {
             }
         }
     }
+    .quem-somos {
+        .txt-introduction {
+            text-align: center;
+            p {
+            font-size: 16px !important;
+            }
+        }
+        .txt-introduction2 {
+            display: none;
+        }
+    }
+
     .info-container {
         &::before {
             display: none;
         }
     }
+
     .info {
         padding: 0;
 
@@ -1006,11 +1036,9 @@ p {
             margin: 38px 0px;
             position: absolute;
        }
-    
     }
 
     .txt-destaque {
-
         h3 {
             display: -webkit-inline-box;
             display: -ms-inline-flexbox;
@@ -1021,9 +1049,12 @@ p {
             margin: 30px 0 0 60px;
             font-family: 'Playfair Display', serif;
         }
+
         h2 {
             margin: 0 0 0 60px;
             padding-top: 10px;
+            margin: 0px 25px;
+            padding-left: 0 !important;
             margin-bottom: 20px !important;
         }
     }
@@ -1083,16 +1114,18 @@ p {
         
         .carousel-caption {
             top: 14px;
-            
+            padding: 0;
+
             h3 {
                 margin: 0;
+                font-size: 15px !important;
             }
             p {
-                font-size: 12px;
+                font-size: 13px !important;
             }
 
             .brief-content {
-                padding: 10px;
+                padding: 0;
             }
 
             .icon-carousel {
@@ -1199,7 +1232,7 @@ p {
             font-weight: lighter;
             margin-left: 70px !important;
             margin-bottom: 0px !important;
-            padding-top: 49px;
+            padding-top: 35px;
             line-height: 16px !important;
             font-family: 'Playfair Display', serif;
         }
@@ -1219,7 +1252,7 @@ p {
             -webkit-transition: 0.8s all;
             transition: 0.8s all;
             text-decoration: none;
-            font-family: 'Cambria';
+            font-family: 'Cambria', serif;
             z-index: 99;
             top: 0;
             left: -5px;
@@ -1279,7 +1312,7 @@ p {
     }
     .quem-somos {
         .txt-introduction2 {
-            padding: 35px 40px;
+            padding: 35px 40px 0 40px;
         }
     }
     .info-container {
@@ -1338,30 +1371,31 @@ p {
             margin: 15px 0;
         }
 
-        
-        .area-pratica {
-            
-            .txt-destaque {
-                margin-top: 0;
-                padding: 0 30px 0 80px;
-                h2 {
-                    margin: 0px 0 40px 0px;
-                    padding-top: 10px;
-                }
-            }  
-            .box-not {
-                margin: 0;
-                padding: 10 30px;
-            }
-
-            .leia-mais {
-                float: none;
-                margin-top: 20px;
-                font-size: 20px;
-            }
-        } 
     }
 
+        
+    .area-pratica {
+            
+        .txt-destaque {
+            margin-top: 0;
+            padding: 0 30px 0 80px;
+            h2 {
+                margin: 0px 0 40px 0px;
+                padding-top: 10px;
+            }
+        }  
+        .box-not {
+            margin: 0;
+            padding: 0 50px !important;
+        }
+
+        .leia-mais {
+            float: none;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    } 
+    
     .noticias-container { 
         &::before {
             margin: 35px -10px; 

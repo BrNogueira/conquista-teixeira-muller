@@ -14,7 +14,7 @@
         <div class="equipe">
             <div class="container">    	
                 <div class="row box-team">
-                <div class="col-md-4"><img class="img-fluid img-equipe" src="./assets/img/equipe/vanessa.jpg"></div>
+                <div class="col-md-4"><img class="img-fluid img-equipe" src="./assets/img/equipe/vanessa.png"></div>
                     <div class="col-md-8">
                     <h4>Vanessa Teixeira Müller (OAB/RS 61.864) </h4>
                     <h5>Fundadora e administradora do Escritório Teixeira Müller Advogados Associados.</h4>
@@ -26,7 +26,7 @@
         <div class="equipe">
             <div class="container">    	
                 <div class="row box-team">
-                    <div class="col-md-4"><img class="img-fluid img-equipe" src="./assets/img/equipe/elisandra.jpg" ></div>
+                    <div class="col-md-4"><img class="img-fluid img-equipe" src="./assets/img/equipe/elisandra.png" ></div>
                     <div class="col-md-8">
                     <h4>Elisandra Nunes (OAB/RS 107.162)</h4>
                     <p class="regular-txt">Advogada graduada pela Universidade Federal de Rio Grande – FURG e Pós-graduanda em Direito Público pela Pontifícia Universidade Católica do Rio Grande do Sul – PUCRS. Possui experiência atuando com consultoria em matérias relacionadas a contratos cíveis, societário e tributos. Trabalha com empresas de diversos ramos, auxiliando na prevenção de litígios. Atua para empresas nacionais em questões delicadas envolvendo direito civil, societário e tributário, defendendo os interesses das empresas em juízo ou prestando consultoria na fase pré-contenciosa. Também atua em casos complexos e dos mais variados assuntos em diversos tribunais estaduais e nos tribunais superiores nas áreas em que atua.</p>

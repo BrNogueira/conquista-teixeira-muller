@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Cambria;
+  src: local("Cambria"), url "../fonts/cambria.ttc";
+}
+
 .content-pratica {
   margin: auto;
   padding: 25px 0;
@@ -8,13 +13,13 @@
 .content-pratica h2 {
   font-size: 20px;
   padding-top: 10px;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria"', serif;
 }
 
 .content-pratica p {
   color: #9e9da0;
   font-weight: 500;
-  font-family: 'Cambria Regular';
+  font-family: 'Cambria', serif;
   font-size: 16px;
 }
 
@@ -54,11 +59,21 @@
   left: 73px;
 }
 
+.content-pratica .box-not p {
+  font-family: 'Cambria"', serif;
+}
+
 .content-pratica .leia-mais {
   float: right;
 }
 
-@media (max-width: 764px) {
+@media (max-width: 940px) {
+  .content-pratica p {
+    font-size: 14px !important;
+    margin: 0 35px 0 0;
+    text-align: left;
+    font-family: 'Cambria', serif;
+  }
   .content-pratica .box-not {
     margin: 0;
     padding: 0px 15px;
@@ -78,11 +93,6 @@
   .content-pratica .box-not h2::before {
     left: 0;
     margin: 40px 80px;
-  }
-  .content-pratica .box-not h2 p {
-    font-size: 16px;
-    margin: 0 35px;
-    text-align: left;
   }
 }
 /*# sourceMappingURL=areas-de-pratica.css.map */

@@ -19,7 +19,8 @@
                 <div class="row">
                     <div class="col-lg-6">
                     <div class="txt-destaque">
-                    <h3>SOBRE NÓS</h3>
+                    <h3>Saiba mais</h3>
+                    <h2>SOBRE NÓS</h2>
                     </div>
                         <div class="txt-introduction">
                             <p>Fundado em 2006 e situado no Polo Jurídico da cidade de Porto Alegre, com localização estratégica, o Escritório Teixeira Müller Advogados Associados é um atelier jurídico de referência na advocacia consultiva e contenciosa.</p>
